@@ -1,0 +1,41 @@
+# 与已有主张的同源/相同记录
+
+- id: r-sf-0001
+  domain: D06
+  corroborates: cap.D06.bingyao
+  source_id: src-shenfeng-tongkao
+  location: 第 8 章 · 病药说类
+  quote: |
+    "有病方为贵，无伤不是奇；格中如去病，财禄两相随。"
+  stance: same
+  note: 与《渊海子平》第 282 章几乎同文；本书可视为该说的文献源头
+
+- id: r-sf-0002
+  domain: D06
+  corroborates: cap.D06.bingyao
+  source_id: src-shenfeng-tongkao
+  location: 第 8 章 · 病药说类
+  quote: |
+    "愚尝先前未谙病药之说，屡以中和而究人之造化，十无一二有验。"
+  stance: same
+  note: 连作者自述效验的句子都与渊海一致，进一步支持同源判断
+
+- id: r-sf-0003
+  domain: D02
+  corroborates: cap.D02.shishen
+  source_id: src-shenfeng-tongkao
+  location: 第 5 章 · 动静说
+  quote: |
+    "是以天干之动，只能攻得天干之动，不能攻地支之静也"
+  stance: same
+  note: 与《渊海子平》第 285 章同文
+
+- id: r-sf-0004
+  domain: D02
+  corroborates: cap.D02.shishen
+  source_id: src-shenfeng-tongkao
+  location: 第 6 章 · 盖头说
+  quote: |
+    "凡有所害之物，露出头面，便是动物，就能作害。"
+  stance: same
+  note: 与《渊海子平》第 286 章同文

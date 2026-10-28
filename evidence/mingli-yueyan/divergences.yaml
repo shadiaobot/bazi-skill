@@ -1,0 +1,133 @@
+# 《命理约言》与前三书的分歧
+
+- id: d-D12-08
+  domain: D12
+  question: 六亲如何取象
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 正印为母、偏财为父、财为妻、官杀为子女
+      quote: "正印正母，偏印偏母及祖父也。偏财是父"
+    - book: src-ziping-zhenquan
+      claim: 宫分与用神双轨，偏财为父（母之正夫）
+      quote: "偏财者，母之正夫也，正印为母，则偏财为父矣。"
+    - book: src-mingli-yueyan
+      claim: 旧法十悖；以印为父母、食伤为子女
+      quote: "今定男以印为父母，食神伤官为子，我克之财为妻"
+  adopted: src-mingli-yueyan
+  why: 印为父母、食伤为子女在逻辑上自洽（生我者父母、我生者子女），且避免「财既为妻又为父」的重叠
+  fallback_when: 用户明确采用渊海/真诠的六亲表时，按其表呈现并附本条的批评
+
+- id: d-D01-08
+  domain: D01
+  question: 要不要排小运
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 有行小运法
+      quote: "论行小运法"
+    - book: src-shenfeng-tongkao
+      claim: 男女命小运定局（周岁一易）
+      quote: "此法阳命甲子时生，则行乙丑，二岁丙寅"
+    - book: src-mingli-yueyan
+      claim: 小运理据不足，主张削去
+      quote: "况有大运及流年，头绪己多，更加以小运，纷纭愈甚矣，故削之。"
+  adopted: src-mingli-yueyan
+  why: 小运起法各书不一且与大运流年重复；默认不排小运，用户要求时按渊海/神峰法补排
+  fallback_when: 用户明确要求排小运、或所用流派以小运论事时
+
+- id: d-D14-10
+  domain: D14
+  question: 性情能否按五行直断
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 五行配五常论性情（木仁火礼金义水智土信）
+      quote: "且如木曰曲直，味酸主仁"
+    - book: src-mingli-yueyan
+      claim: 旧分五行不可拘，先看气势与取用
+      quote: "旧分五行抡人性情。此不可拘。"
+  adopted: src-mingli-yueyan
+  why: 五行性情无法解释同五行而性情迥异者；气势+取用更贴近整体格局
+  fallback_when: 需要速览式描述时可用五行口径，但须标注为粗略参考
+
+- id: d-D14-11
+  domain: D14
+  question: 疾病能否按某行直断
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 取伤重者，按五行配脏腑断病
+      quote: "八字干支五行生克之义，取伤重者而断之。"
+    - book: src-mingli-yueyan
+      claim: 命局五行未必全备，须先看气象
+      quote: "必以某行断其病，亦不尽然。须看日主及所用格局"
+  adopted: src-mingli-yueyan
+  why: 以气象（朗健/晦弱、中和/驳杂）作分层，再以五行定位，可减少机械对应
+  fallback_when: 用户需要具体脏腑定位时，按渊海脏腑表作参考，并注明不作医学判断
+
+- id: d-D03-08
+  domain: D03
+  question: 行运冲月令是否必凶
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 提纲有用，最怕刑冲
+      quote: "提纲有用 最怕刑冲 冲运则缓 冲用则凶"
+    - book: src-mingli-yueyan
+      claim: 六十岁左右运必冲令，多有安富尊荣者
+      quote: "夫人生六十岁左右，不论顺逆，运无不冲令者，多有安富尊荣，岂皆不利乎？"
+  adopted: src-mingli-yueyan
+  why: 生理与运势上「运必冲令」是常态，若无条件判凶则多数人皆凶，不合常识
+  fallback_when: 原命全恃月令之神且令神本弱者，仍按渊海忌冲
+
+- id: d-D11-10
+  domain: D11
+  question: 空亡的五行吉凶
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 按五行分空（金空则鸣、火空则发、水空则流；木空则朽、土空则崩）
+      quote: "金空则鸣，火空则发，水空则流 (此三者上吉)；木空则朽，土空则崩 (二者主凶)。"
+    - book: src-mingli-yueyan
+      claim: 空即是无，不必分五行
+      quote: "夫空犹无也，有火斯发，无火何发乎？"
+  adopted: src-mingli-yueyan
+  why: 直接回应了渊海内部两说（第 47 章与第 142 章）的矛盾，且逻辑最简
+  fallback_when: 需要沿用渊海体系的原句时并列两说，并注明本条的裁决
+
+- id: d-D11-11
+  domain: D11
+  question: 天乙贵人怎么查
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 十干各有固定贵位（甲戊兼牛羊…）
+      quote: "甲戊兼牛羊，乙己鼠猴乡"
+    - book: src-mingli-yueyan
+      claim: 贵人逐日临方，夏至从丑逆、冬至从未顺
+      quote: "当以夏至从丑起，冬至从未起为是。"
+  adopted: src-mingli-yueyan
+  why: 逐日临方能解释同一日干在不同节令下贵位不同，且指出旧歌是互文见意
+  fallback_when: 用户沿用通行表时按渊海查法，并标注本节另说
+
+- id: d-D09-12
+  domain: D09
+  question: 伤官要不要分真假
+  positions:
+    - book: src-shenfeng-tongkao
+      claim: 当令为真伤官、不当令为假伤官
+      quote: "见火为假伤官，其火乃虚火，其焰未炽"
+    - book: src-mingli-yueyan
+      claim: 不论真假，只论强弱
+      quote: "不知伤官无论真假，当论强弱，强则制之"
+  adopted: src-mingli-yueyan
+  why: 真假按当令划分会连带推出「假官煞、假财印」等荒谬结论；强弱可直接操作
+  fallback_when: 季节极端（正月初 vs 巳午月）时，可参考神峰的真假区分
+
+- id: d-D08-11
+  domain: D08
+  question: 月令官星能不能为用
+  positions:
+    - book: src-shenfeng-tongkao
+      claim: 月上官只制身，不肯为我用
+      quote: "月上逢官无可用之理，但能管束我之身，安肯为我用也？"
+    - book: src-mingli-yueyan
+      claim: 此偏激之见，不足深信
+      quote: "此偏激之见，不足深信。"
+  adopted: src-mingli-yueyan
+  why: 正官为用有大量命例支持；神峰之说无法解释正官格成贵者
+  fallback_when: 命局官星极衰而杀旺时，可参考神峰的疑虑

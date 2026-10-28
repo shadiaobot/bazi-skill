@@ -1,0 +1,1523 @@
+# 《子平真诠》新主张（采集线）
+# 第一批：D04 取用与忌法（第 10、12、13、16、17 章）
+
+- id: c-zp-0001
+  domain: D04
+  title: 用神专求月令
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "八字用神，专求月令，以日干配月令地支，而生克不同，格局分焉。"
+  rule: |
+    取用神第一步只看月令：以日干配月令地支，看二者生克关系，格局由此分出。
+  trigger: 任何取用神的起点
+  logic: 日干 ↔ 月令地支 → 生克关系 → 定顺用或逆用 → 分格
+  boundary: 月令无可用之神时，才转求年日时干支；但「关键仍在月令」
+  limits: 与《渊海子平》「月令所藏取用」同源，但本书把它上升为唯一入口
+  novelty: extends
+  relates: [D05]
+  tags: [用神, 月令, 取用]
+
+- id: c-zp-0002
+  domain: D04
+  title: 顺逆两用：善神顺用、不善神逆用
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "财官印食，此用神之善而顺用之者也；煞伤劫刃，用神之不善而逆用之者也。当顺而顺，当逆而逆，配合得宜，皆为贵格。"
+  rule: |
+    用神分两类：财官印食为善神，须顺用（生之、护之）；煞伤劫刃为不善神，须逆用（制之、化之）。
+    顺逆得当、配合得宜者，即为贵格——与神名吉凶无关。
+  trigger: 月令定出用神后，决定该扶还是该制时
+  logic: 用神属财官印食 → 顺用；属煞伤劫刃 → 逆用
+  boundary: 用神本身可能是「不善神」而为贵，不可因名废用
+  limits: 「顺用/逆用」的操作细节散在第 10 章后段与各格专论，需合并阅读
+  novelty: new
+  relates: [D05]
+  tags: [用神, 顺逆, 核心]
+
+- id: c-zp-0003
+  domain: D04
+  title: 顺用的具体配法（财喜食生、官喜财生等）
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "善而顺用之，则财喜食神以相生，生官以护财；官喜透财以相生，生印以护官；印喜官煞以相生，劫财以护印；食喜身旺以相生，生财以护食。"
+  rule: |
+    顺用四神各有「生之者」与「护之者」：财喜食神生、官护财；官喜财生、印护官；
+    印喜官煞生、劫财护印；食喜身旺生、财护食。
+  trigger: 用神为财/官/印/食，需要找喜神与护神时
+  logic: 用神 → 找生它的神（源）→ 找护它的神（挡克它者）
+  boundary: 身太弱时，「生」可能变成「压」，须先看日主能否承受
+  limits: 具体到十神时须按日干替换（书中以甲为例）
+  novelty: new
+  relates: [D02]
+  tags: [用神, 喜神, 护神]
+
+- id: c-zp-0004
+  domain: D04
+  title: 逆用的具体配法（七煞喜食制等）
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "不善而逆用之，则七煞喜食神以制伏，忌财印以资扶；伤官喜佩印以制伏，生财以化伤；阳刃喜官煞以制伏，忌官煞之俱无；月劫喜透官以制伏，利用财而透食以化劫。"
+  rule: |
+    逆用四神各有制化路径：七煞喜食制、忌财印助；伤官喜印制约、喜生财化泄；
+    阳刃喜官煞制、忌官煞俱无；月劫喜透官制，用财则须食伤转枢。
+  trigger: 用神为煞/伤/刃/劫，需要制化时
+  logic: 不善神 → 用食伤制、用印制、或用官煞制；忌「资扶」它
+  boundary: 制伏不可太过（本书与《渊海子平》「尽法无民」同旨）
+  limits: 各条的分寸在后续各格专论中展开
+  novelty: new
+  relates: [D08, D09, D10]
+  tags: [用神, 制伏, 逆用]
+
+- id: c-zp-0005
+  domain: D04
+  title: 相神：佐用神成格的那一字
+  source_id: src-ziping-zhenquan
+  location: 第 17 章 · 论相神紧要
+  quote: |
+    "月令既得用神，则别位亦必有相，若君之有相，辅者是也。"
+  rule: |
+    用神之外，命局中必有一个「相」——辅佐用神、使全局成格的那个字。
+    如官逢财生，则官为用、财为相；煞逢食制，则煞为用、食为相。
+  trigger: 用神已定，判断「靠什么成格」时
+  logic: 用神 → 找佐它成格之字 → 该字即相神
+  boundary: 「一定之法」只举常见搭配；凡全局之格赖此一字而成者，皆谓之相
+  limits: 相神是本书独有概念，《渊海子平》无此词；合并时须并列而非替换「喜神」
+  novelty: new
+  relates: [D05]
+  tags: [相神, 核心概念]
+
+- id: c-zp-0006
+  domain: D04
+  title: 伤相甚于伤用（相神被破即破格）
+  source_id: src-ziping-zhenquan
+  location: 第 17 章 · 论相神紧要
+  quote: |
+    "伤用神甚于伤身，伤相甚于伤用。"
+  rule: |
+    用神受伤重于日主受伤，相神受伤又重于用神受伤；相神一破，格立即败。
+  trigger: 判断某字受克对格局影响时
+  logic: 按「身 < 用 < 相」的破坏严重度排序
+  boundary: 仅在相神已成立的前提下；无相神之局不适用
+  limits: 「相神」判定本身依赖第 17 章的通变（凡赖此成格者皆是相）
+  novelty: new
+  relates: [D05, D06]
+  tags: [相神, 破格]
+
+- id: c-zp-0007
+  domain: D04
+  title: 相神无破则格成，相神相伤则立败
+  source_id: src-ziping-zhenquan
+  location: 第 17 章 · 论相神紧要
+  quote: |
+    "相神无破，贵格已成；相神相伤，立败其格。"
+  rule: |
+    相神不受克破，格即成立；相神被伤（如救应之神被合去），格立即败坏。
+  trigger: 判格之成败时
+  logic: 查相神有无被冲、合、克 → 无破则成、有伤则败
+  boundary: 相神被伤有时来自天干合，有时来自地支冲，须两层都查
+  limits: 与第 11 章「成败救应」互为表里
+  novelty: new
+  relates: [D05]
+  tags: [相神, 成格, 破格]
+
+- id: c-zp-0008
+  domain: D04
+  title: 用神随月令所藏而变化
+  source_id: src-ziping-zhenquan
+  location: 第 12 章 · 论用神变化
+  quote: |
+    "用神既主月令矣，然月令所藏不一，而用神遂有变化。"
+  rule: |
+    月令所藏不止一字；若当旺之本气不透，而次气透干，则以透出之次气为主。
+    此外三合、六合会局，亦可使原用神改变性质（如官化印、伤化财）。
+  trigger: 月令藏干多重且透出情况不同时
+  logic: 看何字透干 → 看会合成何局 → 定实际用神
+  boundary: 变化有善有不善：忌化为喜为善，喜化为忌为不善；也有「变而不失本格」者
+  limits: 变化的判定顺序（先透干还是先会局）书中以例说明，未给通式
+  novelty: new
+  relates: [D05]
+  tags: [用神, 变化, 合化]
+
+- id: c-zp-0009
+  domain: D04
+  title: 用神有纯杂：两相得为纯，两不相谋为杂
+  source_id: src-ziping-zhenquan
+  location: 第 13 章 · 论用神纯杂
+  quote: |
+    "用神既有变化，则变化之中，遂分纯、杂。纯者吉，杂者凶。"
+  rule: |
+    两个用神候选能互相成就（如财官相生、食财相生、煞食相制得当）为「纯」，主吉；
+    互相妨碍（官与伤并用、财与印并用）为「杂」，主凶。
+  trigger: 命局出现两个可用的神时
+  logic: 二者是否相得（相生或相制得当） → 纯；互不相谋 → 杂
+  boundary: 位置不相碍、或有合制救应者，杂亦可救
+  limits: 「相得」仍以合于日主需要为前提
+  novelty: new
+  relates: [D05]
+  tags: [用神, 纯杂]
+
+- id: c-zp-0010
+  domain: D04
+  title: 调候为独立取用法
+  source_id: src-ziping-zhenquan
+  location: 第 16 章 · 论用神配气候得失
+  quote: |
+    "论命惟以月令用神为主，然亦须配气候而互参之。"
+  rule: |
+    用神除月令与扶抑外，还须配气候：冬木须火暖、夏木须水润，气候不适则用神虽在而不显。
+  trigger: 生于冬夏、命局寒燥失衡时
+  logic: 先定月令用神 → 再查气候是否得宜 → 寒则取火、燥则取水
+  boundary: 调候为「急务」，但非必定为用神；书中明言「冬令金水不可缺火，非定以为用」
+  limits: 调候与扶抑冲突时的取舍，书中按例说明
+  novelty: new
+  relates: [D06]
+  tags: [调候, 气候, 用神]
+
+- id: c-zp-0011
+  domain: D04
+  title: 伤官见官的例外：金水伤官反为秀气
+  source_id: src-ziping-zhenquan
+  location: 第 16 章 · 论用神配气候得失
+  quote: |
+    "伤官见官，为祸百端，而金水见之，反为秀气。非官之不畏夫伤，而调候为急，权而用之也。"
+  rule: |
+    伤官见官本为祸，但金水伤官生于冬令者，见官（火）反为秀气——因调候为急，权且用之。
+  trigger: 金水伤官而生于冬令时
+  logic: 先判是否金水伤官 + 冬令 → 见火为调候 → 不以伤官见官论凶
+  boundary: 仅限金水伤官且需火调候；其他伤官见官仍按常论
+  limits: 与《渊海子平》「伤官见官为祸百端」构成条件性冲突
+  novelty: contradicts
+  relates: [D09]
+  tags: [伤官, 调候, 冲突]
+
+- id: c-zp-0012
+  domain: D04
+  title: 冬木透火泄身为秀、夏木佩印为秀
+  source_id: src-ziping-zhenquan
+  location: 第 16 章 · 论用神配气候得失
+  quote: |
+    "身印两旺，透食则贵，凡印格皆然。而用之冬木，尤为秀气，以冬木逢火，不惟可以泄身，而即可以调候也。"
+  rule: |
+    冬木印格透食伤（火）者尤贵：既泄身又调候，一举两得。
+  trigger: 冬日木日主、印旺时
+  logic: 印旺 → 用食伤泄秀；逢冬 → 食伤兼调候
+  boundary: 须身印两旺，否则食伤反耗身
+  limits: 与「夏木佩印」对称，但两者取用方向相反
+  novelty: extends
+  relates: [D06]
+  tags: [调候, 印格, 食伤]
+
+- id: c-zp-0013
+  domain: D04
+  title: 春木秋金与夏木冬金不可一例
+  source_id: src-ziping-zhenquan
+  location: 第 16 章 · 论用神配气候得失
+  quote: |
+    "春木逢火，则为木为通明，而夏木不作此论；秋金遇水，则为金水相涵，而冬金不作此论。气有衰旺，取用不同也。"
+  rule: |
+    「木火通明」「金水相涵」只在春木、秋金成立；同样的组合放到夏木、冬金即成偏枯，取用完全不同。
+  trigger: 判断木火通明或金水相涵是否成立时
+  logic: 先看月令季节（春/夏、秋/冬）→ 再判该象是否成立
+  boundary: 夏木逢火为「火旺木焚」，冬金遇水为「水荡金沉」
+  limits: 季节边界（如辰戌丑未月）的归属未明确
+  novelty: new
+  relates: [D06]
+  tags: [调候, 通明, 相涵]
+
+# 第二批：D05 格局判定（第 11、14、15、20、21、23、31 章）
+
+- id: c-zp-0014
+  domain: D05
+  title: 八字妙用全在成败救应
+  source_id: src-ziping-zhenquan
+  location: 第 11 章 · 论用神成败救应
+  quote: |
+    "八字妙用，全在成败救应，其中权轻权重，甚是活泼。"
+  rule: |
+    判命的核心不是套格名，而是逐条核「成格要素是否成立、何处带忌、有无救应」，
+    并在救应之间比较轻重。
+  trigger: 判任何格局时
+  logic: 列成格条件 → 找破格之忌 → 找救应之神 → 权衡轻重
+  boundary: 「救应之例不一」，不能只按列举的几条生搬
+  limits: 权重无量化，书中要求「于万变中融以一理」
+  novelty: new
+  relates: [D06]
+  tags: [格局, 成败, 救应]
+
+- id: c-zp-0015
+  domain: D05
+  title: 成中有败必带忌，败中有成全赖救应
+  source_id: src-ziping-zhenquan
+  location: 第 11 章 · 论用神成败救应（第 17 章引）
+  quote: |
+    "成中有败，必然带忌；败中有成，全赖救应。"
+  rule: |
+    已成之格若带忌神，则成中有败；已败之格若有救应之神，则败中有成。
+    救应之神（多即相神）决定最终成败。
+  trigger: 格局初判成立或破败时
+  logic: 成格 → 查忌神；败格 → 查救应
+  boundary: 救应被伤，则成而复败
+  limits: 「救应」清单在第 11 章列举，但声明不能尽
+  novelty: new
+  relates: [D04]
+  tags: [格局, 成败, 救应]
+
+- id: c-zp-0016
+  domain: D05
+  title: 救应的基本手法（合、制、会合解冲）
+  source_id: src-ziping-zhenquan
+  location: 第 11 章 · 论用神成败救应
+  quote: |
+    "何谓救应？如官逢伤而透印以解之，杂煞而合煞以清之，刑冲而会合以解之。"
+  rule: |
+    救应有三类基本手法：印制伤以护官、合煞以清混杂、会合以解刑冲；
+    其余如食化劫、官制劫、财去印存食等，皆同一逻辑。
+  trigger: 格局被忌神破坏时
+  logic: 识别破坏类型（伤官/混杂/刑冲）→ 选对应解救（印/合/会合）
+  boundary: 解救之神本身被合被冲，则救应失效
+  limits: 救应优先级（先救谁）书中按例说明
+  novelty: new
+  relates: [D08, D09]
+  tags: [救应, 合, 制]
+
+- id: c-zp-0017
+  domain: D05
+  title: 四吉神用之不当亦能破格
+  source_id: src-ziping-zhenquan
+  location: 第 20 章 · 论四吉神能破格
+  quote: |
+    "财官印食，四吉神也，然用之不当，亦能破格。"
+  rule: |
+    财官印食虽是吉神，用错位置或数量即破格：食神带煞透财、春木火旺见官、煞逢食制透印、财旺生官露食，皆破格。
+  trigger: 命局见财官印食时
+  logic: 不按名字判吉，按是否合于用神需要判
+  boundary: 无煞之食神格反喜见财——同一字在不同格中吉凶相反
+  limits: 与《渊海子平》吉神定性直接冲突
+  novelty: contradicts
+  relates: [D04]
+  tags: [吉神, 破格, 冲突]
+
+- id: c-zp-0018
+  domain: D05
+  title: 四凶神施之得宜亦能成格
+  source_id: src-ziping-zhenquan
+  location: 第 21 章 · 论四凶神能成格
+  quote: |
+    "煞伤枭刃，四凶神也，然施之得宜，亦能成格。"
+  rule: |
+    七煞、伤官、枭神、羊刃用得其所即为相神：印轻透煞、财逢劫以伤解、食带煞用枭、财逢煞用刃，皆可成格。
+  trigger: 命局见煞伤枭刃时
+  logic: 检视该凶神是否恰好补上命局所缺（生印/化劫/制食/敌煞）
+  boundary: 「合于需要」是唯一标准；不需要时仍为忌
+  limits: 与《渊海子平》凶神定性直接冲突
+  novelty: contradicts
+  relates: [D08, D10]
+  tags: [凶神, 成格, 冲突]
+
+- id: c-zp-0019
+  domain: D05
+  title: 吉凶喜忌全在是否合于需要
+  source_id: src-ziping-zhenquan
+  location: 第 20 章 · 论四吉神能破格
+  quote: |
+    "吉凶喜忌，全在是否合于需要，不因名称而有分别也。"
+  rule: |
+    十神的吉凶不取决于名称，而取决于是否合于日主与用神的需要；弱者生扶为喜，强者生扶反害。
+  trigger: 判断某十神为喜为忌时
+  logic: 先定需要（扶/抑）→ 再看该神是否满足 → 定吉凶
+  boundary: 不可把「正官=吉、七杀=凶」当固定标签
+  limits: 这正是本书与《渊海子平》神煞/吉凶观的分水岭
+  novelty: contradicts
+  relates: [D11]
+  tags: [十神, 吉凶, 冲突]
+
+- id: c-zp-0020
+  domain: D11
+  title: 星辰无关格局（反神煞）
+  source_id: src-ziping-zhenquan
+  location: 第 23 章 · 论星辰无关格局
+  quote: |
+    "八字格局，专以月令配四柱，至于星辰好歹，既不能为生克之用，又何以操成败之权？"
+  rule: |
+    神煞（星辰）不能参与生克，因而不应决定格局成败；格局既成，满盘孤辰无损其贵；
+    格局既破，满盘天德贵人也无济于事。
+  trigger: 命局出现大量吉神凶煞时
+  logic: 先判格局成败 → 神煞只在同格之内作「锦上添花」的微调
+  boundary: 作者承认「同一格局而高低不同」时，星辰的锦上添花「非尽无稽」
+  limits: 与《渊海子平》大量使用神煞的做法正面冲突，合并时须双轨
+  novelty: contradicts
+  relates: [D05]
+  tags: [神煞, 格局, 冲突]
+
+- id: c-zp-0021
+  domain: D11
+  title: 格局成破与神煞多寡无关
+  source_id: src-ziping-zhenquan
+  location: 第 23 章 · 论星辰无关格局
+  quote: |
+    "格局既成，即使满盘孤辰入煞，何损其贵？格局既破，即使満盘天德贵人，何以为功？"
+  rule: |
+    格局成立时，孤辰凶煞不能损其贵；格局破败时，天德贵人不能救其败。
+    神煞对成败无决定权。
+  trigger: 格局已成或已破，命局神煞又与结论相悖时
+  logic: 以格局结论为准，神煞只作注释
+  boundary: 用于断语强度时可参考（见第 23 章末段例证）
+  limits: 原文把「贵」「禄」解释为官星而非贵人，属术语辨正
+  novelty: contradicts
+  relates: [D11]
+  tags: [神煞, 格局]
+
+- id: c-zp-0022
+  domain: D05
+  title: 月令为本、外格为末（反对拘泥格名）
+  source_id: src-ziping-zhenquan
+  location: 第 31 章 · 论时说拘泥格局
+  quote: |
+    "八字用神专凭月令，月无用神，徐寻格局。月令，本也；外格，末也。今人不知轻重，拘泥格局，执假失真。"
+  rule: |
+    用神先凭月令；月令无用神时才寻求外格。月令是本、外格是末；拘泥格名即舍本逐末。
+  trigger: 命局疑似某外格（飞天禄马、六乙鼠贵等）时
+  logic: 先按月令取用 → 月令确无可取，才考虑外格 → 外格须合五行正理
+  boundary: 外格不是全废，而是「存而不论」或「末节」
+  limits: 与《渊海子平》内外十八格体系直接冲突
+  novelty: contradicts
+  relates: [D04]
+  tags: [格局, 外格, 冲突]
+
+- id: c-zp-0023
+  domain: D05
+  title: 逐条批评流行奇格
+  source_id: src-ziping-zhenquan
+  location: 第 31 章 · 论时说拘泥格局
+  quote: |
+    "故戊生甲寅之月，时上庚甲，不以为明煞有制，而以为专食之格，逢甲减福。"
+  rule: |
+    本书逐条指出流行奇格的误判：戊日庚申时本为明煞有制，却被误作专食格；
+    日禄归时只是帮身，不可因无官便作贵论；六阴朝阳、时上偏官、刑合格、拱格等亦多支离。
+  trigger: 命局被时人判为奇格时
+  logic: 回到月令与四柱生克判断，不用格名替代推理
+  boundary: 「虽知旧有此格，存而不论可也」
+  limits: 徐注另称刑合、遥巳、遥丑「最不可信」，属注家加重语气
+  novelty: contradicts
+  relates: [D05]
+  tags: [奇格, 批评, 冲突]
+
+- id: c-zp-0024
+  domain: D05
+  title: 格局高低在「有情无情、有力无力」
+  source_id: src-ziping-zhenquan
+  location: 第 14 章 · 论用神格局高低
+  quote: |
+    "财官印食煞伤劫刃，何格无贵？何格无贱？……其理之大纲，亦在有情无情、有力无力之间而已。"
+  rule: |
+    任何格都能出贵也能出贱；高低之分不在格名，而在两点：辅助之神是否有情（相生相护）、是否有力（通根得地）。
+  trigger: 同一格局需要分高下时
+  logic: 查相神与用神的关系（有情/无情）→ 查其根气（有力/无力）→ 定高低
+  boundary: 有情而无力、有力而无情，皆为次等
+  limits: 「情」「力」无量化标准，靠例证体会
+  novelty: new
+  relates: [D06]
+  tags: [格局, 高低, 相神]
+
+- id: c-zp-0025
+  domain: D05
+  title: 有情而兼有力者为格之最高
+  source_id: src-ziping-zhenquan
+  location: 第 14 章 · 论用神格局高低
+  quote: |
+    "又有有情而兼有力，有力而兼有情者。……是皆格之最高者也。"
+  rule: |
+    相神既与用神有情（相生相护）又自身有根有力者，为最高之格；
+    只有其一者次之。
+  trigger: 判极贵之格时
+  logic: 情（关系）与力（根气）双查
+  boundary: 力要先辨喜忌——忌神通根反为病
+  limits: 书中以正官佩印、食神制煞两例说明
+  novelty: new
+  relates: [D04]
+  tags: [格局, 高低]
+
+- id: c-zp-0026
+  domain: D05
+  title: 因成得败、因败得成
+  source_id: src-ziping-zhenquan
+  location: 第 15 章 · 论用神因成得败因败得成
+  quote: |
+    "八字之中，变化不一，遂分成败；而成败之中，又变化不测，遂有因成得败，因败得成之奇。"
+  rule: |
+    已成之格可因会合变化而败（如化伤为财却党煞），已败之格可因位置得宜而成
+    （如官印逢伤，壬隔戊而不能克丙，反泄身秀）。
+  trigger: 格局初判后又遇会合、透干、位置变化时
+  logic: 追踪变化（会合/透干/间隔）→ 重判成败
+  boundary: 变化是否改易原气质、是否合于日主需要，是判成败的前提
+  limits: 书中声明「奇奇怪怪，变化无穷」，只能以理权衡
+  novelty: new
+  relates: [D04]
+  tags: [格局, 变化, 成败]
+
+# 第三批：D07 行运（第 27–30 章）
+
+- id: c-zp-0027
+  domain: D07
+  title: 取运与看命同法：运字配命局统观
+  source_id: src-ziping-zhenquan
+  location: 第 27 章 · 论行运
+  quote: |
+    "论运与看命无二法也。看命以四柱干支，配月令之喜忌，而取运则又以运之干，配八字之喜忌。"
+  rule: |
+    看运不是另立一套方法：把运的每一个字代入命局，与命中干支合看，是喜是忌即判然。
+  trigger: 判任何一步运时
+  logic: 运字 → 代入命局 → 与用神/相神/忌神比对 → 定喜忌
+  boundary: 每一步都要「配命中干支而统观」，不能只看运字本身
+  limits: 与《渊海子平》「大运看支」不冲突，但本书更强调运字与命局的互动
+  novelty: new
+  relates: [D04]
+  tags: [行运, 喜忌]
+
+- id: c-zp-0028
+  domain: D07
+  title: 美运的定义：助我所喜之神
+  source_id: src-ziping-zhenquan
+  location: 第 27 章 · 论行运
+  quote: |
+    "何为喜？命中所喜之神，我得而助之者是也。"
+  rule: |
+    运来帮助命局所喜之神（用神或相神），即为美运；书中列了七种典型：助印、助身、劫财去病、
+    印救食煞、官煞生印、财乡助刃、伤食通关月劫。
+  trigger: 判一步运是否为吉运
+  logic: 命局所喜者 → 运是否直接助之
+  boundary: 若所喜之神本身无力，运助亦有限
+  limits: 具体七例对应不同格，须按格调用
+  novelty: new
+  relates: [D04]
+  tags: [行运, 喜运]
+
+- id: c-zp-0029
+  domain: D07
+  title: 败运的定义：逆我所喜而施
+  source_id: src-ziping-zhenquan
+  location: 第 27 章 · 论行运
+  quote: |
+    "何谓忌？命中所忌，我逆而施之者是也。"
+  rule: |
+    运来反向施为（克我所喜、助我所忌），即为败运。书中列举：正官无印行伤、财不透食行煞、
+    印用官而运合官、食带煞而行财、七煞食制而运逢枭等。
+  trigger: 判一步运是否为凶运
+  logic: 命局所喜被克、所忌被助 → 败运
+  boundary: 有救应之神（如原局透印）可减轻
+  limits: 「逆而施之」的具体形式随格而变
+  novelty: new
+  relates: [D05]
+  tags: [行运, 忌运]
+
+- id: c-zp-0030
+  domain: D07
+  title: 似喜而实忌 / 似忌而实喜
+  source_id: src-ziping-zhenquan
+  location: 第 27 章 · 论行运
+  quote: |
+    "其有似喜而实忌者，何也？如官逢印运，而本命有合，印逢官运，而本命用煞之类是也。"
+  rule: |
+    运的表面对应关系可能与实际相反：官格行印运，本命若已有合（如戊癸合），印反伤官；
+    印格行官运，若本命是煞重用印，则官来反不宜。
+  trigger: 运字与格局看似相配时
+  logic: 查本命有无合、有无既定的用神关系 → 再判真实喜忌
+  boundary: 必须「兼看四柱之神」，不能凭运字定
+  limits: 书中同段并举「似忌而实喜」：官逢伤运而命透印、财行煞运而命透食
+  novelty: new
+  relates: [D04]
+  tags: [行运, 喜忌, 反例]
+
+- id: c-zp-0031
+  domain: D07
+  title: 有行干不行支、有行支不行干
+  source_id: src-ziping-zhenquan
+  location: 第 27 章 · 论行运
+  quote: |
+    "又有行干而不行支者，何也？如丙生子月亥年，逢丙丁则帮身，逢巳午则相冲是也。"
+  rule: |
+    同一运的干支可能吉凶相反：丙生子月亥年，行丙丁（干）帮身，行巳午（支）反冲而增水势；
+    反之，甲生酉月官弱，行申酉（支）使官植根，行庚辛（干）则官煞混杂。
+  trigger: 运的天干与地支对命局作用不一致时
+  logic: 分别判断干与支的作用方向 → 以其中有力者为主
+  boundary: 徐注补「运以方为重」（地支方位），干之力通常较微
+  limits: 干支权重的量化未给，须结合命局通根情况
+  novelty: new
+  relates: [D02]
+  tags: [行运, 干支, 权重]
+
+- id: c-zp-0032
+  domain: D07
+  title: 行运可成格、可变格，其权重高于吉凶
+  source_id: src-ziping-zhenquan
+  location: 第 28 章 · 论行运成格变格
+  quote: |
+    "命之格局，成于八字，然配之以运，亦有成格变格之要权。其成格变格，较之喜忌祸福尤重。"
+  rule: |
+    运不仅能助喜助忌，还能把「成而未全」的格补成（成格），或把已成之格改成另一种格（变格）；
+    其影响大于普通吉凶。
+  trigger: 命局格局「成而未全」或遇会合冲时
+  logic: 看运字是否补齐格所需 → 成格；是否引动支中藏神或会局 → 变格
+  boundary: 此类命造须原局本美、成而未全，否则暴兴暴落
+  limits: 变格仅在此运中有效（五年或十年），过后复旧
+  novelty: new
+  relates: [D05]
+  tags: [行运, 成格, 变格]
+
+- id: c-zp-0033
+  domain: D07
+  title: 成格的定义与例
+  source_id: src-ziping-zhenquan
+  location: 第 28 章 · 论行运成格变格
+  quote: |
+    "何为成格？本命用神，成而未全，从而就之者是也。"
+  rule: |
+    命局用神已有雏形但未牢固（如官星墓库无根、印局夹杂），行运补根或透清，格即完成。
+  trigger: 命局有格象但缺根或缺透时
+  logic: 找所缺（根/透/会局）→ 看运是否补上
+  boundary: 补上未必为喜——若运字同时伤及另一喜神则不吉
+  limits: 书中另举「逢成格而不喜」之例（壬生午月运透己，而本命有甲乙）
+  novelty: new
+  relates: [D05]
+  tags: [行运, 成格]
+
+- id: c-zp-0034
+  domain: D07
+  title: 变格：运透支中藏神或会局改变格的性质
+  source_id: src-ziping-zhenquan
+  location: 第 28 章 · 论行运成格变格
+  quote: |
+    "何为变格？如丁生辰月，透壬为官，而运逢戌，透出辰中伤官"
+  rule: |
+    运把原局地支所藏之神引出（运戌引出辰中戊），或与命支会局（运卯未会亥成木），
+    使原格变成另一种格，如官格变伤官格、建禄变伤官。
+  trigger: 运字与命局地支发生透清或会合时
+  logic: 透清/会局 → 新神出现或原神变质 → 重定格
+  boundary: 若命局有神回冲（如申酉冲寅卯），会局不成，则变而不变
+  limits: 变格时限通常只在该运之内
+  novelty: new
+  relates: [D05]
+  tags: [行运, 变格]
+
+- id: c-zp-0035
+  domain: D07
+  title: 干主动、支主静；干主一、支藏多
+  source_id: src-ziping-zhenquan
+  location: 第 29 章 · 论喜忌干支有别
+  quote: |
+    "命中喜忌，虽支干俱有，而干主天，动而有为，支主地，静以待用，且干主一而支藏多，为福为祸，安不得殊？"
+  rule: |
+    天干主动、且一干只有一性，故其力显；地支主静、且一支藏多神，须逢冲逢会才「动」而发力。
+  trigger: 同一五行在天干与地支出现，需判效力时
+  logic: 干 → 直接作用；支 → 静待冲会才动
+  boundary: 支被冲会被合而「动」时，也能作祸福
+  limits: 与《渊海子平》「动静说」同旨，但此处用于行运
+  novelty: extends
+  relates: [D02]
+  tags: [干支, 动静, 行运]
+
+- id: c-zp-0036
+  domain: D07
+  title: 支中喜忌逢运「透清」才显
+  source_id: src-ziping-zhenquan
+  location: 第 30 章 · 论支中喜忌逢运透清
+  quote: |
+    "何谓透清？如甲用酉官，逢辰未即为财，而运透戊，逢午未即为伤，而运透丁之类是也。"
+  rule: |
+    地支所藏之神平时「静而待用」，逢运把它透出（或命支与运支会局），其喜忌才真正应验。
+  trigger: 命局喜忌藏在支中时
+  logic: 查运是否透出该藏神，或与之会局 → 应验
+  boundary: 在年柱则重、日柱次之、时柱最缓
+  limits: 「透清」只在该运五年内有效，过后复旧
+  novelty: new
+  relates: [D02]
+  tags: [透清, 行运, 藏干]
+
+- id: c-zp-0037
+  domain: D02
+  title: 支为干之生地，干为支之发用
+  source_id: src-ziping-zhenquan
+  location: 第 30 章 · 论支中喜忌逢运透清
+  quote: |
+    "支为干之生地，干为支之发用。"
+  rule: |
+    地支是天干生长的土壤（根），天干是地支能量的发用（表现）；看命看运都要干支统看：
+    一甲字在手，须查四支有无寅亥卯未为其根。
+  trigger: 判某干有无根、某支能否发用时
+  logic: 干 → 四支找根；支 → 看所藏何干可透
+  boundary: 一支可同时为多干提供不同性质（亥可为壬禄、也可为甲长生）
+  limits: 藏干次序（本气→中气→余气）由徐注补出
+  novelty: new
+  relates: [D03]
+  tags: [干支, 通根, 核心]
+
+# 第四批：D03 旺衰（第 8 章）+ D08 官杀（第 33、41 章）+ D09 伤官（第 43 章）
+
+- id: c-zp-0038
+  domain: D03
+  title: 得时不旺、失时不弱（旺衰非死法）
+  source_id: src-ziping-zhenquan
+  location: 第 8 章 · 论十干得时不旺失时不弱
+  quote: |
+    "书云，得时俱为旺论，失时便作衰看，虽是至理，亦死法也。"
+  rule: |
+    「得时即旺、失时即衰」只是常法。春木虽当令，若金重无火制则「得时而不旺」；
+    秋木虽失令，若根深有印比则「失时不弱」。
+  trigger: 判日主旺衰时
+  logic: 月令得时只是起点，须再查四柱党众与通根
+  boundary: 得时/失时仍是大方向，不可因此完全否定月令
+  limits: 与《渊海子平》「月令为提纲」并存，本书补出反向条件
+  novelty: extends
+  relates: [D04]
+  tags: [旺衰, 月令, 修正]
+
+- id: c-zp-0039
+  domain: D03
+  title: 旺衰与强弱须分开：得时为旺、党众为强
+  source_id: src-ziping-zhenquan
+  location: 第 8 章 · 论十干得时不旺失时不弱
+  quote: |
+    "大致得时为旺，失时为衰；党众为强，助寡为弱。故有虽旺而弱者，亦有虽衰而强者。"
+  rule: |
+    旺/衰看月令是否得时；强/弱看四柱之中同党（比劫印绶）多寡与通根。
+    两者是不同维度：可旺而弱，也可衰而强。
+  trigger: 用户问「身强还是身弱」时
+  logic: 先判得时（旺/衰） → 再判党众与通根（强/弱） → 组合成结论
+  boundary: 喜用忌神也用同一套判法，不只日主
+  limits: 「党众」的数量门槛未量化
+  novelty: new
+  relates: [D02]
+  tags: [旺衰, 强弱, 核心]
+
+- id: c-zp-0040
+  domain: D03
+  title: 通根权重：干多不如根重
+  source_id: src-ziping-zhenquan
+  location: 第 8 章 · 论十干得时不旺失时不弱
+  quote: |
+    "天干得一比肩，不如得支中一墓库……得三比肩，不如得一长生禄刃。"
+  rule: |
+    通根的效力远大于天干比肩：一比肩不及一墓库，三比肩不及一长生禄刃；
+    根之重者（长生禄旺）＞根之轻者（墓库余气）。
+  trigger: 判断日主或某神有无力时
+  logic: 数天干同类 → 再查地支通根 → 以根为重
+  boundary: 墓库余气须是「本库」（未为木库、戌为火库等），非本库不作通根
+  limits: 「阴长生」是否算根，书中前后矛盾（徐注已指出）
+  novelty: new
+  relates: [D02]
+  tags: [通根, 强弱]
+
+- id: c-zp-0041
+  domain: D03
+  title: 阳干逢库即通根，不必刑冲开库
+  source_id: src-ziping-zhenquan
+  location: 第 8 章 · 论十干得时不旺失时不弱
+  quote: |
+    "更有阳干逢库，如壬逢辰、丙坐戌之类，不以为水火通根身库，甚至求刑冲开之。此种谬论，必宜一切扫除也。"
+  rule: |
+    阳干坐本库即为通根（壬坐辰、丙坐戌），不应再求刑冲开库；把库一律当「必须冲开」是谬论。
+  trigger: 命局见阳干坐库时
+  logic: 该库是否为该干之本库 → 是则直接作通根
+  boundary: 阴干的库不作此论
+  limits: 与《渊海子平》「杂气财官喜见冲」「库须对冲开」直接冲突，合并时须按「本库通根 vs 杂气取用」分层
+  novelty: contradicts
+  relates: [D05]
+  tags: [通根, 墓库, 冲突]
+
+- id: c-zp-0042
+  domain: D08
+  title: 官不可伤、煞宜制（同克身而不同用）
+  source_id: src-ziping-zhenquan
+  location: 第 33 章 · 论正官（徐注）
+  quote: |
+    "官不可伤而煞宜制，亦以此也。"
+  rule: |
+    正官与七杀同为克身之物，但正官阴阳相配为「有情」，故不可伤；七杀同气相拒为「无情」，故宜制。
+  trigger: 命局见克身之神时
+  logic: 阴阳相异（正官）→ 护之；阴阳相同（七杀）→ 制之
+  boundary: 官多身弱则官等于煞；煞轻身强则煞同于官（第 41 章）
+  limits: 与渊海「官星要纯、七杀要制」一致
+  novelty: extends
+  relates: [D04]
+  tags: [正官, 七杀, 有情无情]
+
+- id: c-zp-0043
+  domain: D08
+  title: 正官格：财印并透而两不相碍者为大贵
+  source_id: src-ziping-zhenquan
+  location: 第 33 章 · 论正官
+  quote: |
+    "以刑冲破害为忌，则以生之护之为喜矣。存其喜而去其忌则贵，而贵之中又有高低者……以财印并透者论之，两不相碍，其贵也大。"
+  rule: |
+    正官格以「去忌存喜」为纲：忌刑冲破害，喜生之护之。财印并透而不相碍者大贵；
+    若财印相合而两失，则成「孤官无辅」，贵气大减。
+  trigger: 判正官格层次时
+  logic: 查刑冲破害 → 查财印是否相碍 → 定贵之高低
+  boundary: 财印单用者，单用印不如单用财（印能泄官）
+  limits: 与渊海「正官喜印绶喜财」一致，但本书补出「两不相碍」的条件
+  novelty: extends
+  relates: [D05]
+  tags: [正官, 财印, 层次]
+
+- id: c-zp-0044
+  domain: D08
+  title: 官格透伤用印者，又忌见财
+  source_id: src-ziping-zhenquan
+  location: 第 33 章 · 论正官
+  quote: |
+    "至于官格透伤用印者，又忌见财，以财能去印，未能生官，而适以护伤故也。"
+  rule: |
+    正官格见伤官、以印制伤者，再逢财则财去印，印去则伤无制，故忌；但若有合化解救（如丁壬合去财），反可大贵。
+  trigger: 官格透伤、以印为救应时
+  logic: 查财是否破印 → 有救应则另论
+  boundary: 无伤之官格反喜财生官，此条只适用于「用印制伤」之局
+  limits: 书中以范太傅命为例说明例外
+  novelty: extends
+  relates: [D04]
+  tags: [正官, 伤官, 财]
+
+- id: c-zp-0045
+  domain: D08
+  title: 七煞以食制为上，忌财印并透
+  source_id: src-ziping-zhenquan
+  location: 第 41 章 · 论偏官
+  quote: |
+    "煞用食制，不要露财透印，以财能转食生煞，而印能去食护煞也。"
+  rule: |
+    七煞用食神制者，为上格；忌财（转食生煞）与印（去食护煞）并透。
+    但「财先食后」或「印先食后」——即财/印在前、食在后制之——反可成贵。
+  trigger: 七煞格定喜忌时
+  logic: 查财印的位置与先后 → 财在食前为党煞、食在财后仍能制
+  boundary: 煞强食泄而印露者，破局
+  limits: 与渊海「七杀喜食制、忌财」一致，本书补出「先后」条件
+  novelty: extends
+  relates: [D04]
+  tags: [七杀, 食神, 财印]
+
+- id: c-zp-0046
+  domain: D08
+  title: 煞重身轻，弃食就印
+  source_id: src-ziping-zhenquan
+  location: 第 41 章 · 论偏官
+  quote: |
+    "亦有煞重身轻，用食则身不能当，不若转而就印，虽不通根月令，亦为无情而有情。"
+  rule: |
+    七煞重而日主轻，食神制煞会克泄交加，日主承受不住；此时转用印化煞生身更佳，
+    虽印不通根月令，亦属「无情而有情」，格可许贵但不大。
+  trigger: 煞重身轻、原以食制煞时
+  logic: 身能任食 → 用食制；不能任食 → 转印化煞
+  boundary: 转印后格变小，不能与大格同论
+  limits: 与渊海「身弱遇鬼得物化之则吉」同旨
+  novelty: extends
+  relates: [D04]
+  tags: [七杀, 印绶, 身弱]
+
+- id: c-zp-0047
+  domain: D09
+  title: 伤官用财最利，身强有根为要
+  source_id: src-ziping-zhenquan
+  location: 第 43 章 · 论伤官
+  quote: |
+    "伤官生财，则以伤官为生官之具，转凶为吉，故最利。只要身强而有根，便为贵格。"
+  rule: |
+    伤官生财是最利的路径：伤官本凶，但生财后成为「生官之具」，凶转吉；前提是身强有根。
+  trigger: 伤官格取用时
+  logic: 身强有根 → 伤官生财为贵；身弱无根 → 泄气太过
+  boundary: 身弱则忌泄，伤官用财亦不成立
+  limits: 与渊海「伤官须见财方可用」一致，本书强调「身强有根」为第一要点
+  novelty: extends
+  relates: [D04]
+  tags: [伤官, 财, 身强]
+
+- id: c-zp-0048
+  domain: D09
+  title: 伤官见官可用财通关
+  source_id: src-ziping-zhenquan
+  location: 第 43 章 · 论伤官
+  quote: |
+    "亦有伤官见官秀财以解者"
+  rule: |
+    伤官见官本为祸，但若透财，则伤官生财、财生官，官反不受伤，凶转为吉。
+  trigger: 伤官见官而无制时
+  logic: 查财星是否透出 → 有财则通关
+  boundary: 财须有根且位置得宜，否则通关无力
+  limits: 与渊海「伤官见官为祸百端」构成条件性修正
+  novelty: extends
+  relates: [D04]
+  tags: [伤官, 官星, 通关]
+
+- id: c-zp-0049
+  domain: D09
+  title: 伤官佩印：反要伤旺身稍弱
+  source_id: src-ziping-zhenquan
+  location: 第 43 章 · 论伤官
+  quote: |
+    "有伤官佩印者，印能制伤，所以为贵，反要伤官旺，身稍弱，始为秀气。"
+  rule: |
+    伤官佩印之格，条件是伤官旺、日主稍弱——印既能制伤又能滋身，两得其用；
+    若伤轻身重而印多，反为贫穷之格。
+  trigger: 命局伤官与印并见时
+  logic: 伤旺身弱 → 佩印为秀；伤轻身重 → 印多为病
+  boundary: 印过旺极深亦不必多见，偏正叠出反不秀
+  limits: 与渊海「伤官用印宜去财」互补
+  novelty: extends
+  relates: [D04]
+  tags: [伤官, 印绶, 条件]
+
+# 第五批：D07 取运分格（第 34、42、46、50 章）
+
+- id: c-zp-0050
+  domain: D07
+  title: 取运无定法：一八字一论
+  source_id: src-ziping-zhenquan
+  location: 第 34 章 · 论正官取运
+  quote: |
+    "取运之道，一八字则有一八字之论，其理甚精，其法甚活，只可大略言之。变化在人，不可泥也。"
+  rule: |
+    取运不能按格套公式：同一官用财生之局，因闲神、地支位置不同，喜忌即不同；
+    只能给出「大略」的原则，须逐八字配。
+  trigger: 按格套用运程喜忌时
+  logic: 用神喜忌有定 → 闲神与位置无定 → 逐盘再判
+  boundary: 「大略」仍成立，只是不能机械照搬
+  limits: 这是本书对「取运学」的方法论声明
+  novelty: new
+  relates: [D04]
+  tags: [取运, 方法]
+
+- id: c-zp-0051
+  domain: D07
+  title: 正官格取运：身轻助身、官轻助官
+  source_id: src-ziping-zhenquan
+  location: 第 34 章 · 论正官取运
+  quote: |
+    "正官而用财印，身稍轻则取助身，官稍轻则助官。若官露而不可逢合，不可杂煞，不可重官。与地支刑冲，不问所就何局，皆不利也。"
+  rule: |
+    正官格兼用财印时：身稍轻助身（印为主），官稍轻助官（财为主）；
+    官星透干则忌逢合、忌杂煞、忌重官；地支刑冲一律不利。
+  trigger: 正官格推运时
+  logic: 判身与官孰轻 → 选助身或助官 → 再查合、杂、重、刑冲四项禁忌
+  boundary: 财印并透者最喜官煞运（财生官煞、官煞生印，一气相通）
+  limits: 官藏支时，地支会合刑冲亦忌
+  novelty: new
+  relates: [D08]
+  tags: [正官, 取运]
+
+- id: c-zp-0052
+  domain: D07
+  title: 正官用财/佩印/带伤的三种取运方向
+  source_id: src-ziping-zhenquan
+  location: 第 34 章 · 论正官取运
+  quote: |
+    "正官用财，运喜印绶身旺之地，切忌食伤。……正官佩印，运喜财乡，伤食反吉。……正官带伤食而用印制，运喜官旺印旺之乡，财运切忌。"
+  rule: |
+    正官用财者喜印绶身旺、忌食伤；正官佩印者喜财乡（身旺印重时）；带伤食而以印制者喜官旺印旺、忌财运。
+  trigger: 正官格细分用财/佩印/用印制伤时
+  logic: 按用神配套选运：用财者怕伤、佩印者怕身弱、用印者怕财破
+  boundary: 官重身轻而佩印者，反宜身旺，不必财运
+  limits: 印绶叠出者，财运亦无害（第 34 章末）
+  novelty: new
+  relates: [D04]
+  tags: [正官, 取运, 财印]
+
+- id: c-zp-0053
+  domain: D07
+  title: 煞用食制：按煞食身三者轻重配运
+  source_id: src-ziping-zhenquan
+  location: 第 42 章 · 论偏官取运
+  quote: |
+    "煞用食制，煞重食轻则助食，煞轻食重则助煞，煞食均而日主根轻则助身。忌正官之混杂，畏印绶之夺食。"
+  rule: |
+    七煞用食制格，取运按三者轻重：煞重助食、食重助煞、煞食均而日主轻则助身；
+    通则忌正官混杂、忌印夺食。
+  trigger: 食神制煞格推运时
+  logic: 比较煞、食、身三者力量 → 补最弱一环
+  boundary: 身强为第一要义；身弱则非用印不可
+  limits: 煞轻食重时，官印财运反不忌且为喜
+  novelty: new
+  relates: [D08]
+  tags: [七杀, 食神, 取运]
+
+- id: c-zp-0054
+  domain: D07
+  title: 煞用印与煞用财的取运差异
+  source_id: src-ziping-zhenquan
+  location: 第 42 章 · 论偏官取运
+  quote: |
+    "煞用印绶，不利财乡，伤官为美，印绶身旺，俱为福地。……七煞用财，其以财而去印存食者，不利劫财，伤食皆吉，喜财怕印，透煞亦顺。"
+  rule: |
+    煞用印者：忌财破印、喜印绶与身旺（伤官一说徐注存疑）；
+    煞用财者：忌劫财、喜财与食伤、怕印。
+  trigger: 七煞格分用印/用财时
+  logic: 按所用之神定忌神：用印忌财、用财忌印与劫
+  boundary: 两种用法的喜忌几乎相反，不可混用
+  limits: 徐注对「伤官为美」提出疑问，标为存疑
+  novelty: new
+  relates: [D08]
+  tags: [七杀, 印, 财, 取运]
+
+- id: c-zp-0055
+  domain: D07
+  title: 阳刃取运：官深则印比反美，忌伤食合官
+  source_id: src-ziping-zhenquan
+  location: 第 46 章 · 论阳刃取运
+  quote: |
+    "阳刃用官，则运喜助官，然命中官星根深，则印绶比劫之方，反为美运，但不喜伤食合官耳。"
+  rule: |
+    阳刃用官格：官轻助官；官星已根深，则行印绶比劫反美；始终不喜伤食与合官。
+  trigger: 阳刃格用官时
+  logic: 判官星轻重 → 官轻助官、官重助身
+  boundary: 阳刃用煞时，煞轻助煞、煞太重则喜身旺印绶，伤食亦不忌
+  limits: 与渊海「羊刃喜杀、忌冲」大同小异，本书更强调官煞轻重
+  novelty: extends
+  relates: [D10]
+  tags: [阳刃, 取运]
+
+- id: c-zp-0056
+  domain: D07
+  title: 阳刃官煞并出：运喜制伏，忌财地官乡
+  source_id: src-ziping-zhenquan
+  location: 第 46 章 · 论阳刃取运
+  quote: |
+    "阳刃而官煞并出，不论去官去煞，运喜制伏，身旺亦利，财地官乡反为不吉也。"
+  rule: |
+    阳刃格官煞并见，先合去其一取清（去官或去煞）；取运喜制伏之神、身旺亦利，忌财运与官乡。
+  trigger: 阳刃格官煞混杂时
+  logic: 取清后 → 行制伏之运；财官之地反助其势
+  boundary: 去取清之物（如印克食伤）则破格
+  limits: 与渊海「阳刃喜杀」并看，此处是混杂特例
+  novelty: new
+  relates: [D10, D08]
+  tags: [阳刃, 官煞, 取运]
+
+- id: c-zp-0057
+  domain: D07
+  title: 偏旺杂格取运：顺其气势
+  source_id: src-ziping-zhenquan
+  location: 第 50 章 · 附论杂格取运
+  quote: |
+    "偏旺之格，取运大都须顺其气势，虽干支喜忌，须察四柱之配合，而顺势取运，大致有定。"
+  rule: |
+    专旺、化气等偏旺之格，取运以顺其气势为原则：曲直宜水木火、炎上宜土、稼穑、从革、润下同理；
+    化气则喜化神旺地、忌官煞与日主还原之地。
+  trigger: 命局为专旺/化气等偏旺格时
+  logic: 定气势方向 → 顺之则吉、逆之则凶
+  boundary: 仍须察四柱配合，不能只按格名
+  limits: 各格细节见第 50 章逐一列举
+  novelty: new
+  relates: [D15]
+  tags: [杂格, 取运, 顺势]
+
+- id: c-zp-0058
+  domain: D05
+  title: 批评「遥合倒冲」牵合财官
+  source_id: src-ziping-zhenquan
+  location: 第 50 章 · 附论杂格取运
+  quote: |
+    "昔人评命，泥于财官之说，四柱无财可取，则不惜遥合倒冲，牵强附会，以期合于财官，未免可嗤。"
+  rule: |
+    旧法因执著财官，四柱无财便用遥合倒冲凑出财官，本书直斥其牵强；命理不外五行，偏旺之中仍有正理可取。
+  trigger: 命局用遥合、倒冲等法取财官时
+  logic: 回到五行气势本身判断，不靠虚邀
+  boundary: 杂格不是全废，而是须以五行正理说明
+  limits: 与《渊海子平》飞天禄马、倒冲格直接冲突
+  novelty: contradicts
+  relates: [D05]
+  tags: [杂格, 批评, 冲突]
+
+# 第六批：D02 合与刑冲（第 7、9 章）+ D10 阳刃建禄（第 45、47 章）
+
+- id: c-zp-0059
+  domain: D02
+  title: 合而不合：有间隔则不敢合
+  source_id: src-ziping-zhenquan
+  location: 第 7 章 · 论十干合而不合
+  quote: |
+    "譬如甲与己合，而甲己中间，以庚间隔之，则甲岂能越克我之庚而合己？此制于势然也，合而不敢合也。"
+  rule: |
+    两干虽为合，若中间隔有克阻之神，则合不成（合而不敢合）；
+    隔位太远者只作「半合」，效用减至十之二三。
+  trigger: 判断天干是否真合时
+  logic: 查中间有无间隔之神 → 有则不合；查距离 → 远则半合
+  boundary: 间隔之神不必是克，如甲己间丁，反成甲生丁、丁生己的相生链
+  limits: 遥隔仍作合者亦有（视格局配合），徐注举例说明
+  novelty: new
+  relates: [D04]
+  tags: [合, 间隔, 半合]
+
+- id: c-zp-0060
+  domain: D02
+  title: 合而无伤：合一留一以取清
+  source_id: src-ziping-zhenquan
+  location: 第 7 章 · 论十干合而不合
+  quote: |
+    "又有合而无伤于合者，何也？如甲生寅卯，月时两透辛官，以年丙合月辛，是为合一留一，官星反轻。"
+  rule: |
+    两官并透为重官、两煞并透为重煞；合去其一、留其一，反成格（合官留煞或合煞留官）。
+  trigger: 命局官煞重见时
+  logic: 合一留一 → 取清 → 成格
+  boundary: 合去的若是「取清之物」则反破格
+  limits: 与《三命通会》「以合为留、以克为去」说法不同
+  novelty: new
+  relates: [D08]
+  tags: [合, 取清, 重官]
+
+- id: c-zp-0061
+  domain: D02
+  title: 本身之合不作「合去」论
+  source_id: src-ziping-zhenquan
+  location: 第 7 章 · 论十干合而不合
+  quote: |
+    "本身十干合之，不为合去。……日干之乙，与庚作合，是我之官，是我合之。何为合去？若庚在年上，乙在月上，则月上之乙，先去合庚，而日干反不能合，是为合去也。"
+  rule: |
+    日干与官星相合，是「我合之」，情更亲切，不作合去；
+    若他干（如月干）先合去官星，日干便合不到，才是「合去」。
+  trigger: 官星与日干或其他干相合时
+  logic: 看谁先合、合者是否为日干 → 日干合为亲、他干合为去
+  boundary: 女命官为夫星，被姊妹干合去即「夫星透而不透」
+  limits: 与渊海「贪合忘官」互补：此处区分「我合」与「被合去」
+  novelty: new
+  relates: [D13]
+  tags: [合, 官星, 日干]
+
+- id: c-zp-0062
+  domain: D02
+  title: 三合以四正为主，会合可解刑冲
+  source_id: src-ziping-zhenquan
+  location: 第 9 章 · 论刑冲会合解法
+  quote: |
+    "三合者，以四正为主。……八字支中，刑冲俱非美事，而三合六合，可以解之。"
+  rule: |
+    三合局以子午卯酉为核；三支全为成局，两字为半合，单字不成局。
+    会合可以解刑冲：如卯酉冲，有戌则卯戌合而不冲。
+  trigger: 命局有刑冲时
+  logic: 查有无三合/六合可解 → 有则冲力减或不成冲
+  boundary: 刑冲亦可反解会合；还有「因解而反得刑冲」（合去其一，余者成刑）
+  limits: 徐注称「法至活变，无一定之方式」
+  novelty: extends
+  relates: [D05]
+  tags: [三合, 会合, 解冲]
+
+- id: c-zp-0063
+  domain: D02
+  title: 透干可代四正成局
+  source_id: src-ziping-zhenquan
+  location: 第 9 章 · 论刑冲会合解法
+  quote: |
+    "若支寅戌而干丙丁，支申辰而干壬癸，则仍可成局，丙丁即午，壬癸即子也。"
+  rule: |
+    地支缺四正之一时，若天干透出该四正所藏之神（丙丁代午、壬癸代子），仍可成局；
+    这是会局的变例。
+  trigger: 三合缺子或午等四正时
+  logic: 查天干是否透出对应之神 → 透则补局
+  boundary: 只适用于四正；且须天干有力
+  limits: 书中另列天地合、上下相合、交互相合等变例
+  novelty: new
+  relates: [D05]
+  tags: [三合, 透干, 变例]
+
+- id: c-zp-0064
+  domain: D10
+  title: 阳刃为劫正财之极，唯五阳有之
+  source_id: src-ziping-zhenquan
+  location: 第 45 章 · 论阳刃
+  quote: |
+    "阳刃者，劫我正财之神，乃正财之七煞也。禄前一位，惟五阳有之，故为阳刃。不曰劫而曰刃，劫之甚也。"
+  rule: |
+    阳刃是禄前一位、劫夺正财最烈者，只有五阳干有；名为「刃」因其劫夺已极。
+  trigger: 查羊刃/阳刃时
+  logic: 日干为五阳之一 → 取禄前一位 → 该支即刃
+  boundary: 非卯月而干透乙或支见卯，名劫不名刃；日刃/时刃实与劫同
+  limits: 与《渊海子平》按十干列羊刃（含阴干）冲突；本书明确五阴无刃
+  novelty: contradicts
+  relates: [D03]
+  tags: [阳刃, 五阳, 冲突]
+
+- id: c-zp-0065
+  domain: D10
+  title: 阳刃宜伏制，官煞皆宜、财印相随最贵
+  source_id: src-ziping-zhenquan
+  location: 第 45 章 · 论阳刃
+  quote: |
+    "刃宜伏制，官煞皆宜，财印相随，尤为贵显。"
+  rule: |
+    阳刃格以官煞制刃为用，官煞皆可；若再有财印相随（财生官煞、印调停煞刃），最为贵显。
+  trigger: 命局月令为阳刃时
+  logic: 有官煞制刃 → 成格；财印相随 → 加贵
+  boundary: 与其他格相反——他格用煞忌财印，阳刃用煞反喜财印
+  limits: 书中以岳飞造为例，说明刃旺煞轻时印运为美、煞刃相战则凶
+  novelty: extends
+  relates: [D08]
+  tags: [阳刃, 官煞, 财印]
+
+- id: c-zp-0066
+  domain: D10
+  title: 阳刃用官透刃无虑，露煞透刃无功（贪合忘克）
+  source_id: src-ziping-zhenquan
+  location: 第 45 章 · 论阳刃
+  quote: |
+    "阳刃用官，透刃不虑；阳刃露煞，透刃无成。盖官能制刃，透而不为害；刃能合煞，则有何功？"
+  rule: |
+    阳刃用官者，命局再透刃不碍事（官能制刃）；阳刃露煞者，若又透刃，刃合煞则煞被「贪合忘克」，失其制刃之功，故无成。
+  trigger: 阳刃格同时见煞与刃时
+  logic: 查刃是否与煞相合 → 合则煞无力
+  boundary: 合煞无功的前提是「刃能合煞」（如丙午刃遇壬煞，丁合壬）
+  limits: 与渊海「合杀为福」表面相反——合煞在阳刃格反为失功
+  novelty: contradicts
+  relates: [D08]
+  tags: [阳刃, 贪合忘克, 冲突]
+
+- id: c-zp-0067
+  domain: D10
+  title: 阳刃格高低：官煞露而根深为贵大
+  source_id: src-ziping-zhenquan
+  location: 第 45 章 · 论阳刃
+  quote: |
+    "然同是官煞制刃，而格亦有高低，如官煞露而根深，其贵也大；官煞藏而不露，或露而根浅，其贵也小。"
+  rule: |
+    同为官煞制刃，官煞透干且有根者格高，藏而不露或透而根浅者格小。
+  trigger: 判阳刃格层次时
+  logic: 查官煞是否透干 → 查是否通根 → 定高低
+  boundary: 徐注补「格之高低，在于清浊」，露而根深即清
+  limits: 徐注对「藏而不露为贵小」提出保留（如和珅造）
+  novelty: new
+  relates: [D05]
+  tags: [阳刃, 高低]
+
+- id: c-zp-0068
+  domain: D10
+  title: 建禄即劫，不以为用，另取财官煞食
+  source_id: src-ziping-zhenquan
+  location: 第 47 章 · 论建禄月劫
+  quote: |
+    "建禄者，月建逢禄堂也，禄即是劫。或以禄堂透出，即可依以用者，非也。故建禄与月劫，可同一格，不必加分，皆以透干支，别取财官煞食为用。"
+  rule: |
+    建禄/月劫本身不能作为用神，必须另取财官煞食为用，再按该用神论格。
+  trigger: 月令为日主之禄或劫时
+  logic: 建禄/月劫 → 不取为用 → 另找财官煞食
+  boundary: 禄堂透出不可直接当用神
+  limits: 与渊海「建禄格」的独立成格说不同，本书不另立格
+  novelty: contradicts
+  relates: [D05]
+  tags: [建禄, 月劫, 取用]
+
+- id: c-zp-0069
+  domain: D10
+  title: 禄格用官须财印相随，不可孤官无辅
+  source_id: src-ziping-zhenquan
+  location: 第 47 章 · 论建禄月劫
+  quote: |
+    "禄格用官，干头透出为奇，又要财印相随，不可孤官无辅。"
+  rule: |
+    建禄格用官者，官须透干，且须有财（生官）或印（护官）相随；孤官无辅不成贵格。
+  trigger: 建禄格取官为用时
+  logic: 官透 → 查财印是否相随 → 有则贵、无则孤官
+  boundary: 财印不必并用，只需一处相随
+  limits: 与正官格「财印并透两不相碍」呼应
+  novelty: new
+  relates: [D08]
+  tags: [建禄, 正官, 财印]
+
+- id: c-zp-0070
+  domain: D10
+  title: 禄劫用财须带食伤，用煞须制伏
+  source_id: src-ziping-zhenquan
+  location: 第 47 章 · 论建禄月劫
+  quote: |
+    "禄劫用财，须带食伤，盖月令为劫而以财作用，二物相克，必以伤食化之，始可转劫生财。……禄劫用煞，必须制伏。"
+  rule: |
+    建禄/月劫格用财，必须食伤通关（劫生食、食生财）；用煞则必须制伏。
+  trigger: 建禄/月劫格取财或取煞时
+  logic: 用财 → 查食伤；用煞 → 查制伏
+  boundary: 化劫为财、化劫为生者尤秀（会局化劫）
+  limits: 与阳刃用财「必须有食伤通关」同构
+  novelty: new
+  relates: [D06]
+  tags: [建禄, 财, 煞]
+
+# 第七批：D15 杂格（第 49 章）+ D12 六亲（第 25、26 章）
+
+- id: c-zp-0071
+  domain: D15
+  title: 杂格的定义：月令无用、干头无官煞
+  source_id: src-ziping-zhenquan
+  location: 第 49 章 · 论杂格
+  quote: |
+    "杂格者，月令无用，以外格而用之，其格甚多，故谓之杂。大约要干头无官无煞，方成格。"
+  rule: |
+    只有月令无可取用、且天干无官无煞时，才轮到杂格；若透财而根深或透两位，则以财为重，不取外格。
+  trigger: 命局欲取外格时
+  logic: 月令有用则不用外格 → 干头有官煞则不论外格 → 财重则作财格
+  boundary: 杂格是「最后的选择」，不是并列选项
+  limits: 与渊海大量使用奇格的做法冲突
+  novelty: contradicts
+  relates: [D05]
+  tags: [杂格, 取格]
+
+- id: c-zp-0072
+  domain: D15
+  title: 专旺杂格：顺其气势，逆则成患
+  source_id: src-ziping-zhenquan
+  location: 第 49 章 · 论杂格
+  quote: |
+    "有取五行一方秀气者，取甲乙全亥卯未、寅卯辰，又生春月之类，本是一派劫财，以五行各得其全体，所以成格，喜印露而体纯。"
+  rule: |
+    曲直、炎上、稼穑、从革、润下五格，取一方专旺之气；成格要局全或气势专一，
+    喜印露体纯，运喜印绶比劫，食伤泄秀亦美，官煞逆其旺势为最忌。
+  trigger: 命局气势偏旺于一行时
+  logic: 定旺神 → 顺之（生扶或泄秀）→ 忌逆（官煞克）
+  boundary: 原局露食伤泄秀者，印运反忌；比劫透而无食伤者，财运亦忌
+  limits: 方局不全者只要气势专一亦可成格
+  novelty: new
+  relates: [D07]
+  tags: [专旺, 杂格, 顺势]
+
+- id: c-zp-0073
+  domain: D15
+  title: 从化格：化神须得时乘令、月时得气
+  source_id: src-ziping-zhenquan
+  location: 第 49 章 · 论杂格
+  quote: |
+    "有从化取格者，要化出之物，得时乘令，四支局全。如丁壬化木，地支全亥卯未、寅卯辰，而又生于春月，方为大贵。"
+  rule: |
+    化气格成立的关键是「化神得时乘令」：丁壬化木须生寅卯月、甲己化土须生辰戌丑未月，
+    月令与时辰得气方可化；局全者更纯，不全者次等。
+  trigger: 命局天干相合、拟判化气时
+  logic: 定所化之神 → 查月令是否当令 → 查月时是否得气 → 查局是否全
+  boundary: 化气亦有旺弱，旺者喜泄、弱者喜扶，不可一概以印为美
+  limits: 与渊海「化气怕逢反本」一致，本书补出月令条件
+  novelty: extends
+  relates: [D05]
+  tags: [化气, 月令, 杂格]
+
+- id: c-zp-0074
+  domain: D15
+  title: 倒冲格：支中字多方冲得动，运忌填实
+  source_id: src-ziping-zhenquan
+  location: 第 49 章 · 论杂格
+  quote: |
+    "有倒冲成格者，以四柱列财官而对面以冲之，要支中字多，方冲得动。……运忌填实，余俱可行。"
+  rule: |
+    倒冲格以三四个同支（如四午）遥遥对冲所缺之支（子），借以引出财官；
+    须支中同字多才冲得动；行运最忌所冲之字填实。
+  trigger: 命局出现全同地支时
+  logic: 数同支 → 足量则冲得动 → 忌填实
+  boundary: 徐注认为多数倒冲格实为偏旺之局，应按专旺顺气势论，而非真「冲」
+  limits: 与渊海倒冲格说法冲突（本书视为解释性迂曲）
+  novelty: contradicts
+  relates: [D05]
+  tags: [倒冲, 杂格, 冲突]
+
+- id: c-zp-0075
+  domain: D12
+  title: 宫分与用神双轨配六亲
+  source_id: src-ziping-zhenquan
+  location: 第 25 章 · 论宫分用神配六亲
+  quote: |
+    "其由宫分配之者，则年月日时，自上而下，祖父妻子，亦自上而下。……其由用神配之者，则正印也母……正财为妻……官煞为子女。"
+  rule: |
+    六亲有两套配法：宫分（年支祖、月支父母、日支妻、时支子孙）与用神（正印母、偏财父、
+    正财妻、官煞子女、比肩兄弟）；二者须合看。
+  trigger: 断六亲时
+  logic: 宫位定是谁 → 用神定以何神论 → 再合喜忌
+  boundary: 命局无财印时不可拘泥，须「参合活看」
+  limits: 与渊海单一十神映射相比，本书明确双轨
+  novelty: extends
+  relates: [D02]
+  tags: [六亲, 宫分, 用神]
+
+- id: c-zp-0076
+  domain: D12
+  title: 偏财为父的理由：母之正夫
+  source_id: src-ziping-zhenquan
+  location: 第 25 章 · 论宫分用神配六亲
+  quote: |
+    "偏财者，母之正夫也，正印为母，则偏财为父矣。……官煞者，财所生也，财为妻妾，则官煞为子女矣。"
+  rule: |
+    偏财之所以为父，因它是「母（正印）的正夫」（如甲以癸为母、戊为父，戊癸合）；
+    官煞之所以为子女，因官煞为财所生，财为妻妾故。
+  trigger: 解释六亲映射时
+  logic: 以十神之间的生合关系推导，而非随意指定
+  boundary: 五阴干从阳干取（六乙日亦以癸为母、戊为父）
+  limits: 与渊海映射表相同，但本书给出了推导理由
+  novelty: extends
+  relates: [D02]
+  tags: [六亲, 偏财, 推导]
+
+- id: c-zp-0077
+  domain: D12
+  title: 妻宫与妻星双看，且随格之喜忌变
+  source_id: src-ziping-zhenquan
+  location: 第 26 章 · 论妻子
+  quote: |
+    "既看妻宫，又看妻星。妻星者，干头之财也。妻透而成局……即坐下无用，亦主内助。妻透而破格……即坐下有用，亦防刑克。"
+  rule: |
+    论妻须兼看两处：妻宫（日支）与妻星（干头之财）。财透而成局者，即使日支无用亦主内助；
+    财透而破格者，即使日支有用亦防刑克。
+  trigger: 断妻妾/婚姻时
+  logic: 日支状态 + 财星透藏与成破 → 合判
+  boundary: 妻宫坐财本吉，但印格逢财反不美；坐伤官本凶，但财格煞格逢之反美
+  limits: 断语依赖喜忌，不可「见财即妻吉」
+  novelty: extends
+  relates: [D06]
+  tags: [六亲, 妻宫, 喜忌]
+
+- id: c-zp-0078
+  domain: D12
+  title: 六亲近验远不验
+  source_id: src-ziping-zhenquan
+  location: 第 26 章 · 论妻子
+  quote: |
+    "大凡命中吉凶，于人愈近，其验益灵。……至于祖宗兄弟，不甚验矣。"
+  rule: |
+    六亲断验的强度随亲疏递减：妻、子与自身利害相连故验；祖宗、兄弟关系较远故不验。
+  trigger: 断六亲或评估断语可信度时
+  logic: 按利害相关程度调整结论强度
+  boundary: 徐注补：若社会制度使父子夫妻利害分立，则连妻财子亦无验
+  limits: 这是全书罕见的「自认效度边界」表述，可直接用于 B 段
+  novelty: new
+  relates: [D14]
+  tags: [六亲, 效度, 边界]
+
+# 第八批：D03 阴阳生死与先后（第 5、22 章）+ D05 杂气墓库（第 18、19 章）
+
+- id: c-zp-0079
+  domain: D03
+  title: 阳顺阴逆，阳之所生即阴之所死
+  source_id: src-ziping-zhenquan
+  location: 第 5 章 · 论阴阳生死
+  quote: |
+    "阳主聚，以进为进，故主顺；阴主散，以退为退，故主逆。……阳之所生，即阴之所死，彼此互换，自然之运也。"
+  rule: |
+    阳干顺行十二支、阴干逆行；阳干的长生之处正是阴干的死地，二者互为镜像。
+  trigger: 查十干十二长生时
+  logic: 阳干顺排、阴干逆排；同一支对阴阳干意义相反
+  boundary: 徐注认为生旺墓绝本属五行而非十干，阴干长生「无关时令之气」
+  limits: 与渊海第 15 章按十干列十二宫的表一致，但本书徐注质疑其实用性
+  novelty: extends
+  relates: [D02]
+  tags: [十二长生, 阴阳, 顺逆]
+
+- id: c-zp-0080
+  domain: D03
+  title: 生旺墓绝属五行，不属十干（故五阴无刃）
+  source_id: src-ziping-zhenquan
+  location: 第 5 章 · 论阴阳生死（徐注）
+  quote: |
+    "生旺墓绝者，五行之生旺墓绝，非十干之旺墓绝也。……从来术数书中，仅言五阳长生，而不言五阴长生，仅言阳刃而不言阴刃。"
+  rule: |
+    十二长生描述的是五行之气，不是十个天干各自的节奏；因此古法只说五阳长生、五阳有刃，
+    后世强分阴干长生与阴刃属「自圆其说」。
+  trigger: 命局需要按阴干查长生或阴刃时
+  logic: 只按五行论生旺；不另立阴干长生与阴刃
+  boundary: 这是注家立场，正文亦保留阴干逆行的排法
+  limits: 与渊海「十干皆列羊刃」正面冲突，是本项目「羊刃有无」问题的第二个答案
+  novelty: contradicts
+  relates: [D10]
+  tags: [十二长生, 羊刃, 冲突]
+
+- id: c-zp-0081
+  domain: D03
+  title: 同样的生克，先后次序决定吉凶
+  source_id: src-ziping-zhenquan
+  location: 第 22 章 · 论生克先后分吉凶
+  quote: |
+    "有同此生克，而先后之间，遂分吉凶者，尤谈命之奥也。"
+  rule: |
+    同一组生克关系，因天干出现的先后（年先月后等）不同，结局相反：
+    正官格财伤并透，丁先戊后为财解伤，戊先丁后则官先得生而后被伤。
+  trigger: 命局同时出现相生与相克之神时
+  logic: 按柱位先后排顺序 → 先发者主导 → 后发者只能收尾
+  boundary: 也要看距离远近（贴近者优先），以及是否隔位
+  limits: 徐注称「活法无从说起」，只能以例证体会
+  novelty: new
+  relates: [D04]
+  tags: [先后, 次序, 正官]
+
+- id: c-zp-0082
+  domain: D05
+  title: 杂气取用：透干会支者清
+  source_id: src-ziping-zhenquan
+  location: 第 18 章 · 论杂气如何取用
+  quote: |
+    "四墓者，杂气也……透干会取其清者用之，杂而不杂也。"
+  rule: |
+    辰戌丑未所藏多而不相谋，故称杂气；取用之法是看透干与会支——透则用清、会则力大。
+  trigger: 月令为辰戌丑未时
+  logic: 查透干（透戊用偏财、透癸用印）→ 查会支（会子申则化水）→ 取清者
+  boundary: 不透不会则仅以土论，所藏之物不能为用
+  limits: 与渊海「杂气财官格」一致，但本书强调「清」而非「冲」
+  novelty: extends
+  relates: [D04]
+  tags: [杂气, 透干, 会支]
+
+- id: c-zp-0083
+  domain: D05
+  title: 一透一用、兼透兼用、透而会则并用
+  source_id: src-ziping-zhenquan
+  location: 第 18 章 · 论杂气如何取用
+  quote: |
+    "一透则一用，兼透则兼用，透而又会，则透与会并用。其合而有情者吉，其合而无情者则不吉。"
+  rule: |
+    杂气格中透出一个藏神则用一神，透两个则兼用，透而又会则并用；组合有情则吉、无情则不吉。
+  trigger: 杂气格有多个藏神透出或会局时
+  logic: 数透出与会局 → 定用神数量 → 判有情/无情
+  boundary: 兼用仍须有主次，不能平均用力
+  limits: 有情/无情的判据见第 18 章后段举例
+  novelty: new
+  relates: [D04]
+  tags: [杂气, 兼用]
+
+- id: c-zp-0084
+  domain: D05
+  title: 反「财官入库不冲不发」
+  source_id: src-ziping-zhenquan
+  location: 第 19 章 · 论墓库刑冲之说
+  quote: |
+    "辰戌丑未，最喜刑冲，财官入库不冲不发—此说虽俗书盛称之，然子平先生造命，无是说也。"
+  rule: |
+    俗书盛称的「财官入库不冲不发」并非子平本法；杂气透干会支即已清，不必劳烦刑冲。
+  trigger: 命局见四库时
+  logic: 先看透干会支 → 已清则不用冲；不透不会则冲亦无用
+  boundary: 财官属土者冲则库启；财官属水者冲反受累
+  limits: 与渊海「杂气须刑冲破害开库」正面冲突，是本项目「开库条件」问题的第二个答案
+  novelty: contradicts
+  relates: [D15]
+  tags: [墓库, 冲, 冲突]
+
+- id: c-zp-0085
+  domain: D05
+  title: 冲库只对「土为财官」有效，水财冲则反累
+  source_id: src-ziping-zhenquan
+  location: 第 19 章 · 论墓库刑冲之说
+  quote: |
+    "故财官属土，冲则库启，如甲用戊财而辰戌冲，壬用己官而丑未冲之类是也。……至于财官为水，冲则反累。"
+  rule: |
+    只有财官为土时，四库相冲才算「开库」；若财官为水（如己生辰月壬为财），冲则劫动、伤官起，反为累。
+  trigger: 四库相冲且财官非土时
+  logic: 判冲的对象的五行属性 → 土则启、水则累
+  boundary: 干已透出者，不冲亦得
+  limits: 徐注进一步认为「财官属土冲则启」亦囿于俗说
+  novelty: new
+  relates: [D04]
+  tags: [墓库, 冲, 五行]
+
+- id: c-zp-0086
+  domain: D05
+  title: 日临四库为通根身库（壬辰丙戌），丙辰壬戌则非
+  source_id: src-ziping-zhenquan
+  location: 第 19 章 · 论墓库刑冲之说
+  quote: |
+    "日临四库，如壬辰丙戌均作通根身库。若丙辰壬戌，即非为身库也。"
+  rule: |
+    日柱坐本库（壬辰、丙戌）作通根身库论；坐非本库（丙辰、壬戌）则不作身库。
+  trigger: 日支为辰戌丑未时
+  logic: 查该库是否为本干之库 → 是则通根、否则不论
+  boundary: 墓库在年日时支逢会合，则以会合之五行论；全一方气势则以一方论；无会合则论土
+  limits: 与渊海「库须冲开」及「日坐库」的用法不同
+  novelty: contradicts
+  relates: [D03]
+  tags: [墓库, 通根, 日柱]

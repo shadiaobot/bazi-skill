@@ -1,0 +1,8739 @@
+- id: b-yhr-0001
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 8 章 · 论十二支三合（眉批）
+  quote: '"合局者为贵，但得五行相顺。"'
+  failure_mode: '看到申子辰、亥卯未、寅午戌、巳酉丑成局，即判为贵格，不再检查所化之行与日主、月令是否相顺；
+
+    成局反而成了所化之行的忌神时仍作吉断。
+
+    '
+  mechanism: '三合只是「取用为局入格」的入口（正文：「凡看命以三合取用为局入格」），眉批另加一道门槛：
+
+    成局为贵的前提是五行相顺。缺了这道校核，成局就从结构信息变成了吉凶结论。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 旺衰与用神取舍（task-04 / task-06）
+  tags:
+  - counter-example
+  - dizhi
+  - sanhe
+  - geju
+  source_ref: ce-B1-01
+- id: b-yhr-0002
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 9 章 · 论十二支相冲（眉批）
+  quote: '"相冲者但得有逢合则不能冲。"'
+  failure_mode: '命中见子午、寅申、卯酉、辰戌、巳亥、丑未即断为凶冲，忽略其中一支已被合住、冲力被削弱的情形。
+
+    '
+  mechanism: '冲的实质是支中所藏之干相克（正文：「以支中暗害为冲」）。既然冲由支中所藏发动，
+
+    则合能牵制其力；眉批给出的这条限定，是对「冲必凶」的机械断法的直接否定。
+
+    '
+  bound_to:
+  - 刑冲合害的权重判断（task-05 / task-11）
+  - 大运流年与原局的冲合叠加（task-13）
+  tags:
+  - counter-example
+  - dizhi
+  - chong
+  - he
+  source_ref: ce-B1-02
+- id: b-yhr-0003
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 10 章 · 论十二支相穿（眉批）
+  quote: '"相穿为害，犯此者损六亲，不作困蹇而论。"'
+  failure_mode: '见子未、丑午、寅巳、卯辰、申亥、酉戌六组相穿，即断为「事业受阻、诸事不顺」，
+
+    把专指六亲损耗的机制当成了运途阻滞。
+
+    '
+  mechanism: '眉批明确划界：相穿的落点是六亲（父母兄弟夫妻子女）受损，与「困蹇」（事业运途迟滞）
+
+    是两个不同的输出通道。混同之后，六亲断语落空、运途断语又没有依据。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 刑冲合害的落点区分（task-11）
+  tags:
+  - counter-example
+  - dizhi
+  - chuan
+  - liuqin
+  source_ref: ce-B1-03
+- id: b-yhr-0004
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 14 章 · 论六十花甲子纳音并注解（眉批）
+  quote: '"壬子、癸丑桑柘(音同折)木—子属水，丑属金，火方生木，金则伐之，犹桑柘方生，人便以戕伐，故曰桑柘木也。"'
+  failure_mode: '把纳音当成「五行名号」记下来（如桑柘木属木），随后按五行通例套用喜忌；
+
+    忽略该纳音在眉批里各有专属的喜忌（如桑柘木「喜水相养，见金无功」）。
+
+    '
+  mechanism: '本章每组纳音的眉批都是独立的一条喜忌口径。以桑柘木为例：木方生即遭金伐，故金无功、
+
+    水相养——这与「木喜水润、忌金斫」的通例方向一致，但具体到「无功」与「忌」的区别仍要按本组眉批为准。
+
+    若只记名号，等于把六十组专属喜忌压成五个五行通例。
+
+    '
+  bound_to:
+  - 纳音取象（第 74 章「子平之法……不用纳音」，须与本章并置看待）
+  - 干支字义与取象类断语
+  tags:
+  - counter-example
+  - nayin
+  - xiang
+  source_ref: ce-B1-04
+- id: b-yhr-0005
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 15 章 · 论天干生旺死绝（眉批）
+  quote: '"但逢长生、冠带、临官、帝旺为吉，但逢沐浴、衰、病为不吉也。至於死、绝，如无救助者直为凶矣。"'
+  failure_mode: '查十二长生表时只取「长生、临官、帝旺」三处作为得力依据，把沐浴、衰、病、死、绝一律当普通位置跳过，
+
+    不再区分吉、不吉与凶三档。
+
+    '
+  mechanism: '眉批把十二宫分成三档：吉（长生、冠带、临官、帝旺）、不吉（沐浴、衰、病）、凶（死、绝，无救助者）。
+
+    胎、养为半吉。跳过档位会让旺衰判断只剩一端，后面的取用与格局随之偏斜。
+
+    '
+  bound_to:
+  - 日主旺衰判断（task-04）
+  - 用神与病药（task-06 / task-07）
+  tags:
+  - counter-example
+  - changsheng
+  - wangshuai
+  source_ref: ce-B1-05
+- id: b-yhr-0006
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 15 章 · 论天干生旺死绝
+  quote: '"子月宫多取癸水，更有何日生，若初一日生至初十日生，当取壬水，十一日生至三十日生方取癸水，以断令神之用事，不可一例而取，则推合不准矣。"'
+  failure_mode: '取月令用神时以整月为单位取固定的一个藏干（子月一律取癸），不按出生日在节气内的段次细分，
+
+    导致当令之气取错。
+
+    '
+  mechanism: '月令之力按日分段轮值：子月初一至初十壬水当令、十一日起癸水当令。原文直接把「一例而取」
+
+    与「推合不准」等同，说明这不是精度问题，而是口径错误。
+
+    '
+  bound_to:
+  - 月令司令分日（task-04）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - yueling
+  - shenqi
+  source_ref: ce-B1-06
+- id: b-yhr-0007
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 16 章 · 天干五阳通变 / 第 17 章 · 天干五阴通变
+  quote: '"癸乙丁乙辛 为枭神，偏印，倒食，主克子。"'
+  failure_mode: '阴干日主仍按阳干通变表取十神，或以为阴阳两表只是同一张表的重复，
+
+    结果枭神、败财、伤官这些条目在阴干命局里取错位置。
+
+    '
+  mechanism: '五阳、五阴各有一张通变表，同一位次上的神名并不对称：阳干表列「劫财败财、剋父及妻」，
+
+    阴干表则把「甲丙戊庚壬」列为「败财逐马」、把「癸乙丁乙辛」列为枭神（主克子）。
+
+    取十神时须先看日干阴阳，再决定读哪一张表。
+
+    '
+  bound_to:
+  - 十神定位（task-03）
+  - 六亲映射（task-14）
+  tags:
+  - counter-example
+  - shishen
+  - yinyang
+  source_ref: ce-B1-07
+- id: b-yhr-0008
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 22 章 · 论起变法
+  quote: '"如柱中天干无辛字，地支无亥字，乃只虚邀为是，不必拘泥。"'
+  failure_mode: '命局出现丙时，即据「丙辛合」推出辛、据「寅亥合」推出亥，把虚邀所得之干支当作实有，
+
+    据此继续论财官与格局。
+
+    '
+  mechanism: '起变法取时上干支的合处（丙寅时→辛亥），但原文限定：柱中本无辛、无亥时，所合只是「虚邀」，
+
+    不行实质作用。把虚邀当实有，等于凭想象往命局里添加干支。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 十神与财官标注（task-03）
+  tags:
+  - counter-example
+  - tiangan
+  - xuyao
+  source_ref: ce-B1-08
+- id: b-yhr-0009
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 24 章 · 论起王堂天乙贵人
+  quote: '"十干临十支皆贵人所临之方，惟辰戌二宫贵人不临，殊不知辰戌乃魁罡恶曜之地，天乙不临，所以不为贵也。"'
+  failure_mode: '按贵人歌诀查到贵人所临之支后，直接断为「命带天乙贵人」，不论该支是否落在辰、戌。
+
+    '
+  mechanism: '十干贵人表中本就不含辰戌，理由是辰戌为魁罡恶曜之地，天乙不临。这是查表本身自带的排除条件，
+
+    不是附加解释；忽略它会把「不临」读成「临」。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - tianyi
+  source_ref: ce-B1-09
+- id: b-yhr-0010
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 24 章 · 论起王堂天乙贵人（眉批）
+  quote: '"言本乃主天之神而曰天乙，临之方有恶煞相浑，或落空亡之地，不为贵也。"'
+  failure_mode: '查到天乙贵人所在之支即作吉断，不再看该支是否同处凶煞或落空亡。
+
+    '
+  mechanism: '眉批给出两道失效条件：恶煞相浑、落空亡。贵人是加成项而非决定项，
+
+    所临之地本身不吉时，贵人之力无从发挥。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 神煞须与格局合看的原则（第 160 章）
+  tags:
+  - counter-example
+  - shensha
+  - kongwang
+  source_ref: ce-B1-10
+- id: b-yhr-0011
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 25 章 · 起天官贵人（眉批）
+  quote: '"天官要天元庸秀，无伤纳音和而福助，乃为吉。喜福神者，财官印也。逢恶杀不吉。"'
+  failure_mode: '按年干查得天官贵人所在地支即断为「必作朝廷显代人」，不看日主是否有伤、
+
+    也不看是否逢恶杀。
+
+    '
+  mechanism: '眉批把天官贵人的成立条件写成一组合取：天元秀、无伤、纳音和、有财官印等福神助，
+
+    且不逢恶杀。原文歌诀「必作朝廷显代人」是对全部条件齐备者的结论，不是查表即得。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - tianguan
+  source_ref: ce-B1-11
+- id: b-yhr-0012
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 27 章 · 论三奇贵人（眉批）
+  quote: “三星要顺，倒乱者非，日为一腐三矣”
+  failure_mode: '只要甲戊庚（或乙丙丁、壬癸辛）三字齐现即作三奇格，不检查三字出现的次序。
+
+    '
+  mechanism: '眉批引程思之说定「三星要顺，倒乱者非」，《壶中子》亦以「三奇倒乱，吕望为王头钓专」讥其无用。
+
+    次序是本格成立条件的一部分。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 特殊格判定（task-05）
+  tags:
+  - counter-example
+  - shensha
+  - sanqi
+  source_ref: ce-B1-12
+- id: b-yhr-0013
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 27 章 · 论三奇贵人
+  quote: '"既有日月星，地支须得戌亥为天门，方得为奇。若无戌亥，须有日月星而无天门，则不为奇矣。"'
+  failure_mode: '见甲戊庚三干即断天上三奇，不看地支是否有戌亥；见乙丙丁即断地下三奇，不看是否有乙木为核心。
+
+    '
+  mechanism: '三奇是「三干 + 地支条件」的合成格：天上三奇须得戌亥天门，且地支再见丑卯酉巳即失效
+
+    （「则三光失明，奇不得时也」）；地下三奇须以乙木为主，「若无则不吉」。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - shensha
+  - sanqi
+  source_ref: ce-B1-13
+- id: b-yhr-0014
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 28 章 · 论月德贵人
+  quote: '"其法从寅起，丙甲壬庚，逐月顺数，周而复始，亦须在日上见之，更有福神助为吉。"'
+  failure_mode: '按生月查得月德天干后，只要四柱任意一处出现该干就作月德贵人；
+
+    或虽日上见之，却不顾是否另有福神相助。
+
+    '
+  mechanism: '原文为月德设了两个条件：一是须在日上见，二是更有福神助方为吉。
+
+    只见到干支即下「一生逢凶化吉」的结论，是把两个条件都略去。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - yuede
+  source_ref: ce-B1-14
+- id: b-yhr-0015
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 34 章 · 论十干禄（眉批）
+  quote: '"可得爵禄也，官得势而亨通谓之禄。最喜生旺，最忌休囚，如有禄者必得羊刃以卫之方可言福。"'
+  failure_mode: '查到日干之禄（甲禄在寅等）即断为有禄得爵、一生衣食；不看禄所落之支是生旺还是休囚，
+
+    也不看有无羊刃护卫。
+
+    '
+  mechanism: '本章正文自问「凡人命带禄，或凶或吉，或贵或贱，何以论之」，随即引《天乙妙旨》
+
+    「禄马贵人无准托」与《源髓歌》「若无吉煞加助时，定知破祖多浮劣」。眉批进一步给出两个必要条件：
+
+    禄须生旺（忌休囚）、须有羊刃卫之，方可言福。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - shensha
+  - lu
+  - yangren
+  source_ref: ce-B1-15
+- id: b-yhr-0016
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 35 章 · 论驿马（眉批）
+  quote: '"有马必要鞍，必要闸方好。"'
+  failure_mode: '查到驿马所在之支即断为「驿马入命，主奔波升迁」，不看是否另有鞍、栏相配。
+
+    '
+  mechanism: '眉批把驿马写成一组配伍：马前为栏、马后为鞍，「无鞍不能乘，无栏不能止，皆无用也」。
+
+    单有马不带鞍栏，按眉批就是「无用」，不足以成吉断。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - yima
+  source_ref: ce-B1-16
+- id: b-yhr-0017
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 37 章 · 论华盖
+  quote: '"华盖本为吉，凡人命中得之，多主孤寡，纵贵亦不免为孤独也，遇之多为僧道术论。"'
+  failure_mode: '把华盖列入「命中吉神」清单，断为聪明、贵显，抹去其主孤寡的一面；
+
+    或在看到出家、修道、术数倾向时改口称之为凶。
+
+    '
+  mechanism: '原文自己给出了两面的并列：本为吉星，但主孤寡，纵贵亦不免孤独。《壶中子》称其为
+
+    「艺术之星，主孤」。按单一吉凶归类都会丢掉一半信息。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 性情取象（task-16）
+  tags:
+  - counter-example
+  - shensha
+  - huagai
+  source_ref: ce-B1-17
+- id: b-yhr-0018
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 38 章 · 论十干学堂（眉批）
+  quote: '"有此者主人聪明、通达、登科及第。犯空亡，教授之职。"'
+  failure_mode: '五行命见对应之支即断「聪明及第」；不查该支是否落空亡，把「教授之职」这一降档结论略去。
+
+    '
+  mechanism: '眉批给出的是分档结论：学堂成立主聪明登第，犯空亡则降为教书授业之职。
+
+    分档存在，说明空亡是这一格的折扣条件，不是无关变量。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 空亡判断（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - xuetang
+  - kongwang
+  source_ref: ce-B1-18
+- id: b-yhr-0019
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 39 章 · 论十干食禄
+  quote: '"不食空亡羊刃杀，不食休囚并死绝。食生食旺食贵神，食印食财别优劣。"'
+  failure_mode: '见食神即按「食神主福寿」断吉，不查食神所落之地是否为空亡、羊刃、七杀或休囚死绝，
+
+    也不区分食神与印、财同现时的优劣。
+
+    '
+  mechanism: '歌诀把食神的取用分成两段：先列四类不可食之地（空亡、羊刃、杀、休囚死绝），
+
+    再列可食之地（生、旺、贵神）。机制在上段——同一位食神落点不同，结论方向不同。
+
+    '
+  bound_to:
+  - 十神喜忌（task-03 / task-06）
+  - 神煞与空亡（task-12）
+  tags:
+  - counter-example
+  - shishen
+  - shishen-lu
+  source_ref: ce-B1-19
+- id: b-yhr-0020
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 41 章 · 论拱禄（眉批）
+  quote: '"戊丙禄在巳，辰午虚拱巳禄，忌见填实，只要虚为贵。"'
+  failure_mode: '见戊辰与丙午（或丁巳与己未）两柱即断拱禄成格，不看柱中是否另有巳字把虚拱填实。
+
+    '
+  mechanism: '拱禄的成立前提是「虚拱」：辰午之间空出巳位，靠两柱夹拱取禄。原文限定
+
+    「前後相拱，只此四位，其余不是」，眉批再加一句「忌见填实」。填实之后拱所依凭的虚位不存在，
+
+    格局随之破。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 禄与神煞（task-12）
+  tags:
+  - counter-example
+  - geju
+  - gonglu
+  source_ref: ce-B1-20
+- id: b-yhr-0021
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 43 章 · 论暗禄（眉批）
+  quote: '"此四柱无禄，却为贵命，乃是暗藏禄马，人不能见之，为大贵。"'
+  failure_mode: '查遍四柱不见日干之禄，即按「无禄」断为平常或贫薄；
+
+    不看有无与禄相合之支（暗禄）、或夹禄之两支（夹禄）在暗中承禄。
+
+    '
+  mechanism: '禄可以通过六合被引入命局：甲禄在寅，寅与亥合，故甲见亥为暗禄；
+
+    乙禄在卯，卯与戌合，故乙见戌为暗禄。眉批据此把「四柱无禄」与「贵命」直接并置，
+
+    说明无禄不等于无贵。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - shensha
+  - anlu
+  - jialu
+  source_ref: ce-B1-21
+- id: b-yhr-0022
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 45 章 · 论垣城（眉批）
+  quote: '"子平云，垣城合马女非为，主妻私奔，不可不究。"'
+  failure_mode: '只要日支与驿马之支同见，就照「垣城合马主淫」下断；不逐步核对
+
+    日干长生之位（垣城）与日支三合局驿马之位是否真的成合。
+
+    '
+  mechanism: '垣城成立要两步同时满足：一是取日干的长生为垣城，二是取日支所属三合局的驿马，
+
+    二者相合方成。原文举例甲辰日生亥时：甲长生在亥，申子辰马在寅，亥与寅合，两个条件才凑齐。
+
+    缺任一步即不成立，直接套断语会把大量普通命局判成此格。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - yuancheng
+  - epoch-limit
+  source_ref: ce-B1-22
+- id: b-yhr-0023
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 46 章 · 论帝座（眉批）
+  quote: '"子平云，帝座逢虚见不肖有是。"'
+  failure_mode: '按纳音旺处取到帝座即断「帝座主儿女官」，不看帝座之支是否落空亡（虚）。
+
+    '
+  mechanism: '帝座由时柱纳音旺处取得（如甲子时纳音金、金旺于酉，帝座在酉），主儿女与官。
+
+    眉批补出折扣条件：帝座逢虚，主见不肖之子。虚位与实位结论不同，须先辨虚实。
+
+    '
+  bound_to:
+  - 六亲与子息（task-14）
+  - 空亡（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - dizuo
+  - kongwang
+  source_ref: ce-B1-23
+- id: b-yhr-0024
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 47 章 · 论六甲空亡（眉批）
+  quote: '"空亡对宫孤虚，火空则发，水空则脱，金空则响，木空则折，土空则陷。"'
+  failure_mode: '把空亡当作单一结论（力量减弱、吉神落空即不吉），不按五行分开看。
+
+    金、火逢空有发声发动之象，木、土逢空才是折陷，水逢空在本书两处又有相反说法。
+
+    '
+  mechanism: '眉批按五行各给一名象，说明空亡的后果随所空之行的不同而不同。
+
+    本条与第 142 章「金空则鸣、火空则发、水空则流……木空则朽、土空则崩」并存，
+
+    水、金两处口径需并列标注，不可擅自择一。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 用神与病药（task-06 / task-07）
+  tags:
+  - counter-example
+  - kongwang
+  - conflict
+  source_ref: ce-B1-24
+- id: b-yhr-0025
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 48 章 · 论截路空亡
+  quote: '"以日取时见之方是，以年在日时论者非也。"'
+  failure_mode: '取截路空亡时以年干配时支、或以其他柱位组合来查，查到即断凶，查不到即作无事。
+
+    '
+  mechanism: '原文把取法写死：须以日干配时支。举例说明「假如甲子日见申酉时乃为正犯，其余者见之非也」——
+
+    同样的申酉时，配在别的日柱上不算犯。取法错了，命中与不中都会误判。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - kongwang
+  - jielu
+  source_ref: ce-B1-25
+- id: b-yhr-0026
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 49 章 · 论四大空亡
+  quote: '"如当生命中不犯，行运至水者亦为犯也。"'
+  failure_mode: '按句中所缺之行核对原局四柱，原局不见缺行即判「不犯四大空亡」，不继续查大运是否行到该行。
+
+    '
+  mechanism: '原文把犯与不犯分作两层：原局见缺行是「正犯」，原局不见而大运行至该行「亦为犯也」。
+
+    只查第一层，等于把时间轴上的触发点漏掉。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - kongwang
+  - dayun
+  source_ref: ce-B1-26
+- id: b-yhr-0027
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 50 章 · 论十恶大败（眉批）
+  quote: '"取日干上见之方是，四柱有吉神多，身旺若有，未可便作十恶论。"'
+  failure_mode: '日柱落在甲辰、乙巳、壬申等十日之内，即照「仓库金银化作尘」下断，
+
+    不看四柱是否吉神众多、日主是否身旺。
+
+    '
+  mechanism: '原文先限定取法（须以日干上见方是，其余柱位见之未可便作十恶论），
+
+    再由眉批给出回旋条件：吉神多、身旺者「未可便作十恶论」。同一日柱在不同命局中的轻重不同。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 综合层次（task-17）
+  tags:
+  - counter-example
+  - shensha
+  - shie-dabai
+  source_ref: ce-B1-27
+- id: b-yhr-0028
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 51 章 · 论四废日
+  quote: '"今人以春见庚辛，夏见壬癸，秋见甲乙，冬见丙丁为废者，皆非也。囚死，囚而无用谓之废。"'
+  failure_mode: '按「当令之行克所见之行」的粗略办法定四废：春见庚辛、夏见壬癸、秋见甲乙、冬见丙丁即断为废。
+
+    '
+  mechanism: '原文点名批评这种流行做法，并给出真正的判据：须是「囚死」——该五行既囚又死方谓之废，
+
+    故四废只有庚申、壬子、甲寅、丙午四日。宽泛的「见相克之干」会把大量普通日柱判成废日。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 旺衰与月令（task-04）
+  tags:
+  - counter-example
+  - shensha
+  - sifei
+  - wangshuai
+  source_ref: ce-B1-28
+- id: b-yhr-0029
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 52 章 · 论天地转杀
+  quote: '"地转取纳音为是，其日最忌，上官受职、出行商贾、造作、嫁娶，必主凶。命逢此日，必主夭折。"'
+  failure_mode: '把天地转杀当作「略有不吉」的普通凶日，仍照常用作行事择日；
+
+    或只按天干定天转，漏掉以纳音定地转一层。
+
+    '
+  mechanism: '原文把天转（旺气连天干）与地转（旺气连纳音）分开，并明确「地转取纳音为是」——
+
+    取法错一层，凶日就查不出来。对四类大事的判断是「必主凶」，不是倾向性的不利。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 择日类用法（本书明示不属本体系者须另判）
+  tags:
+  - counter-example
+  - shensha
+  - zhuan-sha
+  source_ref: ce-B1-29
+- id: b-yhr-0030
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 53 章 · 论天罗地网（眉批）
+  quote: '"戌亥为天罗，辰巳为地网。惟水火土命忌，金木命不犯。男忌天罗，女忌地网。"'
+  failure_mode: '见戌亥即断天罗、见辰巳即断地网，不论命主五行（金木命本不犯）与性别（男忌天罗、女忌地网），
+
+    也不看是否并见恶杀。
+
+    '
+  mechanism: '本章自己先给了两套取法（一说辰为天罗、戌为地网；一问「何以见戌与亥为天罗，辰与巳为地网」），
+
+    眉批随后限定适用范围：水火土命才忌，金木不犯；男忌天罗、女忌地网。范围之外的命局不应套用此断。
+
+    '
+  bound_to:
+  - 神煞查表（task-12）
+  - 寿元类断语（task-16）
+  tags:
+  - counter-example
+  - shensha
+  - tianluo
+  - conflict
+  source_ref: ce-B1-30
+- id: b-yhr-0031
+  domain: D01
+  source_id: src-yuanhai-ziping
+  location: 第 55 章 · 论起大运法（眉批）
+  quote: '"如正月初一子时生，上四刻仍作上年十二月，夜子时生下四刻方作正月初一子时推正，谓神仙难断夜子时。"'
+  failure_mode: '遇到子时出生者，直接按「子时属次日」或「子时属当日」一刀切定日柱，
+
+    不做上四刻／下四刻的分段，也不声明这一处存在不可判定性。
+
+    '
+  mechanism: '眉批把子时切成两段：上四刻仍作前一日，下四刻方作次日，并自认「神仙难断夜子时」。
+
+    既然作者本人承认此处难断，输出就应给出并列候选而非单一答案。
+
+    '
+  bound_to:
+  - 四柱排盘与判界（task-01）
+  tags:
+  - counter-example
+  - paipan
+  - zi-shi
+  source_ref: ce-B1-31
+- id: b-yhr-0032
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 55 章 · 论起大运法（眉批）
+  quote: '"如初一日午时生，若卯时立春，便作正月；若寅时生，未还交节，作上提十二月节推命。"'
+  failure_mode: '以农历月序（或月内日期）定月柱，不核对出生时辰是否已过交节时刻，
+
+    把同一日之内先后出生的两人当作同一个月令。
+
+    '
+  mechanism: '眉批判定月柱的分界是节气的交替时刻，精确到时辰：同日午时生在卯时立春之后即作正月，
+
+    寅时生未交节则仍作上一月。月柱取错会连锁影响旺衰、用神、格局与起运。
+
+    '
+  bound_to:
+  - 四柱排盘（task-01）
+  - 月令司令（task-04）
+  tags:
+  - counter-example
+  - paipan
+  - jieqi
+  source_ref: ce-B1-32
+- id: b-yhr-0033
+  domain: D01
+  source_id: src-yuanhai-ziping
+  location: 第 56 章 · 论行小运法（眉批）
+  quote: '"小运之法，男从丙寅方，取三阳之义，女从壬申，乃从三阴之喜。一年一岁，男顺女逆数，尽物甲从头又数。"'
+  failure_mode: '把小运按大运的顺逆规则（阳男阴女顺行）来排，或男女同一起点、同一方向；
+
+    也有把胎元、小运与纳音一起套用者——本章与小运并列，第 74 章却称「子平之法，不用胎元小运」。
+
+    '
+  mechanism: '小运的起法与大运无关：不论阴阳，男一岁起丙寅顺行，女一岁起壬申逆行，一年一岁。
+
+    眉批给出的是取象理由（男取三阳、女取三阴），不是阴阳年干推顺逆。
+
+    '
+  bound_to:
+  - 起运（task-02）
+  - 冲突登记（第 74 章 与第 20、21、56 章并存的胎元小运纳音问题）
+  tags:
+  - counter-example
+  - qiyun
+  - xiaoyun
+  - conflict
+  source_ref: ce-B1-33
+- id: b-yhr-0034
+  domain: D01
+  source_id: src-yuanhai-ziping
+  location: 第 58 章 · 论节候歌（眉批）
+  quote: '"此以立春日为始，或正月一二三四五六，立春又不问内增二日，只以节义为始，且立春为节，雨水为候，又为节气，逐月仿此。"'
+  failure_mode: '以农历新年（正月初一）作为年柱的起点，或在正月内按日期先后判断年柱归属，
+
+    不以立春的交节时刻为界。
+
+    '
+  mechanism: '眉批写死：以立春日为始，且月内日期无关，「只以节义为始」。每一月以「节」的交接时刻划界，
+
+    「气」不承担分界功能。立春前后的年柱与月柱同时受影响。
+
+    '
+  bound_to:
+  - 四柱排盘（task-01）
+  tags:
+  - counter-example
+  - paipan
+  - jieqi
+  source_ref: ce-B1-34
+- id: b-yhr-0035
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 65 章 · 论日为主
+  quote: '"有坏其用神则要制之，不要益之。论命者切不可泥之月令消详，故表而出之。"'
+  failure_mode: '取用神时只看月令所藏，不从全局找破坏用神之字；或反其道而行，见用神受损即行生扶。
+
+    '
+  mechanism: '原文在给出「以日为主，年为本，月为提纲，时为辅佐」之后，要求先看日主旺衰、再看地支成局、
+
+    最后看月令何者旺，并特别点出：坏用神者「要制之，不要益之」，且「切不可泥之月令」。
+
+    月令是权重的最大项，不是唯一项。
+
+    '
+  bound_to:
+  - 取用神与忌法（task-06）
+  - 病药（task-07）
+  tags:
+  - counter-example
+  - yongshen
+  - yueling
+  source_ref: ce-B1-35
+- id: b-yhr-0036
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 65 章 · 论日为主
+  quote: '"倘有妄立格局，从列其名而无实用，其飞天禄马、倒冲、井栏叉即伤官。"'
+  failure_mode: '把飞天禄马、倒冲、井栏叉等名目另立为与十神体系并列的独立格局，按名目记忆成格条件，
+
+    不再追问它们与十神的关系。
+
+    '
+  mechanism: '本章把贵贱寿夭全部归入五类十神（官杀、财、印、食伤、比劫），并指出这些奇格名目
+
+    「即伤官」——是伤官的变体，不是第六类关系。按名目立格会失去与其他能力共用的判断坐标系。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 十神定位（task-03）
+  tags:
+  - counter-example
+  - geju
+  - shishen
+  source_ref: ce-B1-36
+- id: b-yhr-0037
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 66 章 · 论月令
+  quote: '"若年月日有吉神，则时归生旺之处。若凶神则要归时制伏之乡。"'
+  failure_mode: '年柱断祖业、月柱断父母、时柱断子孙，逐柱独立下结论；
+
+    不看前半三柱的吉凶对时柱落点的要求。
+
+    '
+  mechanism: '原文给的是联动规则：年月日有吉神，时柱应落生旺以承接；有凶神，时柱应落制伏之乡以化解。
+
+    时柱上的吉凶神又受前三柱生克。逐柱独立断，等于放弃了这套制衡关系。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 柱位分工（task-03）
+  tags:
+  - counter-example
+  - zhugwei
+  - liuqin
+  source_ref: ce-B1-37
+- id: b-yhr-0038
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 68 章 · 又论五行生旺衰绝吉凶
+  quote: '"如议命岂可拘於生旺之说，且丙寅属火而绝於亥，本为不好，孰不知亥中有木为印绶而生丙火，丙日亥时乃多贵格矣。"'
+  failure_mode: '查表得某干落生旺即断吉、落衰绝即断凶，不看地支所藏是否另有生扶或耗泄，
+
+    也不看该位置在具体格局中的作用。
+
+    '
+  mechanism: '原文举两例反证：丙火绝于亥，但亥藏甲木为丙之印绶，故丙日亥时（丙寅日亥时一类）多贵；
+
+    戊土旺于巳且建禄，但巳藏庚金为食伤，反伤戊土官星，故戊日巳时官终不显。
+
+    作者由此把「十有九失」归因于拘泥此说，并给出结论「当以活法推之」。
+
+    '
+  bound_to:
+  - 旺衰判断（task-04）
+  - 用神与官星（task-06 / task-08）
+  tags:
+  - counter-example
+  - wangshuai
+  - changsheng
+  - huofa
+  source_ref: ce-B1-38
+- id: b-yhr-0039
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 69 章 · 论五行墓库财印（眉批）
+  quote: '"印者，生身之木，有木则生火，明内之力。无木则火生土为盗气，有木则助，木克土之故。"'
+  failure_mode: '见丙丁日主遇辰支即断「官库在辰，主贵」；不查年月时中是否有木（或亥卯未、寅）来生火助身，
+
+    结果把浊而卑之局判成清贵。
+
+    '
+  mechanism: '正文写明清浊条件：丙丁以辰为官库，须年月时中有木或亥卯未并寅则清；
+
+    「如无木则土夺丙丁之官，则浊卑而不清，亦不显」。眉批给出机制——无木则火生土只是盗气，
+
+    有木则木克土、护住官星。
+
+    '
+  bound_to:
+  - 墓库与杂气（task-11）
+  - 印与官（task-03 / task-06）
+  tags:
+  - counter-example
+  - muku
+  - guanku
+  source_ref: ce-B1-39
+- id: b-yhr-0040
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 70 章 · 论官杀混杂要制伏
+  quote: '"官星要纯不要杂。假如甲木用辛金为官，若年是辛，月是酉，时上亦是辛官，虽多但无妨，盖纯一尽好。"'
+  failure_mode: '凡见官星重复出现（年辛、月酉、时辛）即判为「官多身弱、混杂须制」，
+
+    不区分重复的是同一性质的正官，还是掺入了七杀。
+
+    '
+  mechanism: '原文把「多」与「杂」分开：同为辛金官星重复出现，性质统一，属「纯一尽好」；
+
+    只有掺入庚金（或申中庚）这类七杀，才构成混杂并须行火乡制伏。
+
+    把多当杂会给出方向相反的行运建议（制伏 vs 不需制）。
+
+    '
+  bound_to:
+  - 官杀混杂判定（task-08）
+  - 用神与忌法（task-06）
+  tags:
+  - counter-example
+  - guansha
+  - chun-za
+  source_ref: ce-B1-40
+- id: b-yhr-0041
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 71 章 · 论五行生克制化各有所喜所害例
+  quote: '"此乃身弱遇鬼，得物以化之则吉，如甲日被金杀来伤，若时上一位壬癸水或申子辰解之，即能化凶为吉。"'
+  failure_mode: '见身弱逢官杀，只想到比劫帮身或印星生身，忽略原文给出的另一条路径：
+
+    以官杀所生之行（如金杀生水、水又生木）作通关，把「克」转成「生」。
+
+    '
+  mechanism: '原文在罗列「金衰遇火必见销熔」等五组「以弱遇强必败」的情形之后，紧接着给出化解法：
+
+    身弱遇鬼时得物以化之则吉。眉批点出机制——「官与鬼一也，身旺逢之为官，身弱遇之为鬼」，
+
+    同一克制之力因身之强弱而变名，故名之与制之都不是唯一解。
+
+    '
+  bound_to:
+  - 官杀与制伏（task-08）
+  - 病药配伍（task-07）
+  tags:
+  - counter-example
+  - guansha
+  - tongguan
+  source_ref: ce-B1-41
+- id: b-yhr-0042
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 72 章 · 二至阴阳相生理（眉批）
+  quote: '"冬至後阳生，夏至後阴生，五行各得其气，不为身弱，作中和而论。"'
+  failure_mode: '对冬至、夏至前后出生的同类命局（如丙丁日见水、庚辛日见火）给出同一结论，
+
+    不按二至后的阴阳转换调整忌神口径。
+
+    '
+  mechanism: '原文按二至分段：甲乙日生于冬至前，木方死绝，「其木不甚吉利」；生于冬至后，
+
+    阳气已生，「木乘暖气其命寿禄皆全」。丙丁冬至前遇水即灭，冬至后不甚忌水；
+
+    庚辛生于夏至后「金有气不甚忌火」。眉批的概括是：二至后五行各得其气，不再作身弱论。
+
+    '
+  bound_to:
+  - 旺衰与用神（task-04 / task-06）
+  - 节气分界（task-01）
+  tags:
+  - counter-example
+  - jieqi
+  - yongshen
+  source_ref: ce-B1-42
+- id: b-yhr-0043
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 73 章 · 子平举要歌
+  quote: '"露官藏杀方为福，露杀藏官是祸胎。"'
+  failure_mode: '只要官星与杀星同时出现，即按同一口径断吉凶，不区分何者透干、何者藏支。
+
+    '
+  mechanism: '歌诀把同一结构按透藏方向分成两种结果：官透杀藏为福，杀透官藏为祸。
+
+    原文释义给出的机制是「官露则清高，为人显达。杀露则凶狠，为人急暴」——
+
+    透出者对性格与处境的塑造占主导。
+
+    '
+  bound_to:
+  - 官杀混杂（task-08）
+  - 十神定位（task-03）
+  tags:
+  - counter-example
+  - guansha
+  - toucang
+  source_ref: ce-B1-43
+- id: b-yhr-0044
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 73 章 · 子平举要歌
+  quote: '"官旺怕官忌刑冲，官轻见财为福利。"'
+  failure_mode: '见官星即按「财能生官」的建议行事，不看官星本已旺盛；
+
+    官旺之命再行官运或逢刑冲时仍作吉断。
+
+    '
+  mechanism: '原文把两种情形写成分向的两句：官旺者怕再见官、忌刑冲（原文释义「如两官相遇，运岁逢之，见冲不利」）；
+
+    官轻者见财方为福利（「以财为禄则吉」）。财生官不是通则，只对官轻者成立。
+
+    '
+  bound_to:
+  - 官杀与制伏（task-08）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - guan
+  - cai
+  - dayun
+  source_ref: ce-B1-44
+- id: b-yhr-0045
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"岂得有金在海中，火在炉中之说。世有不肖之说，未遇明师，道听途说，错论古道，迷误後人，焉能中理。"'
+  failure_mode: '用纳音名号（海中金、炉中火等）作为论命依据，把「甲子乙丑为金」当作结论直接套用喜忌，
+
+    不回到日干与四柱干支的生克。
+
+    '
+  mechanism: '原文先给出纳音的推算过程（以大衍之数除减后按五行相生取用），说明纳音之名是推演所得之
+
+    「喻」，然后明确「子平之法……不用纳音，专以生日天元为主」。把比喻当作结论，等于换了一套坐标。
+
+    '
+  bound_to:
+  - 十神与用神（task-03 / task-06）
+  - 参考内容（纳音、胎元、小运在本版中属并置待核项）
+  tags:
+  - counter-example
+  - nayin
+  - fa-dui
+  source_ref: ce-B1-45
+- id: b-yhr-0046
+  domain: D02
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"世之谈玄命者，皆古法，往往多以年为主，则可知万亿同者矣。"'
+  failure_mode: '沿用唐法以年柱为主体（或以年生干支的太岁尊神为断命核心），
+
+    据此得出同年生人命运相同的结论。
+
+    '
+  mechanism: '原文的对比对象是李虚中旧法与子平新法：以年为主会导致同年生者结论雷同，
+
+    故子平改为以生日天元为主、配合八字干支与支中所藏人元分辨财官印杀。
+
+    用年为主，等于把体系的核心坐标换回了被取代的那一套。
+
+    '
+  bound_to:
+  - 日为主的坐标（task-03 / task-04）
+  tags:
+  - counter-example
+  - nian-shuo
+  - faxiang
+  source_ref: ce-B1-46
+- id: b-yhr-0047
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"以月为兄弟。如火命生酉戌亥子月，言兄弟不得力之断—月为兄弟之宫，为男取比和同类便为兄弟之星。"'
+  failure_mode: '按四柱中比肩、劫财的个数推断兄弟多少与助力，
+
+    不把月柱作为兄弟之宫、并按月令所处的长生阶段（死、墓、绝、胎）判断得力与否。
+
+    '
+  mechanism: '原文先定「月为兄弟之宫」，再按月令断：酉月火死、戌月火入墓、亥月火绝气、子月火怀胎，
+
+    故火命生此四月主兄弟不得力。眉批补一句限定：五行旺相之方可作兄弟得力或富贵之断。
+
+    数星与看宫是两条不同的依据。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 旺衰与长生（task-04）
+  tags:
+  - counter-example
+  - liuqin
+  - yueling
+  source_ref: ce-B1-47
+- id: b-yhr-0048
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"若生於戌亥子时，则是金水分野，火绝之地，则生子息少矣。当主孤独贫贱之子，不然僧道、过房、螟蛉之种矣。"'
+  failure_mode: '只按「男取克干为嗣、女取干生为子」找出子星即断子息多少，
+
+    不看子星在时柱所处的十二长生阶段（长生至帝旺为多，衰病死墓绝为少）。
+
+    '
+  mechanism: '原文把两步写在一起：先定子星，再看「生时在何宫」——「宫分若在长生、沐浴、冠带、临官、
+
+    帝旺之乡，定其多嗣……若在衰病死墓绝，无气胎养冲刑之乡，定主子少」。
+
+    并给出对照命例：六庚日午时生（火之分野）主多子且贵显，生于戌亥子时（金水分野、火绝）则子息少。
+
+    '
+  bound_to:
+  - 六亲与子息（task-14）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - zixi
+  - shizhu
+  source_ref: ce-B1-48
+- id: b-yhr-0049
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"干与支同，如甲寅之类，虽然强健，无他残疾，多主损财伤妻。"'
+  failure_mode: '见甲寅、乙卯这类干支同类者，只按「干支一气、比肩帮身」断为身强有力，
+
+    不断其损财伤妻的一面；或以「有他格」为名绕过这层。
+
+    '
+  mechanism: '原文的分析是分层的：干支同名者确实强健无残疾，但由于比劫同类夺财，
+
+    多主损财伤妻；若年月日时另有他格或财官印，可改判贵显有权，若三元无他格、
+
+    四柱又无财官印而反生气旺之月日，则「此命主穷必彻骨，克妻多数，终身无依」。
+
+    强健与富贵不是同一件事。
+
+    '
+  bound_to:
+  - 六亲与妻财（task-14）
+  - 综合层次（task-17）
+  tags:
+  - counter-example
+  - ganzhi-tong
+  - liuqin
+  source_ref: ce-B1-49
+- id: b-yhr-0050
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论
+  quote: '"假如一命，乙酉年、壬午月、壬午日、癸卯时。壬癸以丙丁为财，午月自恃财旺之，丁逢火禄之乡，壬癸胎元绝之地，为身弱不能任重财。见壬癸为比肩分财，故因妻以致祸，卒死牢狱之中。"'
+  failure_mode: '见财星当令、财多，即断为富贵；不先核对日主能否任财，
+
+    也不看比肩分财时的实际走向。
+
+    '
+  mechanism: '原文以对举的两例给出判据：己未年戊辰月甲寅日癸酉时，财旺身强，「财多官旺，则多称意」；
+
+    乙酉年壬午月壬午日癸卯时，壬癸胎元绝地、身弱不能任重财，又有壬癸比肩分财，
+
+    结果是「因妻以致祸，卒死牢狱之中」。同是财旺，身之强弱决定方向。
+
+    '
+  bound_to:
+  - 旺衰与财（task-04 / task-06）
+  - 综合层次（task-17）
+  tags:
+  - counter-example
+  - cai
+  - shenruo
+  - mingli
+  source_ref: ce-B1-50
+- id: b-yhr-0051
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 74 章 · 详解定真论（眉批）
+  quote: '"如丙午、戊午、壬子，犯此日者又主妻缢死或杀死。"'
+  failure_mode: '论妻妾时只看财星有无，不看日支（妻妾之宫）是否落在空、刑、克、害之地。
+
+    '
+  mechanism: '原文先把妻妾的坐标定在日支：「以生日支辰为妻妾之宫，无所克之物为吉。若在空刑克害之地，
+
+    则克妻妾，不然重婚再娶，克之轻者，主疾病。」眉批另补三类日柱的具体克应。
+
+    财星与妻宫是两个不同的判据，缺一则结论不完整。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 刑冲与空亡（task-11 / task-12）
+  tags:
+  - counter-example
+  - liuqin
+  - qigong
+  - epoch-limit
+  source_ref: ce-B1-51
+- id: b-yhr-0052
+  domain: D02
+  source_id: src-yuanhai-ziping
+  location: 第 21 章 · 论起息法（眉批）
+  quote: '"如推贵命先从胎息之吉日，相生扶者贵，相克者贫"'
+  failure_mode: '取胎息（日主天干之合、地支之合）后，按「相克者贫」直接下贫贱断语，
+
+    也不理会第 74 章「子平之法，不用胎元小运，不用纳音」的排除口径。
+
+    '
+  mechanism: '胎息一条在本版里存在两处口径：第 20、21、22、23 章分别给出胎元、息、变、通四法，
+
+    第 74 章则明确子平之法不用胎元小运。眉批的「相克者贫」只在这套方法内部成立，
+
+    把它当成全书通则，会与以日为主的坐标系冲突。两处并存须标注，不得据一处下结论。
+
+    '
+  bound_to:
+  - 待核项（胎元/息/变/通并置）
+  - 主坐标系（task-03）
+  tags:
+  - counter-example
+  - taixi
+  - conflict
+  source_ref: ce-B1-52
+- id: b-yhr-0053
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 77 章 · 正官论
+  quote: '"正官乃贵气之物，大忌刑冲破害，及年月时中皆有官星隐露，恐福渺矣。"'
+  failure_mode: '月令见官星即断正官格、断贵，不核查四柱是否有刑冲破害，也不看官星在年月时各柱是否重复隐露。
+
+    '
+  mechanism: '原文把官星定为「贵气之物」的同时给出两组折扣：刑冲破害、各柱重复隐露。后者即「官星隐露」过多，
+
+    结论是「恐福渺矣」。只看月令有官，等于把入口当结论。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 官杀混杂与制伏（task-08）
+  tags:
+  - counter-example
+  - geju
+  - zhengguan
+  source_ref: ce-B2-01
+- id: b-yhr-0054
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 77 章 · 正官论
+  quote: '"苟一途而执取之，则不能通变，必有差之毫厘，谬以千里之患。"'
+  failure_mode: '把正官格判据当成单一检查项（只看月令有官，或只看有无伤官），不按原文所要求的分层顺序
+
+    「又须看年时上别有何者入格，作福会处」逐步核对。
+
+    '
+  mechanism: '原文在同段里把判据拆成数层：先看月令提纲，再看年时是否另有入格之处，再看身旺印绶、
+
+    再看刑冲破害与羊刃七杀，并自陈「苟一途而执取之……必有差之毫厘，谬以千里之患」。
+
+    缺层不等于通过了该层。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 综合层次（task-17）
+  tags:
+  - counter-example
+  - geju
+  - tongbian
+  source_ref: ce-B2-02
+- id: b-yhr-0055
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 78 章 · 论官星太过
+  quote: '"如壬癸生人，四柱是辰戌丑未巳午，天干不露官星与杀，则官杀暗藏於中为多。若四柱原有制伏为好，若无制伏，须行水运与三合木局亦好。"'
+  failure_mode: '天干不见官杀即判「无官杀」，不查地支藏干中官杀是否已多；或虽查出多，也不给出除清的办法。
+
+    '
+  mechanism: '本章的题目就是官星太过：官杀可以全部藏在支中成势。原文随即给出两条处置路径——
+
+    原局有制伏、或行水运与三合木局（木克土制官）。只看天干，会把过重的官杀读成没有官杀。
+
+    '
+  bound_to:
+  - 十神定位（task-03）
+  - 官杀混杂与制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - canggan
+  source_ref: ce-B2-03
+- id: b-yhr-0056
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 79 章 · 论偏官即七杀
+  quote: '"如有一杀，而制伏二三，复行制伏之运，反不作福。何以言之？盖尽法无民，虽猛如狼，不能制伏矣，是又不可专言制伏。"'
+  failure_mode: '见七杀即建议加强制伏（加食伤、行制伏之运），不先数制伏之神的数量；
+
+    一杀而制伏已多时，仍按「制伏越多越好」行事。
+
+    '
+  mechanism: '原文的判据是轻重得所：「要须轻重得所，不可太甚，亦不可不及」。制伏过多之后，
+
+    七杀「虽猛如狼，不能制伏矣」——过制使七杀失去可用之力，反而无福。
+
+    '
+  bound_to:
+  - 官杀混杂与制伏（task-08）
+  - 病药与行运取中（task-07）
+  tags:
+  - counter-example
+  - qisha
+  - zhifu
+  source_ref: ce-B2-04
+- id: b-yhr-0057
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 79 章 · 论偏官即七杀
+  quote: '"凡见此杀，勿便言凶。殊不知带此杀者，多有贵命。"'
+  failure_mode: '命中查出七杀即断凶、断灾，不再审查制伏之有无、身之旺弱与岁运走向。
+
+    '
+  mechanism: '原文把七杀处理成条件命题：有制伏则为偏官（可用），无制伏则为七杀（为祸）；
+
+    身旺则能任，身弱则受克。同一星名的吉凶由条件决定，不是在星名上。
+
+    '
+  bound_to:
+  - 官杀混杂与制伏（task-08）
+  - 旺衰（task-04）
+  tags:
+  - counter-example
+  - qisha
+  - wangshuai
+  source_ref: ce-B2-05
+- id: b-yhr-0058
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 80 章 · 论七杀即偏官
+  quote: '"如行身旺乡，更有羊刃，贵不可言。但忌财旺，财能生杀故也。岁运临之，身旺亦多灾，身弱尤甚。"'
+  failure_mode: '七杀格见财星反以「财为养命之源」列为喜，或认为身旺则岁运逢财无妨。
+
+    '
+  mechanism: '原文给出的链条是财生杀：财旺即等于助杀。故「岁运临之，身旺亦多灾，身弱尤甚」——
+
+    身旺只减轻，不免灾。与身旺即可任杀的判断不同，财是直接给杀加力的变量。
+
+    '
+  bound_to:
+  - 官杀混杂与制伏（task-08）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - qisha
+  - cai
+  - dayun
+  source_ref: ce-B2-06
+- id: b-yhr-0059
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 81 章 · 论印绶
+  quote: '"经曰：有官无印，即非真官；有印无官，反成其福。……盖印绶畏财，主人括囊。"'
+  failure_mode: '命局有官星即作真官贵断，不查是否有印绶；或见印又有财，仍按印绶得力论，
+
+    不辨财能破印这一层。
+
+    '
+  mechanism: '原文给出的成立条件写成对举两句：官须有印才成真官，印无须官反能成福；
+
+    而印绶最畏的是财，财多则印受克。官、印、财三者之间的关系是联动的，不是各自单独记分。
+
+    '
+  bound_to:
+  - 十神喜忌（task-03 / task-06）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - yin-shou
+  - guan
+  - cai
+  source_ref: ce-B2-07
+- id: b-yhr-0060
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 81 章 · 论印绶
+  quote: '"最怕行印绶死绝运或运临死绝，复有物以窃之，即入黄泉，不可疑也。"'
+  failure_mode: '行运判断只看该运是否为印绶之运，不看印绶是否落于死绝之地，也不看是否有他物来窃其气。
+
+    '
+  mechanism: '原文把这一条写成复合条件：印绶运 + 死绝 + 有物窃之，三者叠加，结论极重（「即入黄泉」）。
+
+    只取第一项就给出吉断，与原文的三重条件不符。
+
+    '
+  bound_to:
+  - 大运流年（task-13）
+  - 旺衰与十二长生（task-04）
+  tags:
+  - counter-example
+  - yin-shou
+  - dayun
+  source_ref: ce-B2-08
+- id: b-yhr-0061
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 82 章 · 论正财
+  quote: '"此命丙日见三申为财，岂不美哉。……盖嫌日弱，火病申死酉，乃为无气，运行酉方金乡，身弱太甚，财旺生鬼，败克其身，故不能胜其财，所以贫也。"'
+  failure_mode: '见财星当令、财局成，即断财旺致富；不核日主在月令的旺衰，也不看行运是否加重身弱。
+
+    '
+  mechanism: '原文以两命对举：丁日身坐财地而身有根（丁得木库居未、巳酉丑金局），能任其财，宜乎巨富；
+
+    丙日三申财旺而日主火病申、死酉，身弱太甚，财旺生鬼，因而致贫。同是财旺，日主强弱决定方向。
+
+    '
+  bound_to:
+  - 旺衰与财（task-04 / task-06）
+  - 综合层次（task-17）
+  tags:
+  - counter-example
+  - cai
+  - shenruo
+  - mingli
+  source_ref: ce-B2-09
+- id: b-yhr-0062
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 82 章 · 论正财
+  quote: '"如果格成从财，却喜身愈弱，财极强之运，助身反为不美。"'
+  failure_mode: '把「财多身弱须帮身」的通则套到已入从财格的命局上，行印比扶身之运，或建议增强日主。
+
+    '
+  mechanism: '从财格的前提是舍身从财：日主已成顺从之势，此时再帮身即为反本，破坏格局。
+
+    本条与「日主有根不可弃」互为边界——先判是否真从，再从则不可助身。
+
+    '
+  bound_to:
+  - 从格与化气（task-18）
+  - 用神与忌法（task-06）
+  tags:
+  - counter-example
+  - congge
+  - cai
+  - fanben
+  source_ref: ce-B2-10
+- id: b-yhr-0063
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 82 章 · 论正财
+  quote: '"行辛酉运，乃见官星则凶。……凡伤官见财格忌见官星，只喜见财，若财格要见。大忌壬水克火，则火不能生甲木之土财也。"'
+  failure_mode: '财格行运见到官星仍按「官能生财」「财官相生」作吉断，不区分用财与用官是两条不同的路线。
+
+    '
+  mechanism: '原文明确该命「格取戊土为财」，其运喜忌随之确定：忌见官星、只喜见财。
+
+    同段还指出更大的忌是壬水克火（印），火被克则不能生土财。取何者为用，决定忌的宾语。
+
+    '
+  bound_to:
+  - 用神与忌法（task-06）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - cai
+  - guan
+  - dayun
+  source_ref: ce-B2-11
+- id: b-yhr-0064
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 83 章 · 论偏财
+  quote: '"而偏财者，乃衆人之财也，只恐兄弟姐妹而夺之，则福不全。若无官星，祸患百出。"'
+  failure_mode: '见偏财即断财丰，不查四柱有无官星镇压，也不看比肩劫财是否分夺；或以为「偏财好出亦不惧藏」
+
+    便无需护财。
+
+    '
+  mechanism: '偏财的来源性质是「众人之财」，故其成立条件与正财不同：须有官星镇压、须不被兄弟分夺。
+
+    原文另有一层限定：财盛而身弱者，行官乡「既被财之盗气，复被官之克身，非惟不发禄，亦防祸患」。
+
+    '
+  bound_to:
+  - 财与官（task-06）
+  - 六亲与比劫夺财（task-14）
+  tags:
+  - counter-example
+  - piancai
+  - bijie
+  source_ref: ce-B2-12
+- id: b-yhr-0065
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 84 章 · 论食神
+  quote: '"食不喜见官星，忌倒食，恐伤其食神。喜财食神相食，独一位见之，此为福人，然多亦不清。却喜身旺，不喜印绶，亦恐伤其食神也。"'
+  failure_mode: '见食神即断财厚食丰、有子有寿，不查是否见官、见枭（倒食）、见印；也不管食神是一位还是多位。
+
+    '
+  mechanism: '原文给食神列出的忌与喜成对：忌官星（官克食）、忌倒食（枭克食）、不喜印绶（亦伤食）、
+
+    喜财、喜身旺、喜独一位。神名相同而配置不同，结论相反。
+
+    '
+  bound_to:
+  - 十神喜忌（task-03 / task-06）
+  - 六亲子息（task-14）
+  tags:
+  - counter-example
+  - shishen
+  - daoshi
+  source_ref: ce-B2-13
+- id: b-yhr-0066
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 84 章 · 论食神
+  quote: '"此命三见乙为食，见巳酉丑合金局为印绶，又有三乙化为伤官，癸用乙为食神，被金局来克乙木，再被三乙并卯旺克我官，所以名利都无成也。"'
+  failure_mode: '见食神三位齐透即断「食神有气胜财官」，不数其数、不查是否被合局之金来克、也不看是否化为伤官。
+
+    '
+  mechanism: '原文此例的机制是三重叠：三乙为食神（多）、巳酉丑合金局（印）来克乙木（食神被伤）、
+
+    三乙并卯化为伤官克官。三条叠加，故名利无成。眉批另有一句通则：「若是反伤来夺食，忙忙辛苦祸千般」。
+
+    '
+  bound_to:
+  - 十神喜忌（task-03）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - shishen
+  - mingli
+  source_ref: ce-B2-14
+- id: b-yhr-0067
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 85 章 · 论倒食
+  quote: '"夫倒食者，冲财神之谓也，一名吞陷杀。用财神大忌见之，用食神亦忌见之。"'
+  failure_mode: '命中以财或食神为用，行运或原局见枭神（倒食）仍按「印绶生身」作吉断，不辨倒食专冲财神。
+
+    '
+  mechanism: '原文把倒食定义为冲财神之神：甲见壬，壬克丙，丙不能生土财，食神之力即断。
+
+    故以财为用或以食神为用时，见之皆为忌。此层关系在「印为生我之母」的通例里看不出来。
+
+    '
+  bound_to:
+  - 用神与忌法（task-06）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - daoshi
+  - yongshen
+  source_ref: ce-B2-15
+- id: b-yhr-0068
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 85 章 · 论倒食
+  quote: '"此命非但倒食七杀之祸，而癸亥年与生杀坏印之说同义也。"'
+  failure_mode: '排查倒食时只看倒食本身，不看它是否同时引出七杀、是否连带坏印；
+
+    也不把岁运中同时出现的这几个因子合并判断。
+
+    '
+  mechanism: '原文的命例里，倒食（三丁）与七杀（乙巳运之乙）叠加，岁逢癸亥又与「生杀坏印」同义，
+
+    三重成因共同作用。原文特意点出「非但……而……亦同义」，提示多个机制可以同向叠加。
+
+    '
+  bound_to:
+  - 十神叠加与制化（task-06 / task-08）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - daoshi
+  - qisha
+  - hua-yin
+  source_ref: ce-B2-16
+- id: b-yhr-0069
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 86 章 · 论伤官
+  quote: '"如四柱中虽伤尽官星，身虽旺，若无一点财气，只为贫薄。如遇伤官者，须见其财为妙，是财能生官也。"'
+  failure_mode: '按「伤官务要伤尽」执行到极致，只求官星不留一点，忽略原文同时要求的财气一路。
+
+    '
+  mechanism: '伤尽官星只是消除了祸源，不构成富贵。原文给出的完整路径是伤官—财—官：
+
+    财能生官，故须见财方可用。缺财则虽伤尽、身旺，「只为贫薄」。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  - 用神与忌法（task-06）
+  tags:
+  - counter-example
+  - shangguan
+  - cai
+  source_ref: ce-B2-17
+- id: b-yhr-0070
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 86 章 · 论伤官
+  quote: '"大凡四柱见官者，或见伤官而取其财，财行得地则发，行败财之地必死。"'
+  failure_mode: '伤官格取财为用后，行运判断只看是否为财运，不看所行之地是否同时是败财之地。
+
+    '
+  mechanism: '原文把行运判据写成两个方向：财行得地则发，行败财之地必死。所谓败财之地即比劫旺处，
+
+    财被分夺。命例中丁日以壬为官、丑戌为伤官、庚字为财，「行申酉限如意，入金脱气遂死」。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - shangguan
+  - dayun
+  - mingli
+  source_ref: ce-B2-18
+- id: b-yhr-0071
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 87 章 · 论劫财（眉批）
+  quote: '"甲见乙为败财，乙见甲为劫财；丙见丁为败财，丁见丙为劫财；戊见己为败财，己见戊为劫财；庚见辛为败财，辛见庚为劫财；壬见癸为败财，癸见壬为劫财。"'
+  failure_mode: '把同类相见的比劫一律按「劫财」处理，不区分阳见阴为败财、阴见阳为劫财，
+
+    也不顾原文给出的克应差异（败财主克妻害子，劫财主破耗防小人、不克妻）。
+
+    '
+  mechanism: '本章正文先写「五阳见五阴为败财，主克妻害子。五阴见五阳为劫财，主破耗，防小人，不克妻」，
+
+    眉批再逐干列出对照。取哪一名，直接决定六亲断语的落点。
+
+    '
+  bound_to:
+  - 十神定位（task-03）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - jiecai
+  - baicai
+  source_ref: ce-B2-19
+- id: b-yhr-0072
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 88 章 · 论羊刃
+  quote: '"如命中有刃，不可便言凶。大率与七杀相似，凡有刃者，多主富贵人，却喜偏官七杀。……若命有刃无杀，岁运逢杀旺之乡，乃转生而反成厚福。"'
+  failure_mode: '命中查出羊刃即断刑伤灾祸，不查是否有杀相配、是否身旺，也不看岁运是否补上了所缺的那一半。
+
+    '
+  mechanism: '羊刃的判据与七杀同构：刃杀俱全方能成用（「杀无刃不显，刃无杀不威」）。
+
+    命有刃无杀者，岁运补杀反成厚福；反之有杀无刃者，岁运补刃亦可。单看一端的「有刃」不足以定凶。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - yangren
+  - qisha
+  source_ref: ce-B2-20
+- id: b-yhr-0073
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 88 章 · 论羊刃（眉批）
+  quote: '"大忌财旺名三合，断指伤杀体不完。……若命内原有杀刃，岁运又逢之，其过非常。"'
+  failure_mode: '羊刃之命行财运或岁运再逢杀刃时，仍按「财为养命之源」「杀刃成格」作吉断。
+
+    '
+  mechanism: '羊刃之凶在于叠加：眉批点出财旺三合为「大忌」，原文另指出命内原有杀刃而岁运重见者
+
+    「其过非常」。这与「刃杀俱全非常人有之」的成格条件不矛盾——成格看配置得当，叠加看是否过极。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - yangren
+  - cai
+  - dayun
+  source_ref: ce-B2-21
+- id: b-yhr-0074
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 88 章 · 论羊刃（眉批）
+  quote: '"羊刃有杀有印则为官，无印绶或恶杀相合即为盗贼、为屠宰。"'
+  failure_mode: '羊刃之命见杀即断官贵，不查是否另有印绶；或已知有恶杀相合，仍按成格论贵。
+
+    '
+  mechanism: '眉批把成官与成凶的分界写在印绶上：有杀有印则为官，无印或恶杀相合则为盗贼屠宰。
+
+    杀在两种配置下的去向不同，故「有杀」本身不构成贵断的依据。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 印绶（task-06）
+  tags:
+  - counter-example
+  - yangren
+  - yin-shou
+  source_ref: ce-B2-22
+- id: b-yhr-0075
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 89 章 · 论刑合
+  quote: '"刑合者，刑中带有合者是也。如人命犯之，多因酒色丧家成病，至於耽迷不醒，乃神迷之也。"'
+  failure_mode: '见刑合结构即按「刑中带合、暗取官贵」作吉断，不区分原文所分的两层：
+
+    合禄合格取的是「见不见之形」（隐藏而取），刑合明摆于命中者主凶。
+
+    '
+  mechanism: '原文以合禄合格作对照：癸用戊官、戊禄在巳，不见巳字而见寅刑与巳酉丑合，是「见不见之形，所以贵也」；
+
+    而「如此者，皆见於前，所以凶也」——同一组机制显隐不同，结论相反。命例中两造皆因酒色丧家致病乃至亡身。
+
+    '
+  bound_to:
+  - 墓库杂气与刑合（task-11）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - xinghe
+  - mingli
+  source_ref: ce-B2-23
+- id: b-yhr-0076
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 90 章 · 论福德秀气
+  quote: '"不喜生於八月之中，恐露其杀。……亦不要露杀杂其官，为寿不耐久。"'
+  failure_mode: '按日柱属福德秀气即断吉，不查生月是否为该日柱的所忌之月（乙、丁不喜八月，癸不喜四月），
+
+    也不查是否露杀杂官、是否见火伤金局。
+
+    '
+  mechanism: '本章对四组日柱逐一给出忌月与忌神：乙巳乙酉乙丑忌八月（露杀）、丁巳丁酉丁丑忌八月（火死酉）
+
+    且忌露杀杂官、己巳己酉己丑忌见火（伤金局）、癸巳癸酉癸丑忌四月（水绝于巳）与火财。
+
+    福德秀气是「专用其日主」的格局，条件按日柱分列，不能通用。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 印绶类结构（task-06）
+  tags:
+  - counter-example
+  - fude-xiuqi
+  - jiyue
+  source_ref: ce-B2-24
+- id: b-yhr-0077
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 91 章 · 论杂气
+  quote: '"所言开啓钥者，何物也？乃刑冲破害耳，如四柱中原有刑冲破害，复行此等运气，则刑冲破害多反伤其福。"'
+  failure_mode: '见辰戌丑未之库即断「待岁运刑冲开库」，不先核对原局是否已有刑冲破害；
+
+    原局已破而复行刑冲之运时，仍按「逢冲即开」作吉断。
+
+    '
+  mechanism: '原文把开库写成先验条件的命题：库中物闭藏，须刑冲破害方开；但若四柱原有刑冲破害，
+
+    再行同类运气则「刑冲破害多反伤其福」。故开库不是单向增益，须先看原局是否已开。
+
+    '
+  bound_to:
+  - 墓库与杂气（task-11）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - zaqi
+  - kaiku
+  source_ref: ce-B2-25
+- id: b-yhr-0078
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 91 章 · 论杂气（眉批）
+  quote: '"杂气官星在月宫，天干透露始为丰，财多官星刑冲破，切忌干支压伏重。"'
+  failure_mode: '见月支为辰戌丑未即按杂气格取用，不论库中所藏财官印是否透出天干，
+
+    也不看是否被干支压伏。
+
+    '
+  mechanism: '杂气一格的核心是「透出」：库中同藏数神，须依四柱中透出之字「随其所出而言其吉凶」
+
+    （正文）。不透则无所取；眉批另加「天干透露始为丰」与「切忌干支压伏重」两道限定。
+
+    '
+  bound_to:
+  - 墓库与杂气（task-11）
+  - 十神定位（task-03）
+  tags:
+  - counter-example
+  - zaqi
+  - tougan
+  source_ref: ce-B2-26
+- id: b-yhr-0079
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 92 章 · 论日贵（眉批）
+  quote: '"日贵支干一位同，空亡大忌带刑冲，仁慈积德多姿色，会合财星空不空。"'
+  failure_mode: '日柱为丁酉、丁亥、癸巳、癸卯即断日贵，不查该支是否落空亡、是否带刑冲、是否见魁罡；
+
+    也不分昼夜贵。
+
+    '
+  mechanism: '本章给的成立条件是「贵神要聚於日」且不受破坏：运行怕空亡、不要魁罡、最怕刑冲破害，
+
+    并且「日贵有时法异同，须分昼夜贵」——日生用日贵、夜生用夜贵。眉批以诀语把空亡与刑冲列为大忌。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 空亡（task-12）
+  tags:
+  - counter-example
+  - rigui
+  - kongwang
+  source_ref: ce-B2-27
+- id: b-yhr-0080
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 93 章 · 论日德
+  quote: '"若有财官加临，别寻他格，方能免非横之祸。若旺气已衰，运至魁罡，其死必矣。"'
+  failure_mode: '日柱为甲寅、戊辰、丙辰、庚辰、壬戌即断日德厚福，不看是否有财官加临（此时须另寻他格）；
+
+    也不管行运是否落于魁罡。日德之忌在书中被逐条列明：恶官星、憎财旺、怕空亡、忌魁罡。
+
+    '
+  mechanism: '原文把日德写成有条件的格：无破害、无财官加临方成立；一旦财官加临，原格不纯，
+
+    须「别寻他格」才能免祸。行运见魁罡对已衰旺气者是致命的（「其死必矣」），对未发福者尚可（休囚即好）。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - ride
+  - kuigang
+  source_ref: ce-B2-28
+- id: b-yhr-0081
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 94 章 · 论日刃
+  quote: '"若四柱中一来会合，必主奇祸。……且如戊日刃在午忌行子正财运。壬刃在子，忌行午正财运。庚刃在酉，忌行卯正财运。"'
+  failure_mode: '日刃之命（戊午、丙午、壬子）见地支会合仍按合局成格论；行运见对宫正财之运
+
+    （戊日午刃行子运等）仍按「财为养命之源」作吉断。
+
+    '
+  mechanism: '日刃与羊刃同法：不喜刑冲破害，亦不喜会合。原文举例逐日列出忌行之运，落点正是冲刃之对宫正财。
+
+    另一层是「大抵羊刃要身旺，喜有物以去之」——刃需有物制去方为福，否则为其所累。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - riren
+  - yangren
+  - dayun
+  source_ref: ce-B2-29
+- id: b-yhr-0082
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 95 章 · 论魁罡（眉批）
+  quote: '"运行身旺，发福百端；一见财官，祸患立至。……大凡四柱日多同，贵气斯来在此中，日主独逢冲克重，财官显露祸无穷。"'
+  failure_mode: '日柱为壬辰、庚戌、庚辰、戊戌即断魁罡贵格，或在行运见财官时仍作发福论；
+
+    日主孤立而冲克重亦按成格断。
+
+    '
+  mechanism: '眉批把魁罡的成立条件写成两端：四柱中日主同类多（贵气在其中），行运身旺则发福；
+
+    反之日主独逢冲克、财官显露则祸无穷。原文对应的表述是「一见财官，祸患立至」。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - kuigang
+  - caiguan
+  source_ref: ce-B2-30
+- id: b-yhr-0083
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 96 章 · 论金神（眉批）
+  quote: '"甲午时上见金神，杀不相居真贵人，木火运中必发福，如逢金水必伤身。"'
+  failure_mode: '时柱为癸酉、己巳、乙丑即断金神贵格，不查是否带羊刃七杀（真贵人的条件），
+
+    也不看行运进入火乡还是水乡。
+
+    '
+  mechanism: '金神是「破败之神」，其用法依原文是「要制伏，入火乡为胜」；眉批进一步给出两端：
+
+    带杀者方为真贵人、木火运发福、逢金水伤身。若不给出制伏与行运方向，等于只取了神名。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - jinshen
+  - dayun
+  source_ref: ce-B2-31
+- id: b-yhr-0084
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 97 章 · 论时墓
+  quote: '"要刑冲破害以开啓钥，其人必难发于少年。……也怕有物以压之，如丁用辰为官库，别有戊辰之类制之，则辰不能为官矣，如此难作好命。"'
+  failure_mode: '见时柱为财官之墓即断库中有财官可发，不查是否有物压制库门（如丁日辰库又见戊辰）；
+
+    也不顾「少年不发库中人」这一时序限定。
+
+    '
+  mechanism: '本章给出两个条件：一是须刑冲破害开钥，二是须无物压之。压与被压同见时，
+
+    库「不能为官」，且「必乃有物以破其戊，虽得之发福亦浅」——即使后来破了压制物，福也有限。
+
+    '
+  bound_to:
+  - 墓库与杂气（task-11）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - shimu
+  - kaiku
+  source_ref: ce-B2-32
+- id: b-yhr-0085
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 98 章 · 内十八格-正官格（眉批）
+  quote: '"正气官星，切忌刑冲，多则论杀，一位名真。官藏杀浅，露杀非真。今则为破，事恐不成。"'
+  failure_mode: '正官格中官星多位仍按正官论，不做「多则论杀」的转换；
+
+    官藏支而杀浅、杀透而官藏这类混合情形亦按正官成格断。
+
+    '
+  mechanism: '眉批给出的量化分界是「一位名真」：官星超过一位即性质转为杀，处置方式随之改变
+
+    （杀须制伏）。另有「官藏杀浅、露杀非真」一句，说明透藏方向影响格局真伪。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 官杀混杂（task-08）
+  tags:
+  - counter-example
+  - zhengguan
+  - toucang
+  source_ref: ce-B2-33
+- id: b-yhr-0086
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 99 章 · 内十八格-杂气财官格
+  quote: '"辰、戌、丑、未为四季财官，印绶居杂气，干头透出格为真，用财多为尊贵，杂气自来就不纯，不逢也出始为宗。"'
+  failure_mode: '见辰戌丑未之月即取杂气财官格，不看所藏财官印是否透出天干；
+
+    或把杂气格与普通财官格按同一强度处理（原文称杂气「不能纯一，故少力」）。
+
+    '
+  mechanism: '原文把成立条件写在「透」字上：干头透出格为真。并另给出两处限定：
+
+    一是杂气本身不纯、力弱，二是身强财旺方能生官禄、行运逢冲刑方如开库取宝。
+
+    '
+  bound_to:
+  - 墓库与杂气（task-11）
+  - 格局判定（task-05）
+  tags:
+  - counter-example
+  - zaqi
+  - tougan
+  source_ref: ce-B2-34
+- id: b-yhr-0087
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 100 章 · 内十八格-月上偏官格（眉批）
+  quote: '"亦不要行官乡，岁君亦然，为太过而反成其祸。须要行制伏得地之运方发，与时偏官相似。"'
+  failure_mode: '月上偏官之命，年月时再叠见七杀时，仍建议行偏官旺运；
+
+    或把身弱而杀重的命例按「杀旺则贵」下断。
+
+    '
+  mechanism: '原文先给通则「要行偏官旺运」，再给例外：若年时上又有偏官，则转为「不要行官乡」，
+
+    因为太过反成祸，须行制伏之运。命例中王镇抚杀神太重、水多火微，行卯运合戌虽名火局，
+
+    实为湿木不生无焰之火，结果于丁卯运中而死。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 官杀混杂与制伏（task-08）
+  tags:
+  - counter-example
+  - pian-guan
+  - dayun
+  - mingli
+  source_ref: ce-B2-35
+- id: b-yhr-0088
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 101 章 · 内十八格-时上偏财格（眉批）
+  quote: '"只要时上一位，不要多。而三处不要再见财，却怕冲，与月上偏官一同。……月偏财是衆人财，最怕干支兄多来。身强财旺皆为福，若归官星足为灾。"'
+  failure_mode: '时柱见偏财即断财格，不数财星出现的处所，也不看四柱比劫是否众多、是否冲克时支。
+
+    '
+  mechanism: '时上偏财格的成立条件是「只一位」：时上一位，年月日三处不再见财。眉批另给出两条：
+
+    比劫多则分夺（侯知府例中身弱而财分，反得中和）、财归官星则足为灾。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 财星与比劫（task-06 / task-14）
+  tags:
+  - counter-example
+  - piancai
+  - shizhu
+  source_ref: ce-B2-36
+- id: b-yhr-0089
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 102 章 · 内十八格-时上一位贵格
+  quote: '"夫一位贵者，推只时上只见一位方为贵，或年月日又有，反为辛苦劳役之人也。"'
+  failure_mode: '时柱见七杀即断时上一位贵格，不数年月日是否另有杀星；或在多处见杀时仍按贵格论。
+
+    '
+  mechanism: '本格的名字即条件：只有「一位」方可为贵。原文把重复出现的后果写成「反为辛苦劳役之人」，
+
+    并另给出命局自身的条件（本身自旺，如甲乙日生于正二月）。眉批的诗诀同样以「切忌身弱并刑害」
+
+    作出限定。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 旺衰（task-04）
+  tags:
+  - counter-example
+  - yiwei-gui
+  - qisha
+  source_ref: ce-B2-37
+- id: b-yhr-0090
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 103 章 · 内十八格-飞天禄马格
+  quote: '"庚日以子冲午中丁火为官星，若四柱中有丁字并午字，则减分数，岁君亦忌。"'
+  failure_mode: '见子多即按飞天禄马取冲出的官星，不查四柱是否另有官星本体（丁字并午字）把冲取之路堵住；
+
+    也不把岁君与大运的同类情形计入。
+
+    '
+  mechanism: '本格取的是「冲出来的虚官」，故本体一见即减分数。原文给的命例正是反面：
+
+    「壬子 壬子 壬子 丙午」，「又不合见午时重官星，就又贫极，为乞丐之命也」。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - feitian-luma
+  - mingli
+  source_ref: ce-B2-38
+- id: b-yhr-0091
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 104 章 · 内十八格-倒冲格（眉批）
+  quote: '"此格要四柱中全无官星合，是用合时中官来取贵，若实见之不入此格。"'
+  failure_mode: '按倒冲格取冲出的官星，却不知四柱若已实见官星即不入此格；
+
+    也不查冲神是否被合字绊住（丙日用午冲子，见未字则午不能去冲）。
+
+    '
+  mechanism: '眉批把成立条件写成排除式：须四柱全无官星，实见之即不入此格。原文另给出绊神：
+
+    丙日见未则午不能冲子，丁日见辰则巳不能冲亥，并说明「大忌癸字并子字，则减分数，岁君大运亦然」。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - daochong
+  - geju
+  source_ref: ce-B2-39
+- id: b-yhr-0092
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 107 章 · 内十八格-合禄格（眉批）
+  quote: '"此格取秋冬生者为妙，李武翼命虽是多庚，却被年干出丙字伤了秀气，行乙巳运不合，流年再见壬戌失职矣。"'
+  failure_mode: '见庚申时即按合禄格取引出的官星，不查四柱是否有丙火克庚（伤引合之媒介）、
+
+    巳字刑申（坏引合之支），也不看生月是否当令。
+
+    '
+  mechanism: '合禄格的通路是庚合卯中乙木（或申合巳中戊土），故通路上的每个环节都是条件：
+
+    引合之媒介（庚）被克、被引之支（申）被刑，格局即减分。原文另有一层：癸日合禄格
+
+    「生在秋冬富贵人……若生春夏惹灾连」。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 大运流年（task-13）
+  tags:
+  - counter-example
+  - helu
+  - mingli
+  source_ref: ce-B2-40
+- id: b-yhr-0093
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 108 章 · 内十八格-子遥巳格
+  quote: '"以子合丑绊位，不能遥合巳动丙合辛，无贵。"'
+  failure_mode: '见甲子日（或甲子时）即按子遥巳格取官，不查是否有丑字绊住、庚申七杀、辛字官星，
+
+    也不看有无午字冲子。
+
+    '
+  mechanism: '遥合通路要求子空出来去遥巳；子与丑合即被绊住，通路中断。原文以两命对举：
+
+    赵知府（丙寅 壬辰 甲子 甲子）成格而贵，另一例「己丑 甲戌 甲子 甲子」
+
+    因丑绊而终为平常人。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 合与绊的权重（task-11）
+  tags:
+  - counter-example
+  - ziyaosi
+  - mingli
+  source_ref: ce-B2-41
+- id: b-yhr-0094
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 112 章 · 内十八格-归禄格（眉批）
+  quote: '"日禄归时格最良，怕官嫌杀喜身强，若见比肩分劫禄，刑冲破害更难当。"'
+  failure_mode: '时支归禄即断归禄格，不查四柱是否见官杀、是否被刑冲破害、是否有比肩劫财分夺禄星。
+
+    '
+  mechanism: '归禄的成立限于「禄归时上」这一条件本身：官杀见之则「难归」，比肩劫财见之则分禄，
+
+    刑冲破害则伤禄。眉批把这四类都列为折扣项，唯一的方向性偏好是身强。
+
+    '
+  bound_to:
+  - 格局判定（task-05）
+  - 十神与禄（task-12）
+  tags:
+  - counter-example
+  - guilu
+  - bijie
+  source_ref: ce-B2-42
+- id: b-yhr-0095
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 199 章 · 四言独步
+  quote: '"印绶根轻 旺中显达 印绶根多 旺中不发"'
+  failure_mode: 见印就扶、见旺就行，把「身弱喜印」用成了「印越多越好」。
+  mechanism: 印过重则日主被埋（第 71 章「土多金埋」），旺运再助印，日主更无出头之日。
+  bound_to:
+  - 印绶格忌财坏印（第 75 章）
+  - 病药说（第 282 章）
+  tags:
+  - 印绶
+  - 反例
+  - 行运
+  source_ref: B4-ce01
+- id: b-yhr-0096
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 187 章 · 玄机赋
+  quote: '"身旺印多，喜行财地；财多身弱，畏入财乡。……财多身弱，身旺运以为荣；身旺财衰，财旺乡而发福。"'
+  failure_mode: 看到「财旺」就断富，忽略日主能否任财。
+  mechanism: 财为我克之物，克之需力；身弱再遇财，反受其耗（第 71 章眉批）。
+  bound_to:
+  - 正财要得时不要财多（第 82 章）
+  tags:
+  - 财
+  - 反例
+  - 行运
+  source_ref: B4-ce02
+- id: b-yhr-0097
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 196 章 · 掣要捷驰玄妙诀
+  quote: '"官杀混杂，身弱则贫；官杀两停，合杀而贵。"'
+  failure_mode: 见官杀混杂就想「制伏」，但制不动时仍按贵命论。
+  mechanism: 混杂之克神力量分散又叠加，弱身无从承受；只有合去其中一者才恢复纯一。
+  bound_to:
+  - 官星要纯不要杂（第 70 章）
+  - 官杀两停喜者存之（第 75 章）
+  tags:
+  - 官杀
+  - 反例
+  source_ref: B4-ce03
+- id: b-yhr-0098
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 184 章 · 妖祥赋
+  quote: '"日贵时贵，大忌刑冲克破；拱禄拱贵，最怕填实刑冲。观无合有合，逢凶不凶。"'
+  failure_mode: 判出贵格后不再检查刑冲与填实，把「虚拱」当成「实有」。
+  mechanism: 拱格靠两位虚夹中间一位，中间之字一旦现出或被动，拱的力量即散。
+  bound_to:
+  - 拱禄拱贵填实则凶（第 75 章）
+  tags:
+  - 格局
+  - 反例
+  source_ref: B4-ce04
+- id: b-yhr-0099
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 184 章 · 妖祥赋
+  quote: '"羊刃冲合岁君，运临而祸至。辰戌魁罡，忌官星怕逢七杀；金神日刃，喜七杀而忌刑冲。"'
+  failure_mode: 见刃只论「喜杀」而忘了「忌冲合岁君」；或把魁罡与金神的喜忌搞混。
+  mechanism: 刃本刚烈，与岁君冲合即成引动，灾祸随时点到来。
+  bound_to:
+  - 羊刃喜杀喜印（第 88 章）
+  tags:
+  - 羊刃
+  - 反例
+  - 岁运
+  source_ref: B4-ce05
+- id: b-yhr-0100
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 184 章 · 妖祥赋
+  quote: '"伤官之於年，运到官星不喜。"'
+  failure_mode: 把「伤官伤尽则喜见官」泛化到所有伤官命，忽略年柱伤官的特殊位置。
+  mechanism: 年柱为根，伤官在根上，官星一来即与根上的伤官直接相战。
+  bound_to:
+  - 伤官伤尽却喜见官星（第 182 章）
+  - 年上伤官最可嫌（第 73 章）
+  tags:
+  - 伤官
+  - 反例
+  - 柱位
+  source_ref: B4-ce06
+- id: b-yhr-0101
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 201 章 · 弃命从杀论
+  quote: '"弃命就财 须要会财 弃命从杀 须要会杀 从财忌杀 从杀喜财 会逢根气 命损无猜"'
+  failure_mode: 判了从格之后，行运遇比劫印绶仍按从格论吉。
+  mechanism: 从格的前提是日主彻底无权，根气一现，格局性质逆转。
+  bound_to:
+  - 弃命从杀格（第 132 章）
+  tags:
+  - 从格
+  - 反例
+  - 破格
+  source_ref: B4-ce07
+- id: b-yhr-0102
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 199 章 · 四言独步
+  quote: '"财官临库 不冲不发 …… 提纲有用 最怕刑冲 冲运则缓 冲用则凶"'
+  failure_mode: 一味「冲库」以求发财，结果把月令用神冲坏。
+  mechanism: 库要开，用神要护；两者共用「冲」这一动作，方向相反。
+  bound_to:
+  - 杂气须刑冲破害开库（第 91 章）
+  - 非冲不开（第 285 章）
+  tags:
+  - 墓库
+  - 反例
+  - 冲
+  source_ref: B4-ce08
+- id: b-yhr-0103
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 185 章 · 络绎赋
+  quote: '"纯阳则男必孤寒，纯阴则女必寡困。……贵忌乎多，禄宜乎少。"'
+  failure_mode: 把「纯」当纯粹之美，忽略纯阳纯阴的偏枯。
+  mechanism: 纯则无制衡，偏枯即病（与第 71、283 章同旨）。
+  bound_to:
+  - 太过无克制者贫贱（第 191 章）
+  tags:
+  - 偏枯
+  - 反例
+  - 时代局限
+  source_ref: B4-ce09
+- id: b-yhr-0104
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"断就栋梁金得用，化成灰炭火为灾。"'
+  failure_mode: '见甲木生春、又有火局，即按「旺者宜泄」判为秀气流通，或见火即断富贵；
+
+    不知甲木成器靠金（栋梁金得用），火多则焚身为灰炭。
+
+    '
+  mechanism: '眉批作「甲木之肖枝，别刚柔刚，忌生扶，炭火为自焚之象」——甲为阳木，其成器路径是庚金斧斫，
+
+    而非火泄。火为「自焚」，故甲木的忌神与「木生火为秀」的常法相反。
+
+    '
+  bound_to:
+  - 旺衰判定与用神取舍（task-04 / task-06）
+  - 炎上格成格判定（task-05）
+  tags:
+  - counter-example
+  - wuxing
+  - jia-mu
+  - body-image
+  source_ref: ce-B5-01
+- id: b-yhr-0105
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"乙木根荄种得深，只宜阳地不宜阴。漂浮最怕多逢水，刻斫何须苦用金。南去火炎灾不浅，西行土重祸犹侵。"'
+  failure_mode: '把「木」视为一类，用甲木的喜忌套乙木：误以为乙木同样喜火泄秀、喜水生扶；
+
+    结果是水多、火炎、金斫、土重四种情形都判反。
+
+    '
+  mechanism: '眉批称乙木「宜阳地不宜阴」。乙木为连根柔弱之木，漂（水多）、斫（金多）、炎（火多）、
+
+    埋（土重）皆为伤；其喜忌表与甲木不对称，须逐干查体象歌，不可按五行类归。
+
+    '
+  bound_to:
+  - 十干体象查表（task-04）
+  - 日主喜忌与用神取舍（task-06）
+  tags:
+  - counter-example
+  - wuxing
+  - yi-mu
+  - body-image
+  source_ref: ce-B5-02
+- id: b-yhr-0106
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"江湖死水安能克，惟怕成林木作殃。"'
+  failure_mode: '按「水克火」把水当作丙火的主要忌神，同时把木（印）当作生扶救应；
+
+    实际书中判断恰好相反：水不能克丙，木盛才是真正的忌。
+
+    '
+  mechanism: '丙为太阳，江湖之水不能灭其光；眉批「须忌木盛则蔽之」——木为蔽日之物，
+
+    林木成片则光被遮。生扶（印）在此处成为病源，不是药。
+
+    '
+  bound_to:
+  - 印绶格与生扶类判断（task-06）
+  - 日主喜忌表（task-04）
+  tags:
+  - counter-example
+  - wuxing
+  - bing-huo
+  - body-image
+  source_ref: ce-B5-03
+- id: b-yhr-0107
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"得时能化千斤铁，失令难熔一寸金。虽少乾柴尤可引，纵多湿木不能生。"'
+  failure_mode: '凡见木（印）即断丁火得生，未分乾柴与湿木、得时与失令；
+
+    在失令或水湿之局仍按「印重身旺」断富贵。
+
+    '
+  mechanism: '丁为烛灯之火：得时能化千斤铁，失令连一寸金也熔不动；
+
+    湿木不生火，柴少反可引燃。生扶是否有效取决于燥湿与月令，而非印的多少。
+
+    '
+  bound_to:
+  - 印绶生扶类判断（task-06）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - wuxing
+  - ding-huo
+  - body-image
+  source_ref: ce-B5-04
+- id: b-yhr-0108
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"柱中带合形还壮，日下乘虚势必崩。力薄不胜金漏泄，功成安用木疏通。"'
+  failure_mode: '见戊土即断「土能堤水」「土能生金」，忽略柱中合化为水、日支虚脱、金多漏气三种失效条件。
+
+    '
+  mechanism: '眉批「戊土禄厚，喜逢己迎，合水盛则崩」——戊土的挡水能力依赖根重与不自化；
+
+    一旦合成水势或日支无根，堤岸自溃；金多则土被泄薄。
+
+    '
+  bound_to:
+  - 土日主喜忌（task-04）
+  - 化气/从格判定（task-18）
+  tags:
+  - counter-example
+  - wuxing
+  - wu-tu
+  - body-image
+  source_ref: ce-B5-05
+- id: b-yhr-0109
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"漫夸印旺兼多合，不遇刑冲总不宜。"'
+  failure_mode: '见到印旺、干头多合即断为美；不知道对己土而言印旺与多合属虚夸，
+
+    反须刑冲疏通才可用。
+
+    '
+  mechanism: '己土为田园，水金旺处身还弱，需刑冲开其滞气；眉批「有金忌失时，善生旺又喜刑冲」。
+
+    与「合多则贵、刑冲则凶」的一般印象相反。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  - 墓库与刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - wuxing
+  - ji-tu
+  - hechong
+  source_ref: ce-B5-06
+- id: b-yhr-0110
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 487）
+  quote: '"戊己干支重遇土，不逢冲破即埋藏。"'
+  failure_mode: '按「土生金」把印多当身旺之福；结果金被土埋，须冲破才透，
+
+    印重之局反断成贵命。
+
+    '
+  mechanism: '眉批「庚金顽铁，忌生扶喜剥削，怕土重」：庚金成器靠火炼水淬（剥削），
+
+    土重生扶只会埋没。生扶在此为病。
+
+    '
+  bound_to:
+  - 印绶生扶类判断（task-06）
+  - 金日主旺衰（task-04）
+  tags:
+  - counter-example
+  - wuxing
+  - geng-jin
+  - yin-heavy
+  source_ref: ce-B5-07
+- id: b-yhr-0111
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 215 章 · 十干体象（page 488）
+  quote: '"干支多聚成漂荡，火土重逢涸本源。……身强原自无财禄，西北行程厄少年。"'
+  failure_mode: '见水多即断身旺为吉、见西北金水运即断顺势；
+
+    书中明言水多则漂荡无收（身强原自无财禄），深夏火土之局再行西北反为过。
+
+    '
+  mechanism: '眉批「壬水有痕之水，忌生扶喜剥削，无土则漫流」——水的失败模式是「无制」；
+
+    癸水眉批「喜生扶忌剥削，喜合忌克冲」，与壬水喜忌又不同向。
+
+    '
+  bound_to:
+  - 日主旺衰判定（task-04）
+  - 大流行运推演（task-13）
+  tags:
+  - counter-example
+  - wuxing
+  - water
+  - yun
+  source_ref: ce-B5-08
+- id: b-yhr-0112
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 216 章 · 十二支体象（page 490）
+  quote: '"超凡入圣唯逢午，破禄伤提独虑申。……祸见六冲应落叶，喜逢三合便成林。若归日时秋金重，更向西行患不禁。"'
+  failure_mode: '把地支判断压缩成「三合则吉、六冲则凶」，忽略各支体象自带的专属忌：
+
+    寅忌申（破禄伤提）、卯在日时遇秋金重而更行西方则患不禁、燥木不南奔。
+
+    '
+  mechanism: '每支各有体象与当令之气，其忌神是按自身气机给出的，与通用合冲规则并行；
+
+    只取通用规则会漏掉方向性禁忌。
+
+    '
+  bound_to:
+  - 旺衰与支的喜忌（task-04）
+  - 刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - dizhi
+  - body-image
+  source_ref: ce-B5-09
+- id: b-yhr-0113
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 216 章 · 十二支体象（page 490）
+  quote: '"直须一钥能开库，若遇三冲即破门。水木重逢西北运，只愁厚土不能存。"'
+  failure_mode: '凡遇辰戌丑未即以「宜冲开」断吉，忽视冲力过度（三冲）会把库冲破；
+
+    也忽略土在西北金水之地难以存身。
+
+    '
+  mechanism: '库需一钥开启（适量刑冲），冲多则破门，库中之物随之散失；
+
+    开库是条件性许可，不是无条件吉。
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - muku
+  - chong
+  source_ref: ce-B5-10
+- id: b-yhr-0114
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 216 章 · 十二支体象（page 490）
+  quote: '"三刑传送反无害，一撞登明便有伤。行到东南生发地，烧天烈焰岂寻常。"'
+  failure_mode: '把三刑一律判凶、把巳火行东南一律判吉；
+
+    原文恰好相反：寅刑巳（传送）在此反无害，巳亥相犯却有伤，巳行东南成烧天烈焰。
+
+    '
+  mechanism: '眉批「登明，亥宫也。言巳亥犯。传送，寅刑巳也。喜东南忌西北」——
+
+    刑的吉凶取决于所刑之支的气机，不是刑本身；巳的忌在西北，但其东南亦非全吉。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - sanxing
+  - chong
+  source_ref: ce-B5-11
+- id: b-yhr-0115
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 216 章 · 十二支体象（page 491）
+  quote: '"木多无水终能胜。土重埋金却有凶。……天罗虽是迷魂阵，火命逢之独有伤。"'
+  failure_mode: '遇戌即按「天罗」泛断凶；实际书中给出限定：只有火命逢之独有伤；
+
+    又把申金断为刚健有力，忽略土重埋金之凶。
+
+    '
+  mechanism: '眉批「庚金禄在申……怕金得令，忌土」说明申虽刚健仍有埋金之忌；
+
+    天罗之凶按命主五行分判，不是普适凶神。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 金日主旺衰（task-04）
+  tags:
+  - counter-example
+  - shensha
+  - dizhi
+  source_ref: ce-B5-12
+- id: b-yhr-0116
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 217 章 · 正官诗诀（page 492）
+  quote: '"官星不可被刑冲，官杀同来吉变凶，化杀为官方是吉，变官为杀祸重重。"'
+  failure_mode: '只统计官星有无、多少便断功名，不检查：（1）官星是否被刑冲，
+
+    （2）官与杀是否混杂，（3）是「化杀为官」还是「变官为杀」。
+
+    '
+  mechanism: '官贵纯而不贵杂；官被杀混或官星受刑冲，则同一官星由吉变凶。
+
+    转化方向（杀化官 vs 官化杀）决定吉凶符号。
+
+    '
+  bound_to:
+  - 正官格判定（task-05）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - geju
+  source_ref: ce-B5-13
+- id: b-yhr-0117
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 217 章 · 正官诗诀（page 493）
+  quote: '"印多官多为贵命，官旺身衰反为病，官多身旺化为财，财旺身衰贫病并。……提纲独遇为真贵，年位重逢乃太多，别处若有杀来混，反为辛苦受奔波。"'
+  failure_mode: '见官多印多即断贵命，不问身之旺衰；见官星多点即断贵气叠加，
+
+    不知提纲独遇为真贵，年位重逢已属太多，别处混杀则反为辛苦。
+
+    '
+  mechanism: '官、印、财的价值随身之旺衰互换符号（官多身旺化为财；财旺身衰贫病并）；
+
+    官星的吉凶还取决于出现位置（月令 vs 年位 vs 别处）与是否被混。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - wangshuai
+  source_ref: ce-B5-14
+- id: b-yhr-0118
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 218 章 · 偏官诗诀（page 494）
+  quote: '"身弱杀强无制神，多生灾祸不堪论，那堪更入官强地，带疾遭刑丧此身。"'
+  failure_mode: '见偏官有制即断权贵，不看日主强弱；身弱杀强又无制神时仍按吉断，
+
+    并把岁运入官强地视为「得地」。
+
+    '
+  mechanism: '「偏官如虎怕冲多……身弱虎强成祸患，身强制伏贵中和」——杀的吉凶由身杀对比决定；
+
+    身弱无制是杀反噬的结构。
+
+    '
+  bound_to:
+  - 七杀格判定（task-05）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - qisha
+  - shensha-weak
+  source_ref: ce-B5-15
+- id: b-yhr-0119
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 218 章 · 偏官诗诀（page 495）
+  quote: '"杀神元有制神伤，制伏身强福禄昌，如见制伏先有损，反将富贵变灾殃。……偏官制伏太过时，贫儒生此更何疑，岁时若遇财旺地，杀星苏醒发权威。"'
+  failure_mode: '见七杀即加制神（食伤或印），在一杀而制神二三、或行制伏运时仍按吉断；
+
+    结果制过则杀不成权，反致贫薄灾殃。
+
+    '
+  mechanism: '制伏是配平而非消灭：杀被制尽则贵气无从出，须财旺以「苏醒」杀星。
+
+    「制伏无过」是判准，制神多于杀星即是病。
+
+    '
+  bound_to:
+  - 七杀制伏（task-08）
+  - 病药诊断的「药多药少」（task-07）
+  tags:
+  - counter-example
+  - qisha
+  - zhifu
+  - bingyao
+  source_ref: ce-B5-16
+- id: b-yhr-0120
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 218 章 · 偏官诗诀（page 495）
+  quote: '"伤官七杀命中嫌，制伏调和可作权，日弱又无制伏者，兢兢如抱虎而眠。"'
+  failure_mode: '见伤官、七杀并见仅按「伤官驾杀」「杀刃相济」等名目断贵，
+
+    未检查日主强弱与是否真有制伏调和。
+
+    '
+  mechanism: '伤官七杀同时出现是「命中嫌」，只有在有制伏调和时才转化为权；
+
+    日弱无制则整个结构处于高风险，名为抱虎而眠。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  - 七杀制伏（task-08）
+  tags:
+  - counter-example
+  - shangguan
+  - qisha
+  source_ref: ce-B5-17
+- id: b-yhr-0121
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 219 章 · 印绶诗诀（page 496）
+  quote: '"印绶干支喜自然，功名富豪禄高迁，若逢财运来伤印，退职休官免祸惩。……印绶如经死绝乡，怕财仍旧怕空亡，逢之定主多凶祸，落水火刑自缢伤。"'
+  failure_mode: '印格行财运时按「财官双美」断吉，不知财正是印之忌（贪财坏印）；
+
+    也忽略印入死绝乡后又见财、空亡的叠加。
+
+    '
+  mechanism: '印有专属忌法（怕财、怕空亡、怕死绝），与「用之某神不可某」的忌法体系一致；
+
+    忌神到位的岁运是降级信号而非升级信号。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  - 用神不可伤的忌法（task-06）
+  tags:
+  - counter-example
+  - yinshou
+  - caixing
+  - yongshen
+  source_ref: ce-B5-18
+- id: b-yhr-0122
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 219 章 · 印绶诗诀（page 497）
+  quote: '"印绶重重享见成，食神只恐暗相刑，早年若不归泉世，孤苦离乡宿疾萦。……印绶干头重见比，如行运助必伤身，莫言此格无奇妙，印入财乡福禄真。"'
+  failure_mode: '见印重、见现成之福即判吉；不知印重会暗损食神（子息与寿元之神），
+
+    干头再见比劫而岁运再助则反伤身。
+
+    '
+  mechanism: '印与食神互为消长（印克食伤），印多则食受损；比劫本为助身，
+
+    在印重之局再助反而过旺致伤——救应过量同样是病。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  - 食神/伤官格（task-09）
+  tags:
+  - counter-example
+  - yinshou
+  - shishen
+  - bijie
+  source_ref: ce-B5-19
+- id: b-yhr-0123
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 220 章 · 正财诗诀（page 498）
+  quote: '"正财切忌劫财神，破害刑冲不可论，岁运那堪逢刃地，命延不死也遭迍。……身衰财旺还知夭，官盛身强福禄来。……财神忌透只宜藏，身旺逢之大吉昌，切忌比劫相遇值，一生名利被分张。"'
+  failure_mode: '见财星成局即断富；不论身之强弱、不论劫刃是否分夺、
+
+    不论财星宜藏不宜透，也不检查刑冲破害。
+
+    '
+  mechanism: '正财的可用性取决于三件事：身能否任财（身衰财旺反主夭）、财是否被劫夺（劫财、羊刃）、
+
+    财的藏透格局（透则易被分张）。三项任缺其一即由富转败。
+
+    '
+  bound_to:
+  - 财格判定（task-05）
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - caixing
+  - jiecai
+  - yangren
+  source_ref: ce-B5-20
+- id: b-yhr-0124
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 221 章 · 偏财诗诀（page 500）
+  quote: '"月偏财是衆人财，最忌干支兄弟来，身强财旺皆为福，若带官来足妙哉。……若见偏财遇劫星，田园破尽苦还贫，伤妻损妾多遭辱，食不相资困在陈。"'
+  failure_mode: '把偏财与正财同法处理，忽略偏财属「众人财」，比劫同位即分夺；
+
+    在劫星显露时仍断田园丰厚。
+
+    '
+  mechanism: '眉批「偏财主外方财，忌兄弟姐妹分夺其财食，若身旺财旺极其富矣」——
+
+    偏财的成败在于能否独占（有无比劫劫夺），且须官星以「享之」。
+
+    '
+  bound_to:
+  - 财格判定（task-05）
+  - 六亲推断与某亲受克（task-14）
+  tags:
+  - counter-example
+  - piancai
+  - bijie
+  source_ref: ce-B5-21
+- id: b-yhr-0125
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 222 章 · 食神诗诀（page 502）
+  quote: '"食神有气胜财官，先要他强旺本干，若是反伤来夺食，忙忙辛苦祸千般。……切忌枭来明灭福，最嫌冲去暗消除。……食神生旺喜生财，日主刚强福禄来，身弱食多反为害，或逢印绶不生灾。"'
+  failure_mode: '见食神即断福寿；不检查（1）枭神（偏印）夺食，（2）食神被冲，
+
+    （3）日主是否够强以任食之泄。
+
+    '
+  mechanism: '食神须「强旺本干」方可用：身弱而食多则泄气过度为害；
+
+    偏印夺食是明确的破格机制（明灭福）。
+
+    '
+  bound_to:
+  - 食神/伤官格处理（task-09）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - shishen
+  - xiaoshen
+  source_ref: ce-B5-22
+- id: b-yhr-0126
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 223 章 · 伤官诗诀（page 504）
+  quote: '"伤官不尽又逢官，斩绞徒流祸百端，月犯父子无全美，日犯自己主伤残。……年上伤官最可嫌，重则伤身寿不延，伤官伤尽生财贵，财绝逢官祸必连。"'
+  failure_mode: '见伤官格即断「伤尽为大贵人」，不在四柱中逐位核查官星是否真的一点不见；
+
+    官星存在于月、日、年任一位，判断符号都由吉转凶。
+
+    '
+  mechanism: '眉批「若四柱无一点官星，谓之伤尽」——「伤尽」是可核查的硬条件；
+
+    伤官的凶应还按宫位分（月犯父子、日犯自己、时伤子息、居太岁招横祸）。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - shangguan
+  - jianguan
+  source_ref: ce-B5-23
+- id: b-yhr-0127
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 223 章 · 伤官诗诀（page 505）
+  quote: '"伤官伤尽最为奇，尤恐伤多反不宜，此格局中千变化，推寻需要用心机。……壬水伤官怕木浮，见官见杀反为仇，再行财旺生官地，财禄无亏得到头。……癸水伤官怕见官，最嫌戊己透天干，再行财旺生官地，世事纷劳祸百端。"'
+  failure_mode: '把「伤官伤尽最为奇」当通例，忽略「伤多反不宜」，并用同一套喜忌
+
+    处理十天干的伤官（例如癸水伤官最忌见官，庚金伤官反喜见官）。
+
+    '
+  mechanism: '伤官喜忌逐干不同（金水伤官要见官、火土伤官宜伤尽、庚金伤官喜见官、
+
+    癸水伤官怕见官）；眉批亦指「惟火土忌之最紧」。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shangguan
+  - tiangan
+  source_ref: ce-B5-24
+- id: b-yhr-0128
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 224 章 · 羊刃诗诀(劫财)（page 507）
+  quote: '"羊刃存时莫看凶，身轻反助却为福，单嫌岁月重相见，莫把生时作怒宫。……时逢羊刃喜偏官，若见财星祸百端，岁运相冲并相合，勃然灾祸又临门。"'
+  failure_mode: '见羊刃即断凶（或见刃即断贵），不检查：（1）身轻时刃反为助，
+
+    （2）年月重见之害，（3）见财之祸，（4）冲合岁君之灾。
+
+    '
+  mechanism: '羊刃与身强弱、与财官的关系共同决定吉凶：身轻得刃反助，时刃喜偏官制；
+
+    但刃见财必争，刃被岁君冲合则「勃然祸至」。眉批逐条给出这些条件。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运太岁交互（task-13）
+  tags:
+  - counter-example
+  - yangren
+  - yun
+  source_ref: ce-B5-25
+- id: b-yhr-0129
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 224 章 · 羊刃诗诀(劫财)（page 508）
+  quote: '"比肩阳刃格非常，要见官星与杀乡，元辰若无官杀制，再行比劫祸难当。……财星轻弱刃刚强，身旺之乡大不祥，凤寡鸾孤寒夜怨，等闲妻克两三场。……不宜阳刃天干露，岁运相逢事事凶。"'
+  failure_mode: '见身旺、比劫多即断「身强有力」；未注意阳刃格须官杀为制，
+
+    无制而再行比劫则祸难当，且财轻刃强直接对应财（妻）受损。
+
+    '
+  mechanism: '阳刃是「禄前一位」之气，力量须有出口（官杀制）；无制则刚烈伤人伤财，
+
+    并反噬本身所克之财。天干露刃再逢岁运则为叠加。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 六亲推断克应条件（task-14）
+  tags:
+  - counter-example
+  - yangren
+  - bijie
+  - keqi
+  source_ref: ce-B5-26
+- id: b-yhr-0130
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 225 章 · 刑合诗诀（page 510）
+  quote: '"六癸日生时甲寅，假名刑合亦非真，月令若加亥子位，伤官格内倒推寻。……癸日生人时甲寅，最嫌四柱带官星，若无戊己庚申字，壮岁荣华达帝京。"'
+  failure_mode: '见到「癸日甲寅时」即套刑合格断贵，未先核月令（加亥子则改按伤官格）、
+
+    也未核四柱是否带官星与戊己庚申等破格字。
+
+    '
+  mechanism: '眉批「若四柱有子不是此论。或寅申冲破，则不吉……若庚寅刑不成」——
+
+    格局名先有资格条件，条件不足时该名目不成立（假名），须退回按本格（伤官）推。
+
+    '
+  bound_to:
+  - 外十八格取格（task-05）
+  tags:
+  - counter-example
+  - waishiba-ge
+  - quge
+  source_ref: ce-B5-27
+- id: b-yhr-0131
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 226 章 · 日贵诗诀（page 512）
+  quote: '"日贵支干一位同，空亡大忌带官冲，仁慈广德多姿色，会合财星空自崇。……癸丁蛇卯届猪鸡，官被刑冲祸必随，纯粹施为有仁德，尊崇富贵出希奇。"'
+  failure_mode: '见日支恰为贵人位（癸卯、癸巳、丁酉、丁亥）即断贵，未检查空亡与刑冲破害；
+
+    也不看日贵须干支同气、会合财星则空自崇。
+
+    '
+  mechanism: '眉批「只忌刑冲破害则伤贵人」——神煞吉星的效力依附于结构完整，
+
+    被冲即伤，其吉不能独立成立。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - riguiren
+  - shensha
+  source_ref: ce-B5-28
+- id: b-yhr-0132
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 227 章 · 金神诗诀（page 514）
+  quote: '"甲午时上见金神，杀刃相临真贵人，火木运中财禄发，如逢金水必伤身。……性多狠暴才明敏，遇水相生立困穷，制伏运行逢火局，超迁贵显禄千锺。"'
+  failure_mode: '见金神（癸酉、己巳、乙丑时）即断贵；不核四柱是否真有火制、
+
+    也不把忌水运列入断语。
+
+    '
+  mechanism: '眉批「四柱要火制之为贵……忌水运」：金神的贵气同样以制神到位为前提，
+
+    水行则困穷，水运伤身。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  tags:
+  - counter-example
+  - jinshen
+  - geju
+  source_ref: ce-B5-29
+- id: b-yhr-0133
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 228 章 · 日德诗诀（page 516）
+  quote: '"日德不喜见魁罡，化成杀曜最难当，局中重见须还疾，运限逢之必定亡。……日德重重免祸殃，官星切忌见财乡，更无冲破空刑物，堪作朝中一栋梁。"'
+  failure_mode: '把日德当清贵之格即断富贵；未检查：（1）是否与魁罡并见（化成杀曜），
+
+    （2）是否重见，（3）是否落空亡，（4）官星是否逢财乡。
+
+    '
+  mechanism: '眉批「日德乃清贵之神，又遇魁罡恶曜则伤其贵……日德怕空亡，乃本身落空」——
+
+    清贵之神须结构洁净，任一条被破坏则该格不成立。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - ride
+  - kuigang
+  - kongwang
+  source_ref: ce-B5-30
+- id: b-yhr-0134
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 229 章 · 魁罡诗诀（page 518）
+  quote: '"魁罡四日最为先，叠叠相逢掌大权，庚戌庚辰怕官显，壬戌壬辰畏财连。……柱有刑冲兼破害，一贫彻骨受答鞭。……日主独逢冲克重，财官显露祸无穷。"'
+  failure_mode: '见庚辰、庚戌、壬辰、壬戌即断「掌大权」；不核该日是否被官显、财连、
+
+    刑冲破害所伤，也不看是否重叠或独逢冲克。
+
+    '
+  mechanism: '魁罡为刚烈之日，其福要求在「日加重者」与身旺无伤的条件下；
+
+    官财显露或刑冲到位立刻转为彻骨之贫。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  tags:
+  - counter-example
+  - kuigang
+  - geju
+  source_ref: ce-B5-31
+- id: b-yhr-0135
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 230 章 · 时墓诗诀（page 520）
+  quote: '"财官藏蓄四时辰，年少相冲可进身，不遇相冲遭压伏，果然不发少年人。……要知何物能开库，刑冲破害是钥匙，露出财官方得用，身衰鬼墓甚危痴。"'
+  failure_mode: '把时上辰戌丑未一律判为「财官入库，当贵」，不问是否开钥、
+
+    不问日主是否身衰（身衰则鬼墓危及自身）。
+
+    '
+  mechanism: '眉批「术人不知墓库之分别……库者遇冲开取而用之，墓者纵冲开取亦无用焉」——
+
+    墓与库性质不同：库为有气可开之物，墓为绝气无用之物；
+
+    且「官墓不显其荣，财墓不用於此，印墓不得为信」，须冲开才可用。
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  tags:
+  - counter-example
+  - shimu
+  - muku
+  - chong
+  source_ref: ce-B5-32
+- id: b-yhr-0136
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 231 章 · 杂气财官诗诀（page 522）
+  quote: '"杂气财官在月宫，天干透露始为丰，财多官旺宜冲破，切忌干支压伏重。……四季财官月内藏，刑冲克制要相当，太过不及皆成祸，运到财乡是吉祥。"'
+  failure_mode: '见杂气格即求刑冲开库，忽略「刑冲克制要相当」——
+
+    压制太过与不足（压伏重、冲制不足）同样是祸；也忽略须天干透露才算成格。
+
+    '
+  mechanism: '杂气格的成立有两端：干头透露（格真）与刑冲分量适中（钥匙适度）。
+
+    任一端失当即为祸，而不是「冲开即吉」。
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - zaqi
+  - xingchong
+  source_ref: ce-B5-33
+- id: b-yhr-0137
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 232 章 · 时上偏财诗诀（page 524）
+  quote: '"时上偏财一位佳，不逢冲破享荣华，破财劫刃还无遇，富贵双全比石家。……时上偏财遇劫星，田园破尽苦还贫，伤妻损妾多遭辱，食不相资困在陈。"'
+  failure_mode: '见时上偏财即断富贵，不检查是否被冲破、是否同时出现劫刃；
+
+    也不核「一位」是否真的只有一位。
+
+    '
+  mechanism: '时上偏财的价值在于「一位」：冲破则伤财，劫刃则分夺，
+
+    「破财劫刃还无遇」是成格前提而非附带条件。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - piancai
+  - pianguan
+  - shizhu
+  source_ref: ce-B5-34
+- id: b-yhr-0138
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 233 章 · 时上一位贵诗诀（page 526）
+  quote: '"时上偏官一位逢，身强杀浅怕刑冲，假如月上又重见，辛苦独劳百事空。……时上偏官喜刃冲，身强制伏禄丰隆。正官若也来相会，身弱财生主困穷。"'
+  failure_mode: '把「时上一位贵」当见到时上偏官即成立；不核年月是否重见（重见则辛苦劳碌、百事空），
+
+    也不核正官来会与身弱财生这两种反向情形。
+
+    '
+  mechanism: '眉批「其要时上一位，不要多，而三处不要重见，却怕冲……若年月又有反贱，辛苦劳碌之人」——
+
+    该格的成立依赖唯一性与身强，两者任一不满足即改判。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - pianguan
+  - shizhu
+  source_ref: ce-B5-34b
+- id: b-yhr-0139
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 233 章 · 时上一位贵诗诀（page 526）
+  quote: '"元无制伏运须见，不怕刑冲多杀攒，若是身衰惟杀旺，定知此命是贫寒。"'
+  failure_mode: '时上偏官按「制伏为权」断贵，不论日主强弱；身衰而杀旺者仍按贵断。
+
+    '
+  mechanism: '眉批引「杀重身轻，终身有损，一见制伏却为贵」——同一结构在身强与身弱下符号相反；
+
+    原犯鬼轻者反不宜再制。
+
+    '
+  bound_to:
+  - 七杀格（task-08）
+  tags:
+  - counter-example
+  - pianguan
+  - shensha
+  source_ref: ce-B5-35
+- id: b-yhr-0140
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 234 章 · 飞天禄马诗诀（page 528）
+  quote: '"最忌绊神兼论合，官星填实祸当途，运重岁轻消息取，用神不损上天衢。……七杀官星休要犯，丑字相逢绊若何，天地人元重见土，克其子丑不兴波。……丙丁高位激江湖，岁运无官入仕途，专禄荣名皆逐意，片言投合动皇都。"'
+  failure_mode: '见飞天禄马等暗冲暗合之格即断富贵；不检查：（1）所冲之宫是否被填实，
+
+    （2）是否有绊神合住，（3）官星是否显露，（4）岁运是否来冲。
+
+    '
+  mechanism: '这类奇格靠「暗冲暗合」取官，故最怕填实（冲之目标已现，暗冲作废）、
+
+    怕绊合（合住关键的冲神）、怕官星明现（不再需要暗取）。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - tianshi
+  - banshen
+  source_ref: ce-B5-36
+- id: b-yhr-0141
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 235 章 · 六乙鼠贵诗诀（page 530）
+  quote: '"乙日须逢丙子时，如无午破贵尤奇，四柱忌逢申酉丑，若无官杀拜丹墀。……六乙生人时遇鼠，官星又带复如此，庚辛申酉马牛欺，一位逢之为丐子。"'
+  failure_mode: '见乙日得子时即断「聚贵」；不核午字冲破、四柱申酉丑、庚辛申酉显露这些条件，
+
+    甚至出现「一位逢之为丐子」的反向结论。
+
+    '
+  mechanism: '眉批「用此格者忌冲子，不宜见午字去冲……见庚申辛酉四字则减分数，岁运亦忌，
+
+    凡遇见官只作别格断之」——该格对官星显露极度敏感，条件不满足即降格或反贱。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - shuguizhu
+  source_ref: ce-B5-36b
+- id: b-yhr-0142
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 236 章 · 合禄诗诀（page 532）
+  quote: '"甲丙卯寅兼巳字，四营岁运怕同宫。……大忌寅来伤秀气，若逢春夏惹灾连。"'
+  failure_mode: '见合禄格即断清贵；不核合神是否被刑坏（甲乙丙巳刑坏申、丙伤庚字），
+
+    也不核生在春夏与岁运同宫之忌。
+
+    '
+  mechanism: '眉批「四柱有甲乙字，丙字、巳字，刑坏了申，丙伤庚字，则减分数，岁君大运亦然」——
+
+    奇格的取官工具（合神）被破坏则格不成。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - helu
+  - yaosi
+  source_ref: ce-B5-37
+- id: b-yhr-0143
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 237 章 · 子遥巳诗诀（page 534）
+  quote: '"甲临子字日时全，拟作蟾宫折桂仙，丑绊午冲官杀显，反为淹滞祸绵绵。……不喜庚辛申酉出，丑来相绊亦非宜，更嫌午字相冲害，运入官乡旺处奇。"'
+  failure_mode: '见甲子日甲子时即断「遥巳」取贵；不核丑字绊住子、午字冲破子、
+
+    以及庚辛申酉官杀显露使遥合不成。
+
+    '
+  mechanism: '眉批「或有丑字合子字则遥不成反成下格」——遥合的成立依赖子字保持自由，
+
+    被合住或被冲破即格败。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - yaosi
+  - banshen
+  source_ref: ce-B5-37b
+- id: b-yhr-0144
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 238 章 · 丑遥巳格诗诀（page 536）
+  quote: '"辛癸二日逢遇丑，便是官星暗入宫，申酉喜来临一字，忌逢巳午子垣凶。"'
+  failure_mode: '见辛丑、癸丑日即断遥巳取官，不核子字是否合住丑字、是否逢巳午。
+
+    '
+  mechanism: '眉批「辛用丑遥巳中丙为官，癸用丑遥巳中戊土为官，忌子字合住丑字则不能遥也」——
+
+    遥神的自由度是成格条件，且喜申酉一字相临。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - yaosi
+  - banshen
+  source_ref: ce-B5-37c
+- id: b-yhr-0145
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 239 章 · 壬骑龙背诗诀（page 538）
+  quote: '"壬骑龙背喜非常，寅字辰多转发扬，大忌官星来破格，刑冲须见寿元伤。……壬寅不及壬辰日，四柱壬辰字要多，辰字多兮官杀重，寅多可比石崇过。"'
+  failure_mode: '见壬辰日辰多即断「骑龙背」大贵；不核官星是否显露（见官则不为此格）、
+
+    是否被刑冲、以及辰多官重与寅多之富两种情形的分别。
+
+    '
+  mechanism: '眉批「此以辰冲戌中丁戊为壬之财官……正谓辰多则贵，寅多着富……
+
+    若见官星，不为此格」——该格靠暗冲取财官，官星明现即破格。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - pogé
+  source_ref: ce-B5-38
+- id: b-yhr-0146
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 240 章 · 井栏叉格诗诀（page 540）
+  quote: '"庚日全逢申子辰，井栏叉格制官星，局中无火方成贵，破动提纲祸亦刑。……丙丁巳午岁运逢，失禄破财须且畏。"'
+  failure_mode: '见庚日申子辰水局即断井栏叉成格；不核局中是否见火（丙丁巳午），
+
+    也不核提纲是否被破动。
+
+    '
+  mechanism: '眉批「只是暗冲寅午戌，若柱中有一寅一午一戌，亦非此格，则无贵矣」——
+
+    暗冲之格最忌目标字填实，一见即格败。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - tianshi
+  source_ref: ce-B5-38b
+- id: b-yhr-0147
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 241 章 · 归禄格诗诀（page 542）
+  quote: '"归禄逢财名利全，干头不忌透财源，身强无破平生好，大怕行运遇比肩。……日禄归时格最良，怕官嫌杀喜身强，若见比肩分劫禄，刑冲破害更难当。"'
+  failure_mode: '见日禄归时即断「青云得路」；不核是否见官星（有官则非此格）、
+
+    是否行比肩分禄之运、是否被刑冲破害。
+
+    '
+  mechanism: '眉批「四柱无一点官星，方是此格。若有官星，则非此格……行见官运亦凶」——
+
+    归禄以「无官」为成立条件，且最怕比劫分禄。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - guilu
+  - bijie
+  source_ref: ce-B5-38c
+- id: b-yhr-0148
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 242 章 · 六阴朝阳诗诀（page 544）
+  quote: '"辛日单单逢戊子，六阴贵格喜朝阳，丙丁巳午休填实，岁运轮逢一例评。……六阴行运喜西方，临在东方也吉昌，若到北方凶且畏，南离冲破主灾殃。"'
+  failure_mode: '见辛日戊子时即断六阴朝阳；不核丙丁巳午是否填实（有火即是官星，不用此格）、
+
+    也不看行运北方的反向结果。
+
+    '
+  mechanism: '眉批「以我动丙火为辛之官，暗合取贵，无官星方用此例……有火即是官星，不用此格」——
+
+    暗合的成立以官星不现为前提。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - tianshi
+  source_ref: ce-B5-38d
+- id: b-yhr-0149
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 243 章 · 拱禄拱贵诗诀（page 546）
+  quote: '"所拱之位怕填实，又怕伤官在月支，羊刃重重来格破，如无此破贵无疑。……两绊本身非是我，拱藏一位虚中好，不宜填实见官星，更忌官星当克破。"'
+  failure_mode: '见拱禄拱贵即断腰金衣紫；不核所拱之位是否已被填实（虚拱才成）、
+
+    月支是否伤官、是否羊刃重重。
+
+    '
+  mechanism: '眉批「宜虚拱，不要填实，相绊刑冲破害皆拱不成矣」——虚拱是可失效的机制性条件，
+
+    一旦填实则格败。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - gonglu
+  - tianshi
+  source_ref: ce-B5-39
+- id: b-yhr-0150
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 244 章 · 六甲趋干诗诀（page 548）
+  quote: '"甲日生人遇亥时，甲趋乾格最相宜，岁运逢官财旺处，官灾祸患共来齐。"'
+  failure_mode: '见甲日亥时即断趋乾；不核岁运是否逢官财旺地（一逢即官灾祸患同至）。
+
+    '
+  mechanism: '眉批「此以甲禄在寅，亥与寅合，谓之合禄，不宜刑冲」——
+
+    该格靠合禄取贵，故结构洁净与官星不显是前提。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - xingchong
+  source_ref: ce-B5-40
+- id: b-yhr-0151
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 245 章 · 六壬趋艮诗诀（page 549）
+  quote: '"壬日寅时为贵格，此名趋艮福非常，大伯刑冲并克破，相逢岁运祸非常。"'
+  failure_mode: '见壬日寅时即断趋艮；不核刑冲克破（岁运相逢即祸非常）。
+
+    '
+  mechanism: '眉批「壬水日主，多见寅字，则用寅中甲木，暗邀己土为壬日之官星」——
+
+    暗邀结构对刑冲极度敏感。
+
+    〔引文「大伯」疑为「大怕」之误，见本块文本问题记录〕
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - qige
+  - xingchong
+  source_ref: ce-B5-40b
+- id: b-yhr-0152
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 246 章 · 勾陈得位诗诀（page 551）
+  quote: '"戊己勾陈得局清，财官相遇两分明，假令岁运无冲破，富贵双全享太平。"'
+  failure_mode: '见戊己日坐财官（戊寅、戊子、戊申、己未、己亥、己卯）即断富贵；
+
+    眉批明言「忌刑冲杀旺」而不被列入断语。
+
+    '
+  mechanism: '勾陈得位以财官两见且结构无损为条件；刑冲破局、杀旺夺财官则不成。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - gouchen
+  - xingchong
+  source_ref: ce-B5-40c
+- id: b-yhr-0153
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 248 章 · 润下诗诀（page 555）
+  quote: '"壬癸生临水局中，汪洋一会向流东，若然不遇堤防土，金紫荣身位至公。"'
+  failure_mode: '见壬癸水局成即断青云得路，不核是否有土堤防、是否行官运。
+
+    '
+  mechanism: '眉批「如万宗人……得申子辰合亥子水局，合此格，只忌官运」——
+
+    专旺格是「一类独旺」，引入克神（官）或失去堤防即破。
+
+    '
+  bound_to:
+  - 外十八格与从格判定（task-05）
+  tags:
+  - counter-example
+  - zhuanwang
+  - waishiba-ge
+  source_ref: ce-B5-41
+- id: b-yhr-0154
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 249 章 · 从革诗诀（page 557）
+  quote: '"金居从格贵人钦，造化清高福禄真。四柱火来相混杂，空门艺术谩经纶。"'
+  failure_mode: '见天干地支纯金即断从革成格；不核是否见火（丙丁巳午），
+
+    四柱火来相杂即降为「空门艺术」。
+
+    '
+  mechanism: '眉批「天干地支纯金方用此格……忌火喜土，岁运亦然」——
+
+    专旺之格以「不见克神」为成立条件。
+
+    '
+  bound_to:
+  - 外十八格（task-05）
+  tags:
+  - counter-example
+  - conggé
+  - waishiba-ge
+  source_ref: ce-B5-41b
+- id: b-yhr-0155
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 250 章 · 稼穑诗诀（page 559）
+  quote: '"戊己生居四季中，辰戌丑未要全逢，喜逢财地嫌官杀，运到东方定有凶。……财星待遇堪为福，官杀如临有祸缠。"'
+  failure_mode: '见戊己土全辰戌丑未即断稼穑之贵；不核官杀是否临局、
+
+    也不核东方（木乡）行运之凶。
+
+    '
+  mechanism: '稼穑以土之一气为体，财可为福而官杀（木）为克神，故「嫌官杀」；
+
+    引入克神或行木乡即转凶。
+
+    '
+  bound_to:
+  - 外十八格（task-05）
+  tags:
+  - counter-example
+  - jiashe
+  - waishiba-ge
+  source_ref: ce-B5-41c
+- id: b-yhr-0156
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 251 章 · 曲直格诗诀（page 561）
+  quote: '"甲乙生人寅卯辰，又名仁寿两堪许，亥卯未全嫌白帝，若逢坎地必荣身。……木从木类正为奇，秋令逢之事不宜，得此清高仁且寿，水源相会福元齐。"'
+  failure_mode: '见甲乙木成局即断曲直仁寿；不核是否逢秋令、是否见金（白帝）。
+
+    '
+  mechanism: '眉批「此命是木类旺之说，只从木论，忌金喜木」——
+
+    专旺之格以克神不临、当令之气一致为前提。
+
+    '
+  bound_to:
+  - 外十八格（task-05）
+  tags:
+  - counter-example
+  - quzhi
+  - waishiba-ge
+  source_ref: ce-B5-41d
+- id: b-yhr-0157
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 252 章 · 炎上格诗诀（page 563）
+  quote: '"夏火炎天焰焰高，局中无水是英豪，运行本地方成器，一举峥嵘夺锦饱。……火多炎上去冲天，玄武无侵富贵全，一路东方行好运，簪缨头顶带腰悬。"'
+  failure_mode: '见丙丁火全巳午未即断炎上；不核是否见水（玄武无侵是条件）、
+
+    也不核身旺与怕冲（眉批「忌金水，喜东南要身旺怕冲」）。
+
+    '
+  mechanism: '专旺之格的吉断句本身携带条件（「局中无水」「玄武无侵」），
+
+    把条件句读成无条件吉断即出错。
+
+    '
+  bound_to:
+  - 外十八格（task-05）
+  tags:
+  - counter-example
+  - yanshang
+  - waishiba-ge
+  source_ref: ce-B5-41e
+- id: b-yhr-0158
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 253 章 · 福德格诗诀（page 565）
+  quote: '"阴土逢蛇金与牛，名为福德号貔貅，火来侵克非为美，名利空空一旦休。……阴火相临巳酉丑，生居丑月寿难长，更兼名利多成败，破耗荒淫禄不昌。"'
+  failure_mode: '见福德格（己巳、己丑、己酉；丁巳、丁酉、丁丑；癸巳、癸丑、癸酉；辛巳、辛丑、辛酉；乙巳、乙丑、乙酉）
+
+    即断前程；忽略火来侵克、六月（丑月）生、合多等破格条件。
+
+    '
+  mechanism: '福德格按日干分五组，每组喜忌不同（眉批逐组列出「忌见丙丁寅戌午」「不爱见合」等），
+
+    不分日干统一断语必然出错。
+
+    '
+  bound_to:
+  - 外十八格（task-05）
+  tags:
+  - counter-example
+  - fude
+  - geju
+  source_ref: ce-B5-42
+- id: b-yhr-0159
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 254 章 · 弃命从财诗诀（page 567）；第 255 章 · 弃命从杀诗诀（page 569）
+  quote: '"日干无气满盘财，弃命相从是福胎，运旺财官皆福贵，如芬相助反为灾。……阳水重逢阳土戈，无根何处被刑磨，格中有贵须还显，切忌官星破局多。"'
+  failure_mode: '对从格仍按常法求扶身（比印相助），或忽略从杀格行运到南方、日主见根、
+
+    见官运这些破格条件；把从财格的「破印」当作可用。
+
+    '
+  mechanism: '眉批「弃命从杀格者只用丙丁己三日火命，复要行运北方，又忌见官运，行南方见根者必凶」——
+
+    从格是例外许可：日主无根是前提，任何扶根、见官的动作都使例外失效。
+
+    '
+  bound_to:
+  - 从格判定（task-05）
+  - 大运行运推演（task-13）
+  tags:
+  - counter-example
+  - conggé
+  - wugen
+  source_ref: ce-B5-43
+- id: b-yhr-0160
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 256 章 · 杀重有救诗诀（page 571）
+  quote: '"丙临申位逢阳水，月逢戌土反长年，若有吉神来救助，方知安乐寿绵绵。……丙临申位火无焰，阳水逢之命不坚，若得土来相救助，管教福寿得长年。"'
+  failure_mode: '见杀重只说「有救则吉」，不落实救神（土）是否真在四柱；
+
+    已见阳水克火而仍行壬运。
+
+    '
+  mechanism: '眉批「忌行壬运，行壬运必死。若以戊土克壬水，水不能克火，以土救之」——
+
+    救神必须是可指认的干支，否则该结构就是命不坚。
+
+    '
+  bound_to:
+  - 七杀制伏与病药（task-07）
+  tags:
+  - counter-example
+  - qisha
+  - bingyao
+  source_ref: ce-B5-44
+- id: b-yhr-0161
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 257 章 · 天元一气诗诀（page 573）
+  quote: '"四重阳水四重寅，离坎交争旺气赢，运至火乡成富贵，往来须忌对提刑。……戊土重逢午字多，天元一字得中和，英豪特达功名好，见子冲来没奈何。"'
+  failure_mode: '见四柱干支一气即断位至三公；不核往来对提之刑、见子之冲，
+
+    也不看是否需要火乡/水乡行运才能成富贵。
+
+    '
+  mechanism: '眉批列举诸一气命例并注明条件（丁未「忌水」、丙申「行北方南方运好」）——
+
+    一气之局的成败在于行运方向与是否遭遇提刑冲夺。
+
+    '
+  bound_to:
+  - 取格与大运推演（task-05 / task-13）
+  tags:
+  - counter-example
+  - tianyuan
+  - xingchong
+  source_ref: ce-B5-45
+- id: b-yhr-0162
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 258 章 · 化气诗诀（page 576）
+  quote: '"六乙坐亥多逢木，庚金相会透时干，干生无火方成化，又恐金多反作难。……丁壬化木入金乡，苟禄蝇营空自忙，气喘残伤无足取，眼前骨肉亦参商。……乙庚最怕火炎阳，志气消磨主不良，寅午重逢为下格，随缘奔走觅衣粮。"'
+  failure_mode: '见天干相合即断化气成格；不核化神是否得月令之地（寅时、亥卯月提），
+
+    也不核有无破化之神（金多、火炎、土重）。
+
+    '
+  mechanism: '眉批逐组给出条件与破法（「丁壬化木喜行东方运，忌庚辛金破木伤，化之若无，主其人不恶疾，也骨肉伤残」）——
+
+    化而不真则不成格，只作下格论。
+
+    '
+  bound_to:
+  - 化气与神趣八法（task-18）
+  tags:
+  - counter-example
+  - huaqi
+  - geju
+  source_ref: ce-B5-46
+- id: b-yhr-0163
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 260 章 · 刑冲诗诀（page 580）
+  quote: '"比肩羊刃日时逢，若问年令父道凶，父母干支相会合，财星健旺寿如松。……克夫那堪妻又伤，堪居道院共僧房，闲身作保防连累，财破妻灾事几场。"'
+  failure_mode: '判六亲只按「某十神为某亲」的映射表下结论，
+
+    不检查该亲的宫位是否被比肩羊刃刑冲、是否被会合所救。
+
+    '
+  mechanism: '眉批「大抵克妻尽于羊刃，防财上见之。又财官食神死绝，财者，妻也，财死则妻死」——
+
+    克应是「宫位受刑冲 + 财星死绝」的合成判断，不是单点映射。
+
+    '
+  bound_to:
+  - 六亲推断与克应条件（task-14）
+  tags:
+  - counter-example
+  - liuqin
+  - keying
+  source_ref: ce-B5-47
+- id: b-yhr-0164
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 261 章 · 克妻诗诀（page 582）
+  quote: '"天干透露弟兄多，财绝官衰旺太过，月令又逢身旺地，青春年少哭娇娥。……当生四柱有财星，羊刃逢时定克刑，岁逢运行妻眷绝，妻宫频见损年龄。"'
+  failure_mode: '断婚姻吉凶只取「妻星（财）有无」，不核比劫多寡、身旺太过、
+
+    羊刃在时、岁运合冲妻宫等条件。
+
+    '
+  mechanism: '克妻的成立需要条件叠加：兄弟（比劫）多而财被夺、身旺太过而财绝、
+
+    羊刃居时、岁运再冲。单独一项不足以定论。
+
+    '
+  bound_to:
+  - 六亲推断与克应条件（task-14）
+  tags:
+  - counter-example
+  - keqi
+  - liuqin
+  source_ref: ce-B5-48
+- id: b-yhr-0165
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 262 章 · 克子诗诀（page 583）
+  quote: '"五行四柱有伤官，子息初年必不安……印绶重叠克子断，子息难养谁为伴……时逢七杀本无儿，此理人当仔细推，干上食神支又合，须知有子贵而奇。"'
+  failure_mode: '以「时柱有无官杀」单一条件断子息；不核伤官、印重、纯阳偏印、
+
+    日主衰旺等书中列出的多重条件，也不区分男女取子之法。
+
+    '
+  mechanism: '眉批「时干支有官杀又生旺必有子。印绶重则母多，母多则灭子……女人以官为夫，以食为子，
+
+    伤官则伤夫，有伤必主害至」——子息的推断是条件叠加，且男女取象不同。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - kezi
+  - liuqin
+  - nüming
+  source_ref: ce-B5-49
+- id: b-yhr-0166
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 263 章 · 运晦诗诀（page 585）
+  quote: '"到此难留隔宿钱，求之劳碌又熬煎。若还财聚主克妻，又是官灾又舌缠。……劫财羊刃两头居，外面光华内本虚。官杀两头俱不出，少年夭折漫嗟吁！"'
+  failure_mode: '按「比劫助身」把劫刃当补益，忽略运晦局中劫刃两头之害
+
+    （破财、克妻、官灾、口舌）与官杀不出所致的少年夭折。
+
+    '
+  mechanism: '劫财羊刃在两端而官杀不见，是力量无处宣泄且反复争夺财利的结构，
+
+    其表面光华与内里亏虚相反。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - yunhui
+  - bijie
+  source_ref: ce-B5-50
+- id: b-yhr-0167
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 265 章 · 带疾诗诀（page 589）
+  quote: '"戊己生时气不全，伤官时月见留连，必当头面有亏损，脓血之灾苦少年。……日主加临戊己生，支辰火局气熏蒸，冲刑克破当残疾，发秃那堪眼不明。……丙丁火旺疾难防，四柱休囚辰巳方，水火相生来此地，哑中风疾喑中亡。"'
+  failure_mode: '把疾病断语直接当作医学结论使用；书中映射（脓血、发秃、眼目、哑风）
+
+    建立在明代病名与死因分布上，与当代疾病结构不具可比性。
+
+    '
+  mechanism: '疾病断法由五行—脏腑—症候的固定映射推出，属体系内推演；
+
+    眉批「火气炎上若盛，伤其目」即为该映射的样例，无统计证据。
+
+    '
+  bound_to:
+  - 性情、疾病、寿元判断（task-16）
+  tags:
+  - counter-example
+  - jibing
+  - epoch-limit
+  source_ref: ce-B5-51
+- id: b-yhr-0168
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 266 章 · 寿元诗诀（page 591）
+  quote: '"寿星明朗寿元长，偏印逢之不可当，妻妾不来相救助，命如衰草值秋霜。……丙临申位逢阳水，定见天年未可知，透出干头壬癸水，其人必定死无疑。"'
+  failure_mode: '把「必定死无疑」类断语作为可执行输出：书中以纳音寿元为参照，
+
+    其「必死」条件（无土相救）与当代语境无关，属历史断言。
+
+    '
+  mechanism: '眉批「寿元，五行纳音所取为……丙申日，忌水行运又逢壬水者，无土相救必死」——
+
+    这是体系内的死局判定，无任何外部效度证据，且涉及不可逆结论。
+
+    '
+  bound_to:
+  - 寿元与疾病判断（task-16）
+  tags:
+  - counter-example
+  - shouyuan
+  - epoch-limit
+  - ethics
+  source_ref: ce-B5-52
+- id: b-yhr-0169
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 268 章 · 女命诗诀（page 595）
+  quote: '"财官印绶三般物，女命逢之必旺夫，不犯杀多无混杂，身强制伏有称呼。……合多切忌桃花犯，劫比桃花大不良。……飞天禄马井栏叉，女命逢之福不佳，只好为偏并作妓，有财方可享荣华。"'
+  failure_mode: '把女命篇的断语（旺夫、孤贫、作偏作妓、桃花不良）当作可移植规则使用；
+
+    这些判断以「以官为夫、身柔为吉」为前提，是明代婚姻制度的投影。
+
+    '
+  mechanism: '眉批「女命以官为夫，有伤官则伤其夫……桃花主淫」——
+
+    术语映射本身携带宗法—性别等级假设，脱离该制度后不再成立。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - epoch-limit
+  source_ref: ce-B5-53
+- id: b-yhr-0170
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 270 章 · 沐浴诗诀（page 599）
+  quote: '"沐浴凶神切忌之，多成多败少人知，男人值此应孤独，女命逢之定别离。……咸池无禄号桃花，酒色多因败坏家，更被凶神来克破，疾赢病死莫咨嗟。"'
+  failure_mode: '以长生十二宫中的沐浴位（并牵连桃花/咸池）直接断人品与家声；
+
+    书中自己给出反例句「沐浴那堪吉位逢……读书必定登科甲，莫比诸神例作凶」，
+
+    说明单宫位不可作独立断语。
+
+    '
+  mechanism: '眉批「沐浴，五行强以见弱之地……沐浴又为桃花杀同看，子午卯酉全之局也主淫乱」——
+
+    此处把宫位与神煞叠加，容易产生道德化结论，须与吉神会遇条件合看。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - muyu
+  - taohua
+  - epoch-limit
+  source_ref: ce-B5-54
+- id: b-yhr-0171
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 274 章 · 衰病死诗诀（page 607）
+  quote: '"纳音衰病死重逢，成败之中见吉凶，若得吉神来救助，变灾为福始亨通。……衰病两逢兼值死，世人至老无妻子，不惟衣食不丰隆，灾病绵绵终损己。"'
+  failure_mode: '以长生十二宫（尤其纳音长生）单点定吉凶：见长生、冠带、临官、帝旺即吉，
+
+    见沐浴、衰、病、死即凶，不问有无吉神救助与恶杀重逢。
+
+    '
+  mechanism: '眉批「五行以此比人之至六七十，由老衰弱而又死命中遇此，主人孤苦之断」——
+
+    宫位只是比喻刻度，吉凶尚须视会遇之神而定。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 神煞加成（task-12）
+  tags:
+  - counter-example
+  - changsheng
+  - nayin
+  source_ref: ce-B5-55
+- id: b-yhr-0172
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 277 章 · 胎养诗诀（page 613）
+  quote: '"胎养须宜细审详，半凶半吉两相当，贵神相会应为福，恶杀重逢见祸殃。"'
+  failure_mode: '见胎、养宫位即按吉凶定论；诗中明言「半凶半吉两相当」，
+
+    吉凶取决于会遇的是贵神还是恶杀。
+
+    '
+  mechanism: '长生十二宫提供的是强度刻度，不是吉凶符号；符号由会遇之神决定。
+
+    这与「以纳音长生断寿夭」的做法正相反。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 神煞加成（task-12）
+  tags:
+  - counter-example
+  - changsheng
+  - taisheng
+  source_ref: ce-B5-55b
+- id: b-yhr-0173
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 275 章 · 墓库诗诀（page 609）
+  quote: '"人命若还逢墓库，积谷堆财难计数，悭贪不使一文钱，至老人呼守钱奴。"'
+  failure_mode: '把墓库宫位断语（守钱奴、悭贪）当作人品结论使用。
+
+    '
+  mechanism: '眉批「墓库死者，埋葬于地，五行至此亦如是，如财官印於早有闭而不须用刑冲取用其财者」——
+
+    墓库的作用是藏与取（结构），不是性格判定。
+
+    '
+  bound_to:
+  - 墓库判断（task-11）
+  tags:
+  - counter-example
+  - muku
+  - baotai
+  source_ref: ce-B5-56
+- id: b-yhr-0174
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 276 章 · 胞胎诗诀（page 611）
+  quote: '"绝中逢生少人知，却去当生命里推，反本还元直细辨，忽然迍否莫猜疑。……胎神一位难为绝，克陷妻奴家道劣，不惟朝暮走忙忙，羊食狼贪无以别。"'
+  failure_mode: '见绝宫即断凶、见胞胎即断吉；诗中要求「反本还元直细辨」，
+
+    并给出胎神一位反致克陷妻奴的反向结论。
+
+    '
+  mechanism: '宫位须回到当生格局中复核（反本还元），否则同一宫位可得相反断语；
+
+    这是本书「通变」要求在断验诗诀中的体现。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - baotai
+  - liuqin
+  source_ref: ce-B5-56b
+- id: b-yhr-0175
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 615）
+  quote: '"太阳火，忌林木为仇。……此言丙火生於春夏，通木盛者忌之，秋冬不忌。"'
+  failure_mode: '用「母旺则子强」的通则，把木盛一律当作丙火的助力；
+
+    忽略该书给的季节限定：春夏木盛蔽日，秋冬不忌。
+
+    '
+  mechanism: '五行之生受季节与遮蔽效应制约；同一组合在春夏与秋冬符号相反。
+
+    这是把通则条件化的实例，也是本书要求「通变」的具体落点。
+
+    '
+  bound_to:
+  - 旺衰与用神取舍（task-04 / task-06）
+  tags:
+  - counter-example
+  - wuxing-shengke
+  - jijie
+  source_ref: ce-B5-57
+- id: b-yhr-0176
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 616）
+  quote: '"火隔水不能熔金。……四柱又见壬水，以克其火，则火不能熔金，使其金仍为坚刚之气，亦不可以言贵。"'
+  failure_mode: '见到官杀（克神）或食伤（制神）在柱，即断定「有制则吉」「有官则贵」；
+
+    不核该克神/制神是否被沉、被隔而失去作用（遇而不遇）。
+
+    '
+  mechanism: '五行之克需要相遇条件：金入申子辰水局则沉而不克木；
+
+    火被壬水隔断则不能熔金。名目上的制克若无实效，不能改判吉凶。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - wuxing-shengke
+  - yu-er-bu-yu
+  source_ref: ce-B5-58
+- id: b-yhr-0177
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 616）
+  quote: '"金沉水岂能克木。……且如甲木喜庚金为煞，若有金，又在申子辰之局，谓之金沉水底，水盛金沉，安能克其木哉？此为遇而不遇之名象也。"'
+  failure_mode: '见官杀（如甲喜庚为煞）在柱即断「有煞可用」；不核该煞是否落在申子辰水局中而沉没，
+
+    金沉则不能克木，属「遇而不遇」。
+
+    '
+  mechanism: '克神的实际作用取决于其所在的环境：金入水局则沉，名义上的克制不能实现。
+
+    这种结构与「有制则吉」的乐观判断互为反面。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - yu-er-bu-yu
+  - guansha
+  source_ref: ce-B5-58b
+- id: b-yhr-0178
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 616）
+  quote: '"活木忌埋根之铁。……死金嫌盖项之泥。……此象主一生被人压伏，未可以通达断之。"'
+  failure_mode: '以「金克木」「土生金」的通则推吉凶，忽略木之死活
+
+    （活木被铁伤根、死木不怕金）与金之强弱（弱金遇土重反被压埋）。
+
+    '
+  mechanism: '生克的实现取决于受克者自身的生死强弱：压伏而非显达，
+
+    是「受制於人」的结构，不能按名义上的生克反推富贵。
+
+    '
+  bound_to:
+  - 旺衰与用神（task-04 / task-06）
+  tags:
+  - counter-example
+  - wuxing-shengke
+  - shengsi
+  source_ref: ce-B5-59
+- id: b-yhr-0179
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 617）
+  quote: '"剑戟成功，遇火乡而反坏。……城墙积就，至木地而愁克。"'
+  failure_mode: '把「火炼成器」「木疏土」无限制外推：已经成器的金再遇火则反坏，
+
+    已经在土位的城土遇木多则被克。
+
+    '
+  mechanism: '成器的条件是「适时适量」；过量则原有成果被破坏。
+
+    与七杀「制伏太过反为凶」同属一类越界机制。
+
+    '
+  bound_to:
+  - 七杀制伏（task-08）
+  - 病药诊断的「药多药少」（task-07）
+  tags:
+  - counter-example
+  - guoliang
+  - zhisan
+  source_ref: ce-B5-60
+- id: b-yhr-0180
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 619）
+  quote: '"大抵水寒不流、木寒不发、土寒不生、火寒不烈、金寒不熔，皆非天地之正气也。……上谓五行生非其时，况人禀之，亦犹是也。"'
+  failure_mode: '按各干喜忌表逐条查对而不看全局寒暖：水寒则不能流、木寒则不能发，
+
+    五行处于非时之气时，其常规功能全部失效（金不生水、水不生木等）。
+
+    '
+  mechanism: '「寒」是跨五行的抑制条件，会使各五行失去原本的作用能力；
+
+    原书以此归为「五行生非其时」，人禀之亦然。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - hanre
+  - diaohou
+  source_ref: ce-B5-61
+- id: b-yhr-0181
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 619）
+  quote: '"且如北金恋水而沉形。……南木飞灰而脱体。……东水旺木以枯源。……西土实金而虚己。"'
+  failure_mode: '见「金生水」「木生火」「水生木」「土生金」即断母子皆旺；
+
+    此处四象表明生者反被所生者耗尽（金沉、木焚、水枯、土虚）。
+
+    '
+  mechanism: '母生子不是增益而是消耗：子旺则母虚，故生扶过度等于自损。
+
+    这是把「生」当作有代价的对偶机制，与「旺极则泄」的喜用判断直接相关。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - wuxing-shengke
+  - mu-xu
+  source_ref: ce-B5-61b
+- id: b-yhr-0182
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 278 章 · 五行生克赋（page 619）
+  quote: '"固用不如固本，花繁岂若根深。……本者，命令。命不固，虽固其用一时而已，犹君弱臣强之象。"'
+  failure_mode: '取用神取到「有力之字」即断定吉，不问日主与命局根本是否稳固；
+
+    一时间的用神得力与长程的根基厚重被混为一谈。
+
+    '
+  mechanism: '用随月令而取（月神屯），本为命之根本；本不固则用无所依托，
+
+    属「君弱臣强」——用神的强度不能补偿根本的空虚。
+
+    '
+  bound_to:
+  - 用神取舍（task-06）
+  - 病药诊断与层次判断（task-07 / task-17）
+  tags:
+  - counter-example
+  - yongshen
+  - genben
+  source_ref: ce-B5-62
+- id: b-yhr-0183
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 247 章 · 玄武当权诗诀（page 553）
+  quote: '"玄武当权妙人神，日干壬癸坐财星，官星若也居门户，无破当为大用人。"'
+  failure_mode: '见壬癸日坐财星（玄武当权）即断大用；
+
+    原文该句自带两个前提：官星须居门户、须「无破」。
+
+    眉批另加限定「正是壬寅、壬午、壬戌；癸巳、癸未、癸丑六者」，未核日柱即用格。
+
+    '
+  mechanism: '诗诀多为「条件+吉断」的复合句，只读后半句即变成无条件吉断；
+
+    本条与 ce-B5-40c（勾陈得位忌刑冲）为同一模式的两个实例。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - xuanwu
+  - tiaojianju
+  source_ref: ce-B5-63
+- id: b-yhr-0184
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 264 章 · 运通诗诀（page 587）
+  quote: '"甲寅乙卯非为刃，辛酉庚申理一同。合起人元财马旺，中年显达富家翁。"'
+  failure_mode: '见诗中吉断即断「中年显达」；原文的前提是「合起人元财马旺」。
+
+    此句同时涉及羊刃有无之辨（甲寅乙卯／辛酉庚申是否作刃），
+
+    与第 54、88 章「五阳有刃，五阴无刃」的口径并存，须标出处使用。
+
+    '
+  mechanism: '吉断句的前提（合起财马旺）是该断的成立条件；
+
+    而「何者为刃」在本书内部存在两说（见 PIPELINE_STATE 已登记的第 5 条冲突）。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yuntong
+  - yangren
+  - neibu-maodun
+  source_ref: ce-B5-64
+- id: b-yhr-0185
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 269 章 · 长生诗诀（page 597）
+  quote: '"长生管取命长荣，时日重临主性灵，更得吉神相会遇，少年及第入王庭。"'
+  failure_mode: '见日时临长生即断「命长荣、性灵」；
+
+    原文的吉断以「更得吉神相会遇」为条件，眉批亦作条件句（「如能遇之，则福」）。
+
+    '
+  mechanism: '长生是强度刻度而非吉凶符号（与 ce-B5-55b「胎养半凶半吉」一致）；
+
+    原文自陈「此诀虽五星中有定决生死，子平四柱亦要定生旺死绝之由」，
+
+    即该诀只提供生旺死绝的依据，不提供独立吉断。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - changsheng
+  - tiaojianju
+  source_ref: ce-B5-65
+- id: b-yhr-0186
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 271 章 · 冠带诗诀（page 601）
+  quote: '"命逢冠带少人知，初主贫寒中主宜，更得贵人加本位，功成名遂又何疑。"'
+  failure_mode: '见命逢冠带即断功名；
+
+    原文同时给出「初主贫寒中主宜」的阶段差与「更得贵人加本位」的条件。
+
+    '
+  mechanism: '宫位吉断附带阶段（初主/中主）与神煞条件；
+
+    取半句即失掉时序与前提，与 ce-B5-65 同一模式。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - guandai
+  - jieduan
+  source_ref: ce-B5-66
+- id: b-yhr-0187
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 272 章 · 临官诗诀（page 603）
+  quote: '"临官帝旺最为奇，禄贵同宫仔细推，若不状元登上第，直须黄甲脱麻衣。"'
+  failure_mode: '见临官、帝旺即断科第；
+
+    原文的吉断要求「禄贵同宫」并须「仔细推」，即须先核禄与贵是否同宫。
+
+    '
+  mechanism: '临官帝旺只说明气之得位，成贵还须禄贵同宫这一结构条件；
+
+    与 ce-B5-55「宫位不能单点论吉凶」同源。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - linguan
+  - lugui
+  source_ref: ce-B5-67
+- id: b-yhr-0188
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 273 章 · 帝旺诗诀（page 605）
+  quote: '"临官帝旺两相逢，业绍箕裘显祖宗，失位纵然居世上，也须各姓达天聪。"'
+  failure_mode: '以「临官帝旺两相逢」直接推出「业绍箕裘显祖宗」；
+
+    原文同一诗中即给出相反情形：失位者虽居世上亦只得「各姓达天聪」而已。
+
+    '
+  mechanism: '同一宫位有得位与失位两义，诗诀本身把两者并列；
+
+    只取前两句即把条件句读成无条件吉断。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - diwang
+  - shiwei
+  source_ref: ce-B5-68
+- id: b-yhr-0189
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 624）
+  quote: '"不可一途而取轨，不可一理而推之。时有冬逢炎热夏草道霜，类有阴鼠栖冰神木宿火。"'
+  failure_mode: '用一条常理（如「冬寒夏热」「母生子强」）去解释所有命局，
+
+    遇到「非其时而行其令」「非其类而居其所」的结构即失效。
+
+    '
+  mechanism: '赋句自身先否定单一取轨；注文补充「常者易究，不常者难穷」，
+
+    并引邹子吹律、孝妇含冤六月飞霜为「阴阳五行之变」的例证。
+
+    '
+  bound_to:
+  - 综合断层次与依据链（task-17）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - tongbian
+  - luokuzi
+  source_ref: ce-B6-01
+- id: b-yhr-0190
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 630）
+  quote: '"妙在识其通变，拙说犹神。巫瞽昧於调弦，难希律吕。"'
+  failure_mode: '把赋文条目当作可直接套用的固定规则，不做「通变」；
+
+    作者以盲人调弦、求律吕之和为喻，明确警告此路不通。
+
+    '
+  mechanism: '赋文自陈「特言其大概」，其效力来自对具体命局的裁量；
+
+    无裁量则规则再多也不成断。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - tongbian
+  - luokuzi
+  source_ref: ce-B6-02
+- id: b-yhr-0191
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 626）
+  quote: '"闻喜不喜，是六甲之亏盈。当忧不忧，赖五行之救助。"'
+  failure_mode: '把「遇禄马贵人」一律判喜、把「逢空亡衰败」一律判忧；
+
+    原文要求看亏盈相制与休废处逢生，注文更明言「不可执定」。
+
+    '
+  mechanism: '注文「亏盈者，或吉或凶之谓也，救助者，制凶扶吉之谓也……或元命八字有亏有盈，
+
+    有救有助，或行运流年有亏有盈，有救有助，不可执定」——吉凶是相制的结果，不是符号本身。
+
+    '
+  bound_to:
+  - 神煞查法与其权重（task-12）
+  - 大运流年交互（task-13）
+  tags:
+  - counter-example
+  - shensha
+  - kongwang
+  source_ref: ce-B6-03
+- id: b-yhr-0192
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 626）
+  quote: '"大段天元羸弱，宫言不及以为荣。中下兴隆，卦凶不能成其咎。"'
+  failure_mode: '只论所临宫分之吉（得财官、将星、天乙之类）即断富贵，
+
+    不看天元（十干）本身是否衰病死墓绝、上下五行是否相辅。
+
+    '
+  mechanism: '注文举反例：「如庚辛生於春月，别位有火克金……虽宫属财吉而反发凶祸之例是也」——
+
+    本气羸弱时，宫位的吉名不能兑现；反之「中下俱临五行兴旺之地」则凶名亦不能致灾。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - tianyuan
+  - wangshuai
+  source_ref: ce-B6-04
+- id: b-yhr-0193
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 626）
+  quote: '"若遇尊凶卑吉，救疗无功。尊吉卑凶，逢灾自愈。禄有三会，灾有五期。"'
+  failure_mode: '认为只要四柱另有吉神即可挽回；原文判：尊者（本命与大运的德合或最得力之神）受损时，
+
+    别位的吉「未足为救」。
+
+    '
+  mechanism: '注文引徐说「用神不可损伤，若有损伤则虽别位之吉不能救」，
+
+    即吉凶的优先级按尊卑排序，不按数量相加。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - yongshen
+  - zunbei
+  source_ref: ce-B6-05
+- id: b-yhr-0194
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 626）
+  quote: '"禄有三会者，长生帝旺库也，其为至吉之地……今之学者，但举三合，而以金逢巳酉丑。木居亥卯未，火得寅午戌，水遇申子辰便是禄有三会，非也。"'
+  failure_mode: '见术语即按今人的通行解释（三合局）套用；注文明确指其「非也」：
+
+    「禄有三会」指长生、帝旺、库三处，不是三合。
+
+    '
+  mechanism: '同一术语在本书与后世流派中含义不同；不核定义即断，会把「至吉之地」与「相合成局」混淆。
+
+    '
+  bound_to:
+  - 术语检索与赋文引用（task-20）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - glossary
+  - shuyu
+  source_ref: ce-B6-06
+- id: b-yhr-0195
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 627）
+  quote: '"若乃身旺鬼绝，虽破命而长年。鬼旺身衰，逢建命而夭寿。"'
+  failure_mode: '以「建命」（月建坐禄）断长寿、「破命」断夭殇；
+
+    原文与所引《竹轮经》均否定：「建命未必延长，被命未必夭寿」。
+
+    '
+  mechanism: '寿夭取决于身鬼的强弱对比（受制则夭，制物则寿），与是否建命无关；
+
+    此即珞琭子「消息」之义——把通行口诀按实际结构重新裁量。
+
+    '
+  bound_to:
+  - 性情、疾病、寿元判断（task-16）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - shouyuan
+  - jianming
+  source_ref: ce-B6-07
+- id: b-yhr-0196
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 626）
+  quote: '"背禄逐马，守穷途而恓惶。禄马同乡，不三台而八座。"'
+  failure_mode: '只核禄马有无，不看方向：禄被背（如前而不得）、马被逐（如刑而散去），
+
+    两者俱失即守穷途，而不是「有禄有马」的中性状态。
+
+    '
+  mechanism: '注文以癸亥人得甲寅月为例：前因刑而逐去其马，後因背而不能及禄，
+
+    与「扞禄拦马」恰相反。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - lumaa
+  - shensha
+  source_ref: ce-B6-08
+- id: b-yhr-0197
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 627）
+  quote: '"官崇位显，定知夹禄之乡。小盈大亏，恐是劫财之地。"'
+  failure_mode: '见到小得利（如自生之火、财旺）即断为福；
+
+    原文指出此类往往是劫财之地，小盈之后是大亏（财化鬼）。
+
+    '
+  mechanism: '注文「丙寅乃自生之火，可谓小盈，丑人以死绝在寅丑，土受寅木之制，为财化鬼，
+
+    斯所谓大亏也。三命以财旺为佳……若值劫地纵禄命有一二吉处，亦不免太过」。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - jiecai
+  - xiaoyingdakui
+  source_ref: ce-B6-09
+- id: b-yhr-0198
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 628）
+  quote: '"历贵地而待时，遇比肩而争竞。至若人疲马劣，犹托财旺之乡。"'
+  failure_mode: '见行运入贵神之地即断发福；原文要求时数符合（待时），
+
+    并提示比肩并行的争竞之害（「两庚夺一丁、两丙食一戊，分擘其福」）。
+
+    '
+  mechanism: '贵地与吉神只是机会，兑现还须时机与不被分夺；
+
+    比肩同来则同一位之福被分，反成交相是非。
+
+    '
+  bound_to:
+  - 大运流年交互（task-13）
+  tags:
+  - counter-example
+  - bijian
+  - yun
+  source_ref: ce-B6-10
+- id: b-yhr-0199
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 628、636）
+  quote: '"若禄马气衰，但得禄财命财旺相，亦可扶持。……马劣财微，遇之则流而不返。"'
+  failure_mode: '见禄马即断富贵；禄马气衰本可靠财旺扶持，但马劣而财又微时，
+
+    注文判为「虽有禄马身财尽为鬼物所夺，纵使得运以数之终究休败，飘荡无归」。
+
+    '
+  mechanism: '禄马需要财或身为一处依托；两处皆虚则禄马名存实亡，属「五行之穷数」。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - lumaa
+  - caixing
+  source_ref: ce-B6-11
+- id: b-yhr-0200
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 630）
+  quote: '"金木未能成器，听哀乐以难名，似木盛而花繁，状密云而不雨。"'
+  failure_mode: '以「木盛花繁」为秀美吉象；原文以此为「秀而不实」，
+
+    「密云不雨」为「晦而难明」，并总结「旺而不可无制，衰而不可无生，得处比和，复归纯粹」。
+
+    '
+  mechanism: '金的成器靠火（刚济柔）、木的成器靠金（仁者必有勇）；
+
+    有金无木则勇而无礼，有木无金则义寡——单边之盛不成器。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - xiuerbushi
+  - zhishen
+  source_ref: ce-B6-12
+- id: b-yhr-0201
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 631）
+  quote: '"乘轩衣冕，金火何多，位劣班卑，阴阳不定。……若火多金少，金多火轻，皆为凶暴之命，金旺於西方，火旺於南方，各恃其势，则为自刑之刑"'
+  failure_mode: '见金火并见即断贵器；原文要求「金火两停」，
+
+    偏则各恃其势、为自刑之刑，终归位劣班卑，甚至凶暴。
+
+    '
+  mechanism: '金至坚、火至暴，互为成器条件而非互相增加；
+
+    一多一少则阴阳不定，贵贱高卑无所定着。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - jin-huo
+  - chengqi
+  source_ref: ce-B6-13
+- id: b-yhr-0202
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 631）
+  quote: '"每见凶中有吉，吉乃先凶，吉中有凶，凶为吉兆。"'
+  failure_mode: '把某一处符号直接定为吉或凶（如酉克卯为财即断吉）；
+
+    原文指出同一处往往吉凶并存（得财却失官、凶中反吉），须「以根本取最重者言之」。
+
+    '
+  mechanism: '注文「凶若胜吉，吉蕴的中，吉若胜凶，凶藏吉内，驳杂生於纯粹，比和出於战争」——
+
+    吉凶由权重比较得出，不由单点符号决定。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - quanti
+  - jixiong
+  source_ref: ce-B6-14
+- id: b-yhr-0203
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 624）
+  quote: '"或若生逢休败之地，早岁孤穷，老遇建旺之乡，临年偃蹇。若乃先凶後吉，以源浊而流清。始吉终凶，类根甘而裔苦。"'
+  failure_mode: '以当下所行之运的旺衰单点定全局，忽略根（年）苗（月）花（日）果（时）
+
+    与时序的错位组合（先凶後吉、始吉终凶）。
+
+    '
+  mechanism: '注文「先察根基厚薄，兼明运限始终，虽未百发百中，亦可希其八九」，
+
+    并给出「月管初主，目管中主，时管本主，年则总统之」的分段对应。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - yun
+  - shixu
+  source_ref: ce-B6-15
+- id: b-yhr-0204
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 632）
+  quote: '"值病忧病，逢生得生，旺相峥嵘，休囚灭绝，论其眷属，忧其死绝。"'
+  failure_mode: '只按「生我者父母、克我者官鬼、我克者妻财、比和者兄弟」的映射下断语，
+
+    不看该亲所属之神是否落空亡死绝、休囚衰败。
+
+    '
+  mechanism: '注文「总在空亡死绝之地，忧居休囚衰败之乡，随眷属所得言之」——
+
+    六亲的凶应来自该神所处之地，而不是映射本身。
+
+    '
+  bound_to:
+  - 六亲推断与克应条件（task-14）
+  tags:
+  - counter-example
+  - liuqin
+  - sisJue
+  source_ref: ce-B6-16
+- id: b-yhr-0205
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 632）
+  quote: '"墓在鬼中，危疑者甚，足下贴丧，面前可见。"'
+  failure_mode: '见墓库只论开合与财官，不核墓中是否逢鬼（金畏己丑火、木防乙未金等），
+
+    也不核是否叠丧门诸煞。
+
+    '
+  mechanism: '墓中遇鬼是墓库结构中最凶的组合（原文判「危疑之甚」「言其凶速也」）；
+
+    注文另列「命前二辰为丧门」等叠加条件。
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - muku
+  - gui
+  source_ref: ce-B6-17
+- id: b-yhr-0206
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 632）
+  quote: '"凭阴察其阳祸，岁星莫犯於孤辰，恃阳鉴以阴灾，天年忌逢於寡宿。"'
+  failure_mode: '把孤辰寡宿当作同一种凶神统一断法；原文按阳位/阴位分判：
+
+    寅卯辰人巳为孤辰（阳位）、丑为寡宿（阴位），「阳以孤辰为重，阴以寡宿为重」，且忌太岁（岁星）临之。
+
+    '
+  mechanism: '神煞的效力随命之阴阳与所在之位而分轻重；不分区即失权重。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - guchen
+  - guasu
+  source_ref: ce-B6-18
+- id: b-yhr-0207
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 633）
+  quote: '"干推两重，防灾于元首之间，支折三轻，慎祸於股肱(音同工)之内，下元一气，周居去住之期。"'
+  failure_mode: '把天干受克（重）与地支受刑（轻）同等看待，
+
+    也忽略灾应部位之别（元首 vs 股肱）与纳音（下元）另有其去住之期。
+
+    '
+  mechanism: '注文「干为天元，以象元首……天元两位受克……谓之重者，干不胜重，克故也」
+
+    「支辰三刑逢伤……谓之轻者，刑不至於本命故也」，即干支承受力的量级不同。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  - 疾病与部位断语（task-16）
+  tags:
+  - counter-example
+  - ganzhi
+  - qingzhong
+  source_ref: ce-B6-19
+- id: b-yhr-0208
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 634）
+  quote: '"仁而不仁，虑伤伐於戊己，至於寝食侍卫，物有鬼物，人有鬼人，逢之为灾，去之为福。"'
+  failure_mode: '见甲见戊、乙见己一类相克即断「不仁」；
+
+    注文说明须分偏阴偏阳（为克为伐、为孤为背）与刚柔相乘（甲见己、乙见戊「两得其所」）。
+
+    '
+  mechanism: '相克是否成害取决于阴阳配合方式：同性相克为伐，异性相合则两得其所；
+
+    同一对干支可有两种结论。
+
+    '
+  bound_to:
+  - 十神定位（task-03）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - xiangke
+  - yinyang
+  source_ref: ce-B6-20
+- id: b-yhr-0209
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 634）
+  quote: '"就中裸形侠煞，魄往酆都，所犯有伤，魂归岱岭。"'
+  failure_mode: '把此类极端断语（沐浴之地遇元辰七煞即主死亡）作为可执行输出。
+
+    这属书中体系内的死局判定，无外部效度证据，且结论不可逆。
+
+    '
+  mechanism: '注文「极重者五行沐浴之地，谓之裸形……如人运在沐浴之上，与太岁并者灾」——
+
+    判断链完全建立在神煞叠加之上，没有可对照的验证机制。
+
+    '
+  bound_to:
+  - 性情、疾病、寿元判断（task-16）
+  tags:
+  - counter-example
+  - shouyuan
+  - epoch-limit
+  - ethics
+  source_ref: ce-B6-21
+- id: b-yhr-0210
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 636）
+  quote: '"兼须详其操执，观其秉持厚薄，论其骨状，成器借於心源。木气盛而仁昌，庚辛亏而义寡。"'
+  failure_mode: '宣称命局可推尽一个人的一切；注文明确说「虽用五行定命……虑有特杰非常之人……
+
+    则三元五行不足以尽之也」，须并观操执、秉持、骨状、心源。
+
+    '
+  mechanism: '这是本书自身给出的能力边界：五行定命之外还有不可由四柱推出的成分（操执、心术），
+
+    且作者以「人焉廋哉」收束，属观人法而非推算规则。
+
+    '
+  bound_to:
+  - 性情与寿元判断（task-16）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - boundary
+  - self-limit
+  source_ref: ce-B6-22
+- id: b-yhr-0211
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 636）
+  quote: '"恶曜加而有喜，拟其大器，福星临而祸发，以表凶人。"'
+  failure_mode: '以神煞的吉凶符号直接推结果；原文指出修德者临煞反为权星，
+
+    不修者福星临而招祸（注文引「凶人凶其吉，吉人吉其凶」）。
+
+    '
+  mechanism: '神煞是加成项而非决定项，其兑现取决于命局的德与行；
+
+    这与 S0 已登记的「神煞须与格局喜忌合看」互为印证。
+
+    '
+  bound_to:
+  - 神煞查法与其权重（task-12）
+  tags:
+  - counter-example
+  - shensha
+  - quanZhong
+  source_ref: ce-B6-23
+- id: b-yhr-0212
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 636）
+  quote: '"处定求动，克未尽而难迁，居安问危，可凶中而卜吉。"'
+  failure_mode: '在无冲无克的静止之局中断发越（举业、迁动）；
+
+    注文「行年岁运五行来克，本命为官，不能迁动，宜守静以待之，又如士人问功名，
+
+    不冲不克则难以发越」——动与发都需要触发条件。
+
+    '
+  mechanism: '动由克（含冲、刑、动神）而起；无触发则「难迁」。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - dongjing
+  - faqi
+  source_ref: ce-B6-24
+- id: b-yhr-0213
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 279 章 · 珞琭子消息赋（page 622、623、624）
+  quote: '"徐以戊己坐临寅卯并亥卯未，壬癸坐临午巳及辰戌丑未，下有官印、禄马旺相库墓为得位当权，似与赋义有背，不若只以上生四季，水遇三冬为是。"'
+  failure_mode: '引用赋文时把某家注（徐子平、莹和尚、王廷光等）的解释当成原赋论断；
+
+    本版注文多处直接指出「似非赋义」「恐非赋义」「似与赋义有背」。
+
+    '
+  mechanism: '同一句赋在不同注家笔下有不同解法（如「勾陈得位，真武当权」「冬逢炎热、夏草遭霜」
+
+    「见不见之形」等处），注文自陈「二义难精」，属明显的层级混淆风险点。
+
+    '
+  bound_to:
+  - 赋文与歌诀检索（task-20）
+  tags:
+  - counter-example
+  - zhujia
+  - cengji
+  source_ref: ce-B6-25
+- id: b-yhr-0214
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 280 章 · 论八字撮要法（page 639）
+  quote: '"用之为官不可伤。用之为财不可劫。用之为印不可破。用之为食不可夺。用之为禄不可冲。……又不用财星尽可劫。不用官星尽可伤。不用印绶尽可坏。不用食神尽可夺。"'
+  failure_mode: '把「官不可伤、财不可劫、印不可破」当作无条件禁则；
+
+    原文限定在「用之为……」——不作他用者反可劫、可伤、可坏、可夺。
+
+    '
+  mechanism: '忌法的宾语是用神，判断前提是先定用神；用神未定即谈忌法必然出错。
+
+    这同时解释了为何「先取用神」是全书中枢。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 用神不可伤的忌法（task-06）
+  tags:
+  - counter-example
+  - yongshen
+  - jifa
+  source_ref: ce-B6-26
+- id: b-yhr-0215
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 280 章 · 论八字撮要法（page 639）
+  quote: '"若有七杀须要制，制伏太过反为凶。"'
+  failure_mode: '见七杀即加大制力；本书在撮要位置明文点出制伏太过的反向结果。
+
+    '
+  mechanism: '制是配平不是消灭；制力超过杀的强度则杀不成权，反为凶。
+
+    与 B5 第 218 章的「偏官制伏太过时」同属一条机制，此处是全书纲要式表述。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - qisha
+  - zhifu
+  source_ref: ce-B6-27
+- id: b-yhr-0216
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 280 章 · 论八字撮要法（page 639）
+  quote: '"若用伤官须要静，此是子平万法宗。伤官最怕为官运，伤官尤喜见财星。印绶好杀嫌财旺，羊刃怕冲宜合迎。比肩要逢七杀制。七杀喜见食神刑。有禄怕见官星到。食神最喜偏财临。"'
+  failure_mode: '把某一句的喜忌串用到别处（如以「印绶好杀」推断伤官亦喜杀），
+
+    或忽略「用伤官须要静」这一前提而让他神扰动。
+
+    '
+  mechanism: '撮要法逐条对不同十神给出不同喜忌方向，是并列的专用规则，
+
+    不是可互相替换的通用倾向。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shishen
+  - xiji
+  source_ref: ce-B6-28
+- id: b-yhr-0217
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 281 章 · 会命要说（page 641）
+  quote: '"今之後学，加增旨意又诀，莫非先贤已发之余意，大同小异。"'
+  failure_mode: '把后学增补的「又诀」当作先贤原论断来引用；
+
+    编者明言今本已「加之诗诀、起例」，此类增补与前贤论断属不同层。
+
+    '
+  mechanism: '本书是明代汇编本，材料有先贤原文、后学增补、编者删繁三层；
+
+    一旦混层，规则的权威性与适用范围都会失真。
+
+    〔引文「又诀」疑为「口诀」之误，见 source/text-issues.md〕
+
+    '
+  bound_to:
+  - 赋文与歌诀检索（task-20）
+  tags:
+  - counter-example
+  - cengji
+  - youJue
+  source_ref: ce-B6-29
+- id: b-yhr-0218
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说（page 643）
+  quote: '"愚尝无前未谙病药之说，屡以中和而究人之造化，十无一二有验。又以财官为论，亦俱无归趣。後始得悟病药之旨，再以财官中和参看，则尝八九而得其造化所以然之妙矣。"'
+  failure_mode: '只以「中和」为判准，或只以「财官」为判准；
+
+    作者自述前者「十无一二有验」，后者「俱无归趣」。
+
+    '
+  mechanism: '单一判准无法处理有偏之局；须以病药为先、财官中和参看。
+
+    这是作者本人承认的方法失误，属典型的失败模式记录。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - bingyao
+  - zuozhe-zishu
+  source_ref: ce-B6-30
+- id: b-yhr-0219
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说（page 643）
+  quote: '"盖人之造化，虽贵中和，若一味中和，则安得探其消息，而论其休咎也？……或本身病重而药少，或本身病轻而药重，又宜行运，以取其中和。"'
+  failure_mode: '把「中和」当作最高目标而无条件追求；原文指出一味中和则无从探消息，
+
+    且须核对病与药的比例（病重药少、病轻药重皆失）。
+
+    '
+  mechanism: '贵贱来自「病与药」的配对与行运取中，中和只是修正项；
+
+    无病无药者不过是平常人，不构成富贵。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - zhonghe
+  - bingyao
+  source_ref: ce-B6-31
+- id: b-yhr-0220
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说（page 643）
+  quote: '"假如人八字中，四柱纯土，水日干则为杀重身轻；如金日干，则为土厚埋金；火日干，则为晦火无光；木日干，则为财多身弱；土日干，则为比肩太重。是则土为诸格之病，俱喜木为医药，以去其病也。"'
+  failure_mode: '把「病」当成固定字（见土即断土为病、见某神即断某神为病），
+
+    不看该字相对日干处于何种十神位置。
+
+    '
+  mechanism: '同一个土在五个日干下分别成杀、成印（埋金）、成晦火、成财、成比肩，
+
+    病名与后果随之不同；故「病」必须相对日干命名，不能绝对认定。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - bingyao
+  - shishen
+  source_ref: ce-B6-32
+- id: b-yhr-0221
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说（page 643）
+  quote: '"宜将以上各火做一处看，或为病，或非病。又或地支虽又有别物，且不必看，若再看别物，则混杂不明，故曰：从重者论。此理是看命下手法处。"'
+  failure_mode: '把四柱每个字平铺并列地逐一论断；原文判此举为「混杂不明」，
+
+    要求先把同类之气合看、确定何者为重，再往下推。
+
+    '
+  mechanism: '看命的起手是先聚类（如所有火字做一处看）再定病与非病；
+
+    从重者论提供优先序，避免多变量互相抵消。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - conglzhong
+  - shoufa
+  source_ref: ce-B6-33
+- id: b-yhr-0222
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说（page 643）
+  quote: '"若病重而得药，大富大贵之人也。病轻而得药，略富略贵之入也。无病而无药，不富不贵之人也。"'
+  failure_mode: '以「四柱无损伤、日干得中和」判为吉命；
+
+    原文的对应结论是「此是平常人也」——无病无药不富不贵。
+
+    '
+  mechanism: '贵贱来自病药的张力（有病方为贵，无伤不是奇）；
+
+    均衡本身不产生层次，这也是「中和」被病药说修正的原因。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - bingyao
+  - cengci
+  source_ref: ce-B6-34
+- id: b-yhr-0223
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 283 章 · 雕枯旺弱四病说类（page 645）
+  quote: '"苟王之不琢，虽曰荆山之美，则为无用之王也；金之不炼，虽曰丽水之良，则为无用之金也。人之八字，大概类此。"'
+  failure_mode: '见四柱「纯然无杂」（见官星未曾有伤官、见财星未曾有比劫、见印绶未曾有财星、见食伤未曾有印绶）
+
+    即断为美；原文以此为未琢之玉、未炼之金，判为无用。
+
+    '
+  mechanism: '八字「贵有雕」：去留舒配、有制有化才成器；
+
+    全无冲克的结构缺少可用之机，反而无所成就。
+
+    〔引文「王」疑为「玉」之误，见 source/text-issues.md 第 283 章条〕
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - si-bing
+  - wuchong
+  source_ref: ce-B6-35
+- id: b-yhr-0224
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 283 章 · 雕枯旺弱四病说类（page 645）
+  quote: '"但贵其有根而枯也，不贵其有苗而枯也。苟若官星无根，则官从何出？财星无根，财从何生？是以财官印绶，贵有根而枯之病也。或若无根，而自为之枯焉，则亦非矣。"'
+  failure_mode: '见「枯」（官贵有枯，行官旺地即贵）即断富贵；
+
+    原文限定须为「有根而枯」，无根而枯不成立。
+
+    '
+  mechanism: '枯是待时而发的状态，其前提是根；无根则待时亦无物可发。
+
+    与 B5「固用不如固本」同理。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - ku
+  - yougen
+  source_ref: ce-B6-36
+- id: b-yhr-0225
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 283 章 · 雕枯旺弱四病说类（page 645）
+  quote: '"若木不木而金不金，旺不旺而弱不弱，则五行之质有亏矣。何以考人祸福也哉？……若其旺弱之相参，斯其下矣。"'
+  failure_mode: '在旺衰模糊之局（既不算旺也不算弱、五行之质不纯）仍照常下断语；
+
+    原文判此类为「下矣」，即无从考祸福。
+
+    '
+  mechanism: '旺衰是判断的前提量，量不清则后续取用、病药全部失去基准。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - wangshuai
+  - moxu
+  source_ref: ce-B6-37
+- id: b-yhr-0226
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 283 章 · 雕枯旺弱四病说类（page 645）
+  quote: '"然或官星太旺者，宜行伤官运以去其官星；财星太旺者，宜行比劫运以去财星；印星太旺者，宜行财星运以破其印星；日干太旺者，宜行官杀运以制其日主。一理如是，百理皆然。"'
+  failure_mode: '把「旺」一律当作优势而加以生扶；
+
+    原文对太旺者给出反向处理（去官、去财、破印、制日主），即「贵有旺之病」。
+
+    '
+  mechanism: '旺与弱都是病名，须以损/益两条药法对应；
+
+    同一位十神的行运方向在其太旺与不足时相反。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - taiwang
+  - sunyi
+  source_ref: ce-B6-38
+- id: b-yhr-0227
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 283 章 · 雕枯旺弱四病说类（page 645）
+  quote: '"然犹畏弱之无根，所谓根在苗先也。弱而有根，则官星虽弱而可致其旺，财星虽弱而可致其强。"'
+  failure_mode: '见某神弱即断「行旺乡可发」；原文要求先有根，
+
+    无根之弱不能靠行运补起来。
+
+    '
+  mechanism: '「弱则有旺之基」的前提是有根（根在苗先）；
+
+    这与「枯须有根」「用不如固本」构成同一组条件。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - ruo
+  - yougen
+  source_ref: ce-B6-39
+- id: b-yhr-0228
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 284 章 · 损益生长四药说类（page 648）
+  quote: '"损者。损其有余也。然木生震位，正木气当权也。金産兑宫，正金神之得位。当权者不宜资助，得位者不必生扶。"'
+  failure_mode: '见到某五行或某十神当权得位，仍按「生扶为吉」加助（水又滋、土又培），
+
+    形成有余更益之病。
+
+    '
+  mechanism: '四药中的「损」针对有余：当权者与得位者不需要资助；
+
+    官星有余则损官，财有余则损财。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - sun
+  - youyu
+  source_ref: ce-B6-40
+- id: b-yhr-0229
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 284 章 · 损益生长四药说类（page 648）
+  quote: '"如木之生於亥，根气犹枯也，未可以木为旺也。如火之生於寅，气焰犹寒，未可以火旺也。又可财官印临於生地，未可以财官印为旺也。"'
+  failure_mode: '把长生之地判为旺（或据长生诗诀的吉断语下结论）；
+
+    原文明确「未可以木为旺也」「未可以财官印为旺也」。
+
+    '
+  mechanism: '生是气之始，根气犹枯、气焰犹寒，「凡气之不足，故贵济有生之药」——
+
+    长生位仍属需要资助的不及状态。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - changsheng
+  - wangshuai
+  source_ref: ce-B6-41
+- id: b-yhr-0230
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 284 章 · 损益生长四药说类（page 648）
+  quote: '"如财官属木，则长养在寅卯辰之方，此木气方敷也，如是则贵行金运以克之，则与长生之木理不同也。"'
+  failure_mode: '对同一五行在不同宫位套用同一行运方向；原文强调
+
+    「长生二字，衰旺之不同，故行运有喜生喜克之异」——生位喜生、长位喜克。
+
+    '
+  mechanism: '行运方向由该神所处的宫位阶段决定（生、长、旺、衰各不相同），
+
+    单一方向（如「木喜水」）不成立。
+
+    〔引文「走以长生二字」疑为「盖以／是以长生二字」之误，见本块文本问题记录〕
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yun
+  - changsheng
+  source_ref: ce-B6-42
+- id: b-yhr-0231
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 285 章 · 动静说（page 650）
+  quote: '"是以天干之动，只能攻得天干之动，不能攻地支之静也，明矣。……但虽不能攻人，而亦有摇动震惊之意，但不能作实祸也。"'
+  failure_mode: '用运上天干之克去论八字地支之力（或用地支之克去论天干），
+
+    或把「不能实攻」误读成「完全无影响」。
+
+    '
+  mechanism: '透出于上者为动、配藏于下者为静，动攻动、静攻静；
+
+    跨层之间只有「摇动震惊之意」，不作实祸。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - dongjing
+  - cengji
+  source_ref: ce-B6-43
+- id: b-yhr-0232
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 285 章 · 动静说（page 650）
+  quote: '"盖其库中，锁钥甚牢，真要戍字运来冲开之，就如有了锁匙，开了其锁，而放出戊土乙木癸水出来。如丑字就要未字冲，别物不能攻之。故曰杂气财官喜见冲，正此意也。"'
+  failure_mode: '见库即断「喜见冲」，不问是哪一个字来冲；
+
+    原文限定：辰须戌冲、丑须未冲，别物不能攻（如寅中甲木不能破辰中之戊）。
+
+    '
+  mechanism: '库为「锁钥甚牢」的封藏结构，只有对宫之冲才构成开钥；
+
+    非对宫的刑克只能摇动而不能开启。
+
+    〔引文「戍」为「戌」的刊本混用字，保留原字〕
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  tags:
+  - counter-example
+  - muku
+  - chong
+  source_ref: ce-B6-44
+- id: b-yhr-0233
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 286 章 · 盖头说（page 652）
+  quote: '"凡有所害之物，露出头面，便是动物，就能作害。……盖因壬癸水盖盖在申酉头上，是壬癸水盖了头，便不好也。"'
+  failure_mode: '只核地支所藏之病神/福神，不问天干（头面）是否透出：
+
+    作者判「支中所藏之物……不足为轻重」，藏在内者不足畏，透出者方能作害；
+
+    反之福神被盖则「出头不得」不能作福。
+
+    '
+  mechanism: '干支分层：天干为头面（动物）、地支为肚腹（所藏），
+
+    以盖头之字定该支当年能否为害或为福，是逐年断的话语权所在。
+
+    '
+  bound_to:
+  - 刑冲合害与盖头（task-11）
+  - 大运流年推演（task-13）
+  tags:
+  - counter-example
+  - gaitou
+  - ganza
+  source_ref: ce-B6-45
+- id: b-yhr-0234
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 655）
+  quote: '"又云：太岁一年之领袖，诸神之主宰，极有用处。只因徐子平“以日为主，专取财官”，误了后人多少错会了义。"'
+  failure_mode: '把「以日为主」理解成只看日干、只看财官，忽略年干统摄与「时如权衡，分毫加减」的分工，
+
+    也不看岁君（太岁）的权重。
+
+    '
+  mechanism: '原文以称具为喻分工：「年如称钩，绾起其物；月如称紧，提起纲纽；日如衡身，星两不差；
+
+    时如称锤，轻重加减」——四柱各司其职，凡把一处当作全部依据即是「错会了义」。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - rizhu
+  - wuqu
+  source_ref: ce-B7-01
+- id: b-yhr-0235
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 655）
+  quote: '"其用神最忌损犯，兼怕分窃，不宜太过与不及。如太过之物本不好了，或岁运又来生扶，即是倾覆坏了。如木则折、水则倾、土则崩、火则一发而灭、金则折损。"'
+  failure_mode: '只看「用神可否得到生扶」，不核其本身是太过还是不及；
+
+    对已太过的用神再加岁运生扶，即倾覆坏灭。
+
+    '
+  mechanism: '用神最忌三者：损犯、分窃、太过不及；太过者的解药是损而非益。
+
+    与 S0 已登记的「药多药少」同属配平机制。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - yongshen
+  - guoyu
+  source_ref: ce-B7-02
+- id: b-yhr-0236
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 655）
+  quote: '"有气乃当时也，看八字内外明暗干支。……有情乃合气也，如甲见己、丙见辛、丁见壬之类，中间干支明暗有合，皆取此为最切也。"'
+  failure_mode: '把当时（有气）与相合（有情）混为一谈：前者是得令，后者是合气，
+
+    两者的取用与速度不同，混用会误判吉凶的缓急。
+
+    '
+  mechanism: '原文并列两种「切」：有气者急（当时为至急），有情者切（合气为最切）。
+
+    两者不看则取用失据。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - youqi-youqing
+  source_ref: ce-B7-03
+- id: b-yhr-0237
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 656）
+  quote: '"过于清则或寒或薄，过于厚则或浊或滞，过于华丽则或轻或浮，过于肆逸则或流或荡，过于有情则或滥或淫，过于孤介则独立不能容物，过于刚勇则或暴或燥而无涵养，过于柔懦则或愚或钝而无作为，过于执实则拘局而只知有己，过于轩豁则图谋广而秀不能实。"'
+  failure_mode: '把单一取向（清、厚、华丽、有情、刚勇等）的极致当作吉；
+
+    原文为每一项都给出过则生病的反结果。
+
+    '
+  mechanism: '体制的判断是「气象规模」的方向性平衡：任一品格推到极端即转为缺陷，
+
+    与病药说中「太过与不及同」同理。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - tizhi
+  - shiguo
+  source_ref: ce-B7-04
+- id: b-yhr-0238
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 656）
+  quote: '"紧用字样却远在后，或被别字闲神占先隔了，若无伤犯，须得岁运生扶方为全美。"'
+  failure_mode: '判定用神只看是否在四柱出现，不看其位置先后与被闲神隔占；
+
+    隔占之局须待岁运生扶才全美，直接断吉即高估。
+
+    '
+  mechanism: '字面有先后之分，用神被闲神占先则其作用被截断，属「位置性损伤」。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yongshen
+  - weizhi
+  source_ref: ce-B7-05
+- id: b-yhr-0239
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 656）
+  quote: '"人八字中，全无财官等件贵气，有安然奋发富贵者何？盖以相生之气，自立成象也，生意滔滔，有不尽之情，高远坚实如此。"'
+  failure_mode: '以「无财官即不成器」为定则；原文给出反例：相生之气自立成象者亦可富贵，
+
+    本象配本、化象配化各有成立路径。
+
+    '
+  mechanism: '「象」是比财官更上位的结构判据；财官只是象的一种载体。
+
+    只数财官会漏掉成象之局，也会把有财官而象败之局误判为吉。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 化气与神趣八法（task-18）
+  tags:
+  - counter-example
+  - chengxiang
+  - caiguan
+  source_ref: ce-B7-06
+- id: b-yhr-0240
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 656）
+  quote: '"水神既显露于干或泛滥于支，物盛不祥，还得几多火土，能堤防倚赖哉。"'
+  failure_mode: '见某气本象正临建旺、又生子满局即断吉；
+
+    原文判「物盛不祥」——气盛而子又泛滥时，缺乏堤防倚赖即是隐患。
+
+    '
+  mechanism: '「根源一气，生物满盈」须以有制（堤防）为前提；
+
+    否则满盈之物的下一个状态是倾覆。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - manying
+  - tifang
+  source_ref: ce-B7-07
+- id: b-yhr-0241
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 657）
+  quote: '"此一段，须要先看四支，一一将所藏干气提豁出来细推。何者党众，何者力寡，何旺何弱，何轻何重，方明得用神吉凶道理。不去一一提豁，大纲昏蔽，难以忖度取舍。"'
+  failure_mode: '跳过四个地支的藏干拆解直接下断语或取用神；
+
+    原文判此举为「大纲昏蔽」，取舍无从依据。
+
+    '
+  mechanism: '地支是「四位支神至切者，视天干为尤切」，其力势须逐支提豁（含冲拱刑合起何神）才能定量。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - dizhi
+  - shoufa
+  source_ref: ce-B7-08
+- id: b-yhr-0242
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 657）
+  quote: '"凡脆虚浮嫩之气，休废败绝之乡，得支干夹扶，暂合而发于一时。倘遇岁运将赞助之神伤坏或抑扬，其无气则易败而不长久。"'
+  failure_mode: '见「得支干夹扶、暂时发越」即断富贵长久；
+
+    原文指出脆虚浮嫩之气所发者易败，须看赞助之神是否被岁运伤坏。
+
+    '
+  mechanism: '发的持久性取决于气的质地（是否脆虚、是否在休废之乡）与赞助之神的稳定，
+
+    与是否显露无关：「故不在露，其干支中隐藏有气得生，反远大也」。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - fashen
+  - yikū
+  source_ref: ce-B7-09
+- id: b-yhr-0243
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 657）
+  quote: '"欲化真象，如丁壬化木之类，万一妒合争战未成者，忽至运中却资助本象具体，乘其本象财官等贵，则弃其本象之真，逐其末节之气。"'
+  failure_mode: '见到合化之象即按化象推，忽略「妒合争战」使化未成；
+
+    真正失当的是在化象未成时弃本象而逐末节之气。
+
+    '
+  mechanism: '本象与化象是本末关系：化未真则本象仍在，判断须回到本象；
+
+    与「化气失局有伤，论显荣者万无二三」互为印证。
+
+    '
+  bound_to:
+  - 化气与神趣八法（task-18）
+  tags:
+  - counter-example
+  - huaxiang
+  - benmo
+  source_ref: ce-B7-10
+- id: b-yhr-0244
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 657）
+  quote: '"岁与日辰力虚薄不专，被吉凶神煞播弄，随气动荡，精神被其所役，自家主张无定，多是凶煞……建业立事，虽有偶成，岂不害物损人也哉。"'
+  failure_mode: '对身局薄弱之命只按神煞吉断；原文指出薄局会被吉凶神煞来回播弄，
+
+    主张无定，偶成之事亦伴损害。
+
+    '
+  mechanism: '神煞的效力取决于命局的承载能力：「大器镃基」者遇恶煞反能助威，
+
+    薄才体局者则被恶煞役使——同一个神煞依局之厚薄得相反结果。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - shensha
+  - chengzai
+  source_ref: ce-B7-11
+- id: b-yhr-0245
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 657）
+  quote: '"贵气不欲烦杂，用财只用财，用官只用官……只宜一件二件贵气便当辅佐……三件四件泛滥便不归一"'
+  failure_mode: '把禄马、贵人、食神、印绶等吉神叠加当作加分；原文判三四件泛滥即「不归一」，
+
+    贵气多反而分散。
+
+    '
+  mechanism: '贵气的效力来自专一（用一件则精神严切），烦杂则精神分散；
+
+    与「用神一字…苗不秀，秀不实」同属「专则成、杂则败」机制。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - guiqi
+  - fanza
+  source_ref: ce-B7-12
+- id: b-yhr-0246
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 658）
+  quote: '"吉神参天月扶持，凶煞入空亡品藻。"'
+  failure_mode: '把空亡当作一律减分的凶煞，或一律忽略；原文的分工是：
+
+    吉神坐空则减分（吉神亦嫌空亡），凶煞入空亡则减半，四煞亦要二德。
+
+    '
+  mechanism: '空亡本身按所坐之神分吉凶（「凶神宜坐空，吉神怕坐空」），
+
+    且原书并列「金火宜空，木土水忌空」与「水亦喜空」两说，属须回核的争议点。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - kongwang
+  - shensha
+  source_ref: ce-B7-13
+- id: b-yhr-0247
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 659）
+  quote: '"日主次位，如甲见乙之类，此等其损有四：一能劫妻财空我，一能合煞损我，一能化象以泄我气，一能拦截前路作刃害我，四也。"'
+  failure_mode: '见日主之前/后另一位同类天干即断帮身有力；
+
+    原文区分：先干（如甲见癸）有三益，次位（如甲见乙）有四损。
+
+    '
+  mechanism: '同类天干的位置决定其为助或为夺：次位者劫财、合煞、泄气、作刃，
+
+    与「比肩争竞」机制一致。
+
+    '
+  bound_to:
+  - 十神定位（task-03）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - bijian
+  - weizhi
+  source_ref: ce-B7-14
+- id: b-yhr-0248
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 659）
+  quote: '"我合者为妻，我克者为财，世人但知我克者总为妻财，纰缪未善，又还看化象如何。"'
+  failure_mode: '把「我克者＝妻财」当作无条件映射下六亲断语；
+
+    原文指出须分「我合者为妻」与「我克者为财」，并再看化象。
+
+    '
+  mechanism: '六亲映射本身有分合两路（合为妻、克为财），把两者合并即误。
+
+    这是术语/映射层面的典型错误。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 十神定位（task-03）
+  tags:
+  - counter-example
+  - liuqin
+  - yingshe
+  source_ref: ce-B7-15
+- id: b-yhr-0249
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 659）
+  quote: '"或用二字用神一件精神严切最妙，如用官显了又见官星再来复建禄等，或用财又见食神贵人"'
+  failure_mode: '见用官又见官星建禄、用财又见食神贵人即断贵气加倍；
+
+    原文判为「贵气重叠，苗不秀，秀不实」。
+
+    '
+  mechanism: '用神以一字专为妙，重叠则精神分散；这与「贵气不欲烦杂」「用神一字不入格」
+
+    共同构成「专一 vs 重叠」的判据组。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - chongdie
+  - yongshen
+  source_ref: ce-B7-16
+- id: b-yhr-0250
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 660）
+  quote: '"上生下成脱气，可忧子旺母衰。三窃一生用神，翻喜子衰母旺。"'
+  failure_mode: '把干生支、支生音、岁生月等「上生下」一律当作相生之吉；
+
+    原文判为脱气子旺母衰之可忧，反而「三窃一生」时喜子衰母旺。
+
+    '
+  mechanism: '生的方向决定损益：顺生成器，脱气耗母；故同一「生」在不同结构中符号相反。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - sheng
+  - tuqi
+  source_ref: ce-B7-17
+- id: b-yhr-0251
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 660）
+  quote: '"拱夹更真，如乙人遇癸未、乙酉二位，明见拱夹甲申之真官，贵气无疑，或余神埋藏火神，倘遇岁运见火见庚或见填实其位，发祸可胜言哉。"'
+  failure_mode: '以拱夹取贵之局即断无虞；原文提示余神埋藏与岁运填实会使其发祸。
+
+    '
+  mechanism: '拱夹之贵是「虚处成象」，最怕被填实（虚位被占）与损露（余神透出），
+
+    与 B6《动静说》「库须对宫冲开」同属「虚位怕填」机制。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - gongjia
+  - tianshi
+  source_ref: ce-B7-18
+- id: b-yhr-0252
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 663）
+  quote: '"忌煞有生有扶，或坐生旺之处，及有赞合之神，其专之意不可言也，柱中乃见用神虚来生合，情假露形，有气或落天中，虽旺亦无地面，情假力散"'
+  failure_mode: '看到用神有生合、有气即断为我所用；
+
+    原文要求区分「用神力切（有扶有生、力专生旺）」与「用神情假（虚来生合、情假露形）」。
+
+    '
+  mechanism: '用神的效力看其力是否落实（有无地面），而非名义上是否生合我；
+
+    忌煞方反而可能气专。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - yongshen
+  - qingjia
+  source_ref: ce-B7-19
+- id: b-yhr-0253
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 663）
+  quote: '"贵气或多或重，自身无气岂能胜任，如随其类逐其化，或从其象，应其气，不在此论，一说身不能任，如病不能食，花不结实。"'
+  failure_mode: '见贵气多、重即断富贵；原文判自身无气者不能胜任，
+
+    除非随类逐化、从象应气（即转成从化之局）。
+
+    '
+  mechanism: '贵气是外部资源，须身能任之；不能任则如病不能食、花不结实。
+
+    这一条直接约束「见财官即富贵」的推断。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 从格判定（task-05）
+  tags:
+  - counter-example
+  - shenruo
+  - guiqi
+  source_ref: ce-B7-20
+- id: b-yhr-0254
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 664）
+  quote: '"金乃杀害物命之象，满局金气，兼带凶煞等神刑克者，我不杀害他人，必被人所刺，无火制必验"'
+  failure_mode: '见金气满局（刚强有力）即断威权；原文指出须以火为制，
+
+    无火制者刚气相激，转而伤身。
+
+    '
+  mechanism: '刚气须有出口（火制），否则「我不杀害他人，必被人所刺」——
+
+    这是「旺者宜制」在神煞层的表述。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 七杀/羊刃类结构（task-10）
+  tags:
+  - counter-example
+  - jinwang
+  - zhizhi
+  source_ref: ce-B7-21
+- id: b-yhr-0255
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 664）
+  quote: '"如甲见二壬为重吞，见二庚为双克，柱中叠见冲神，或合处有刑有害，有克有破，皆不祥之兆也。"'
+  failure_mode: '把同一天干重复出现当作力量加强；原文以二壬为重吞、二庚为双克，
+
+    叠见冲神、合处带刑害克破皆属不祥。
+
+    '
+  mechanism: '重与并是结构冲突而非叠加：官重为吞、杀重为克，
+
+    与「三吞三偶」「重偶重伤，视三尤凶」构成同组判据。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - chongjian
+  - guansha
+  source_ref: ce-B7-22
+- id: b-yhr-0256
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 664）
+  quote: '"停均之说有五，一、日主用神冲和相济，彼此各有倚赖，不至偏枯。二、损用神之气者，有物以制之，不致作梗。……匹配之说有六：一、衰神有用，须运扶衰者方可。"'
+  failure_mode: '以单条标准（如「日主旺衰相济」）代替整套匹配判断；
+
+    原文分别列出停均五说与匹配六说，各为并列条件。
+
+    '
+  mechanism: '均与配是多条件同时校验的判据组，任一条不满足即不成立；
+
+    只用一条会漏检。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - junting
+  - pipei
+  source_ref: ce-B7-23
+- id: b-yhr-0257
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 666）
+  quote: '"凡贵气专用则可，两处三处分用，便是众人之物，不惟平生多起分争之讼，自家财产亦为比肩所擘"'
+  failure_mode: '用神与日干作合之外再见比肩，或贵气两处三处分用，仍按得用断；
+
+    原文判为分争之讼、财产被夺。
+
+    '
+  mechanism: '用神须与我独合（有情有气得侣），一分用即成众人物，
+
+    与「贵气不欲烦杂」互补。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - fenzheng
+  - yongshen
+  source_ref: ce-B7-24
+- id: b-yhr-0258
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 667）
+  quote: '"如八字纯阴纯阳，柱中困欠合神财官等贵用神，既偏且强，又能刑出冲飞之物，来者皆为偏气所致，虽豪亦俗，非俊秀才器矣"'
+  failure_mode: '见纯阴纯阳而有力量即断为特异之才；
+
+    原文判「虽豪亦俗，非俊秀才器」，并指出多谋少立。
+
+    '
+  mechanism: '偏气强而欠合神财官等贵用神者，其力无处安顿，属「偏而不成器」。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - pianqi
+  - chunyin
+  source_ref: ce-B7-25
+- id: b-yhr-0259
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 669、671、667）
+  quote: '"吞啖势繁，非偏房定乏乳哺，孤寡来并，由异姓假合同居。……十恶大败若真，贵为将、贱为寇，囚死空亡若聚，生者道、衰者僧。"'
+  failure_mode: '把「偏房」「乏乳哺」「僧道」「娼优隶卒」类断语当作可移植结论；
+
+    这些判断依附于明代的婚姻、身份与职业制度。
+
+    '
+  mechanism: '此类断语以宗法身份与宗教身份为分类结果，脱离该制度后不成立；
+
+    记录时须标注时代局限，不可作为可执行规则。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 性情判断（task-16）
+  tags:
+  - counter-example
+  - epoch-limit
+  - shenfen
+  source_ref: ce-B7-26
+- id: b-yhr-0260
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 672）
+  quote: '"运之支神太过之物，则宜抑之，不及之物，则宜扶之，须要与当生支神贯穿，看其本末乖顺如何，若只详用神轻重扶抑者，亦未善。"'
+  failure_mode: '只看用神的轻重扶抑而不看运支与当生支神的本末关系；
+
+    原文判「亦未善」，并分「运以支重为基，岁以干重乘气」。
+
+    '
+  mechanism: '大运重地支、太岁重天干，两者的作用面不同；
+
+    混用会误判灾福的迟速与主体。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yunsui
+  - fengong
+  source_ref: ce-B7-27
+- id: b-yhr-0261
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 287 章 · 王井奥诀（page 673）
+  quote: '"当生本末体用相称，运扶身太过，或困其用神，亦不中也。"'
+  failure_mode: '见行运扶助日主即为吉运；
+
+    原文指出本末体用本已相称时，运扶身太过或困用神皆为失中。
+
+    '
+  mechanism: '行运的价值是「适扶用神、抑其福气」的配平，而非单向扶身。
+
+    与《病药说》「一味中和」的批评同源。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - yun
+  - fujing
+  source_ref: ce-B7-28
+- id: b-yhr-0262
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 674）
+  quote: '"故古之论命，研究精微，则由体而该用。分之论命，拘泥格局。遂执假而失真。是必先观气象规模，乃富贵贫贱之纲领。次论用神出处，尽死生穷达之精微。"'
+  failure_mode: '先套格局名目再论命（拘泥格局），导致「执假而失真」；
+
+    原文要求先观气象规模，再论用神出处。
+
+    '
+  mechanism: '气象是纲领、用神是精微、格局只是命名；次序颠倒则判断被名目绑架。
+
+    这是本块对「格局优先」最直接的方法论批评。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - geju
+  - qixiang
+  source_ref: ce-B7-29
+- id: b-yhr-0263
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 674）
+  quote: '"乃若一阳解冻，三伏生寒，阳刚不中，亢则害也，刚而能柔，吉之道也。……此象亢阳无制，更不包藏阴物，而运又行东南。则阳刚失中，必主於害"'
+  failure_mode: '把阳刚有力当作吉；原文判亢阳无制者阳刚失中必主害，
+
+    须「刚而能柔」方为吉道（五阳生于阴月、干支夹合阴柔、运道行阴柔之乡）。
+
+    '
+  mechanism: '刚柔互济是成器条件；单边之刚无阴物包藏则无收束，
+
+    与《五行生克赋》「独刚而无柔则不能生变」一致。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - gangrou
+  - kangyang
+  source_ref: ce-B7-30
+- id: b-yhr-0264
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 675）
+  quote: '"四柱纯阴，生於十月，空绝五行之根，日干又见衰弱，而无强健之气，纵遇和暖之乡，终难发达。四柱纯火，生於夏至之前，火性燥烈，岁运中乍遇水激，不惟不能制，而反致害矣"'
+  failure_mode: '对极寒极燥之局按常法救济：见纯阴衰弱即断「行南方和暖运可发」，
+
+    见纯火燥烈即断「得水制则吉」。原文判二者皆不应验。
+
+    '
+  mechanism: '过寒者根已空绝，和暖不能复荣；过燥者性已烈，水激反致害
+
+    （「过於寒薄，和暖处终难奋发。过於燥烈，水激处反有凶灾」）。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - hanre
+  - jiuji
+  source_ref: ce-B7-31
+- id: b-yhr-0265
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 675）
+  quote: '"执实者，用一而不通也。……局中之物不可过於有情，若过於有情则牵迷不能自脱，外无所见矣。……凡柱中得自然之物为妙，若用力扶持，终不为美。"'
+  failure_mode: '三种典型误断：（1）用一而不通（执实），（2）局中过于有情（牵迷不能自脱），
+
+    （3）用神局中不见而强以食伤比肩冲合来凑（过于用力）。
+
+    '
+  mechanism: '自然之物为妙：有情太过则志不远达，用力扶持则成就艰难。
+
+    这三条是「牵合成局」类推断的反面清单。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - qing
+  - yongli
+  source_ref: ce-B7-32
+- id: b-yhr-0266
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 675、676）
+  quote: '"凡遇绝处，不可便指为凶，盖凶处亦有吉神相扶。……凡人命衰弱或刑伤破害，不能成用者，必欲吉神扶佐，成我之福，又观相我之神势力轻重何如，若无根失令或自受伤，先用求助相吉之神何如。"'
+  failure_mode: '（1）见绝处即判凶；（2）只说「有吉神相救」而不核救助之神自身是否有根得令。
+
+    原文举甲日夏生得壬癸亥子相我，但水先受火土耗克，故「不能为我之福」，
+
+    须求金转生水——救神本身也要被救。
+
+    '
+  mechanism: '救应的有效性是二阶判断：先核救神的力量，再核救神的来源。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - jiushen
+  - juechu
+  source_ref: ce-B7-33
+- id: b-yhr-0267
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 676）
+  quote: '"凡日主用神俱要着落之处，如四柱中不得通根有靠，又遇空亡、死绝、沐浴、刑冲，则终无成立，必然流荡失所矣。"'
+  failure_mode: '只论日主与用神的名目，不核其是否通根有靠；
+
+    原文判无着落之局终无成立。
+
+    '
+  mechanism: '着落（通根有靠）是成立的底线条件，空亡死绝沐浴刑冲使之失所。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - tonggen
+  - shiyuan
+  source_ref: ce-B7-34
+- id: b-yhr-0268
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 677）
+  quote: '"福满须防有祸，凶多未必无祯。……柱中原有官煞转生印旺，不遇财伤食神泄气为贵，运行比印旺地，生扶太过，福满处岂无祸生，是以君子怕处其盛也。"'
+  failure_mode: '见用印生身得力、又行比印旺地即断福上加福；
+
+    原文判生扶太过则福满生祸，同时指出凶多之局可能有制伏之运转为祯祥。
+
+    '
+  mechanism: '「阴阳消长、祸福倚伏」：吉运的极点即转折点，
+
+    与「器满必倾，物过则损」同属一条机制。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - fuman
+  - huofu
+  source_ref: ce-B7-35
+- id: b-yhr-0269
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 678）
+  quote: '"脱此辈忌见此辈，化斯神喜见斯神。……假如甲己化土，脱木气而从妻家，若见甲乙寅卯未亥，皆我比肩，则有原旺之借，岂无恋哉，况比刃又能争合我财，使甲己不能相成，反有离间之恨也。……大怕空亡见煞，比肩争妒，不成名卿巨公，则为孤儿异姓矣。"'
+  failure_mode: '从化成象之局再逢原气（比肩）即在所忌，仍按成格断；
+
+    原文判比肩争合使我财被夺、化象不成，「反有离间之恨」。
+
+    '
+  mechanism: '「脱此辈忌见此辈」：从化以脱离本气为条件，
+
+    本气复见即形成回头之恋，与从格「最忌日主得根比肩」同源。
+
+    '
+  bound_to:
+  - 从格与化气判定（task-05 / task-18）
+  tags:
+  - counter-example
+  - huaqi
+  - bijian
+  source_ref: ce-B7-36
+- id: b-yhr-0270
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 288 章 · 气象篇（page 678）
+  quote: '"此言煞重身轻，孤独无助者，盖无当关可救之神，则不能胜所克矣，决主夭疾。"'
+  failure_mode: '在煞重身轻、无当关之神的局中断成就；
+
+    原文判「决主夭疾」，属体系内的极端结论。
+
+    '
+  mechanism: '「一将当关，群邪自服」须有可当关之神；无之则群煞克主，独力难胜。
+
+    本条亦当归入效度待核（涉及夭疾结论，不作实际判断使用）。
+
+    '
+  bound_to:
+  - 七杀制伏（task-08）
+  - 寿元判断（task-16）
+  tags:
+  - counter-example
+  - sha-zhong
+  - epoch-limit
+  source_ref: ce-B7-37
+- id: b-yhr-0271
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 686）
+  quote: '"凡命上带死绝、生旺、库墓等，不可就以所带言之，须看月令以辨清浊。清者有制伏之谓，如水病见土则浊，却非土堤防则不能止息，既止息则清之有渐也。"'
+  failure_mode: '以四柱所带的宫位名（死绝、生旺、库墓）直接下断语；
+
+    原文要求回到月令辨清浊，并以有无制伏定清。
+
+    '
+  mechanism: '宫位只是状态名，清浊由制伏关系决定：
+
+    「盖五行尚其变而不尚其常，贵其隐而不贵其显」。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - qingzhuo
+  - gongwei
+  source_ref: ce-B7-38
+- id: b-yhr-0272
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 686）
+  quote: '"经云：以小凌大，自胎其害。以弱胜强，自掇其殃。……两阳相梗，凶祸旋至。两阴相敌，不安其处。"'
+  failure_mode: '见以少克多、以弱抗强即断反用成功（如一水克三火）；
+
+    原文引经判为自取其害，并区分阴阳相敌的两种结果。
+
+    '
+  mechanism: '克须量力：矛盾双方的量级与阴阳配合决定结果，
+
+    同性相梗（两阳、两阴）立即生祸，异性相胜（阴胜阳、阳胜阴）则「阴阳有情，故无大害」。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - yinyang
+  - qingzhong
+  source_ref: ce-B7-39
+- id: b-yhr-0273
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"金人遇庚申、辛酉为五离煞，若生秋月，逢水则化金之毒，为金白水清造化，逢火则制金之刚，为煅成锋利之器柱，无火无水是谓顽金，主早年酒色，瘵(音同债)痢身死"'
+  failure_mode: '见金旺（庚申辛酉、生秋月）即断刚强富贵；
+
+    原文判无火无水者为顽金，并给出身体类负面结论。
+
+    '
+  mechanism: '金须水化其毒、火制其刚，两者俱无即不成器，
+
+    与 B5「庚金忌生扶喜剥削」一致。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - wanjin
+  - jinwang
+  source_ref: ce-B7-40
+- id: b-yhr-0274
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"又有生而不生，旺而不旺，此为凶，乃先吉也。有死而不死，绝而不绝，此为吉，乃先凶也。如水见戊申土，此生而不生，见庚子土，此旺而不旺，遇此多成而反败，因喜而反忧。"'
+  failure_mode: '按生旺死绝的名称定吉凶；原文给出四个反例（生而不生、旺而不旺、死而不死、绝而不绝），
+
+    名目与实效相反时吉凶符号随之反转。
+
+    '
+  mechanism: '「五行气尽，而得父母之德以生益之，则其气复生」——气的实效取决于有无父母之德补益，
+
+    而非宫位名称。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - shengwang
+  - mingmu
+  source_ref: ce-B7-41
+- id: b-yhr-0275
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"木绝得火，火出木烬，灰飞烟灭，故独为凶。蛇马无胆，于焉足证。"'
+  failure_mode: '把「死绝逢生」当作通例（火绝得土、土绝得金、金绝得水、水绝得木皆吉）；
+
+    木绝逢火是唯一例外，反成凶。
+
+    '
+  mechanism: '死绝逢生的吉凶取决于所逢之子能否反哺其母；
+
+    火出则木烬，子反食母，故独凶。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - sijue
+  - lihai
+  source_ref: ce-B7-42
+- id: b-yhr-0276
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"凡五行，怕太过相忤。如禄多则贫，马多则病，印多则孤，库多则虚，生旺多无归宿，死绝多无激扬。五行不可太相伤，不可太纯粹。"'
+  failure_mode: '把吉神数量增加当作福气叠加；原文逐项给出「多则」的相反结果
+
+    （禄多贫、马多病、印多孤、库多虚），并指出「不可太纯粹」。
+
+    '
+  mechanism: '太过相忤即转为病；纯粹的另一个极端是「未琢之玉」（八字贵有雕），
+
+    两条限制共同否定「越纯越多越好」的直觉。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - taiguo
+  - duo
+  source_ref: ce-B7-43
+- id: b-yhr-0277
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"所爱者不可毁，所畏者不可旺。先畏后爱为福，先爱后畏为祸。"'
+  failure_mode: '只看所爱（喜神）是否得力，不核所畏（忌神）是否旺；
+
+    也不看爱畏在时序上的先后（先畏后爱为福，反之为祸）。
+
+    '
+  mechanism: '吉凶由爱畏两端与时序共同决定；
+
+    「所畏者旺」即忌神得势，是明确的凶断条件。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - xi-ji
+  - shixu
+  source_ref: ce-B7-44
+- id: b-yhr-0278
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 289 章 · 看命又诀（page 687）
+  quote: '"拱要拱马、拱禄、拱贵、拱福神，不要拱刑、拱祸、拱岁、拱时。阴阳贵在均协，病伤要有克制。"'
+  failure_mode: '见到拱夹结构即按吉断，不问所拱为何物；
+
+    原文限定只可拱禄马贵福神，拱刑、拱祸、拱岁、拱时皆不可。
+
+    '
+  mechanism: '拱是虚处成象的技术手段，其吉凶由所拱之神决定；
+
+    与「拱夹虽真当防损露」构成同组判据。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - gongjia
+  - xingfu
+  source_ref: ce-B7-45
+- id: b-yhr-0279
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 692）
+  quote: '"又曰：看子平之法，专论财官，以月上财官为紧要，发觉在於日时，要消洋於强弱。论财官不论格局，论格局不论财官。入格者非富即贵，不入格者非贫即夭。"'
+  failure_mode: '在「论财官」与「论格局」之间二选一，彼此不看；
+
+    原文以「入格者非富即贵，不入格者非贫即夭」把两者绑定为同一判断的两面。
+
+    '
+  mechanism: '财官是内容、格局是形式，消详强弱是共同中介；
+
+    割裂任一即失去可核验的判据链。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - caiguan
+  - geju
+  source_ref: ce-B7-46
+- id: b-yhr-0280
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 693）
+  quote: '"官煞混杂，为人好色多淫，作事小巧寒贱。有财印者吉，无财印者凶。劫财败财，心高下贱，为人贪婪。"'
+  failure_mode: '见官煞混杂即一律判凶（或据其道德断语给人定性），
+
+    不核有无财印为解救，也未标注其身份/道德断语的时代局限。
+
+    '
+  mechanism: '混杂的吉凶取决于有无财印转化；原文的「吉/凶」两端由财印决定，
+
+    而「好色多淫」类描述属明代伦理评价，不作可执行结论。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - epoch-limit
+  source_ref: ce-B7-47
+- id: b-yhr-0281
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 693）
+  quote: '"一格二格非卿即相。三格四格财官不纯，非刑卒多是九流。"'
+  failure_mode: '把命中成格的数量当作贵气叠加；原文判三格四格则财官不纯，反主低层结局。
+
+    '
+  mechanism: '格多即不纯，与「贵气不欲烦杂」「用神以一字为妙」同一机制。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - geju
+  - buchun
+  source_ref: ce-B7-48
+- id: b-yhr-0282
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 695）
+  quote: '"官星如遇比劫，虽官无贵。七煞若逢滋助，其煞愈凶。"'
+  failure_mode: '见官星得地即断贵，不核是否被比劫分夺；见七煞即加强制伏，
+
+    不注意「滋助」会使煞更凶（滋助与制伏方向相反）。
+
+    '
+  mechanism: '官与煞的处理方向相反：官怕分夺，煞怕滋助；
+
+    与「官怕伤，财怕劫」同组。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - bijie
+  source_ref: ce-B7-49
+- id: b-yhr-0283
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 695）
+  quote: '"有化而不化之由，聚而不聚之机，合而不合之类，秀而不秀之实。化而不化损於贵，聚而不聚损於财，合而不合损於官，秀而不秀损於福。"'
+  failure_mode: '按名目判定化、聚、合、秀成立；原文列出四组「名目成立而实效不成立」的情形，
+
+    并各自对应受损对象（贵、财、官、福）。
+
+    '
+  mechanism: '「不化而化之因，不聚而聚之机」——机制上有可逆的两面，
+
+    名目与实效须分开核验。
+
+    '
+  bound_to:
+  - 化气与神趣八法（task-18）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - huaqi
+  - mingmu
+  source_ref: ce-B7-50
+- id: b-yhr-0284
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 696）
+  quote: '"刑冲之法，仔细推详。有刑出刑入，刑吉刑凶，有冲动，冲不动，冲合，冲不合之辨。"'
+  failure_mode: '把刑冲一律视为破坏（或一律视为发动）；
+
+    原文区分刑出/刑入、刑吉/刑凶、冲动/冲不动、冲合/冲不合。
+
+    '
+  mechanism: '刑冲是结构事件：作用方向（出/入）与是否被合住（动/不动）决定其吉凶，
+
+    与《动静说》「库须对宫冲开」构成同组判据。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - xingchong
+  - dongjing
+  source_ref: ce-B7-51
+- id: b-yhr-0285
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 696）
+  quote: '"最忌者，日干冲运。所喜者，运干生日干也。但看有情无情，合与不合，凶会吉会消洋。"'
+  failure_mode: '判运只按五行旺衰，不看日干与运干的直接关系（冲或生）；
+
+    原文把「日干冲运」列为最忌、把「运干生日干」列为所喜。
+
+    '
+  mechanism: '运势的吉凶先在干支的相互作用上定，再看有情无情与会合，
+
+    这是「运岁合看」的具体口径之一。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yun
+  - rizhong
+  source_ref: ce-B7-52
+- id: b-yhr-0286
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 290 章 · 巫咸撮要（page 696）
+  quote: '"三元定命，先详四柱有无五行成格，次论命运强弱。……气有浅深，格有成坏，不可执一推之。"'
+  failure_mode: '用单一判准（如某格成立、某神得地）贯穿全盘推演；
+
+    原文要求先详成格、次论强弱，并明言「不可执一推之」。
+
+    '
+  mechanism: '气有浅深、格有成坏：同一格在不同深浅下结论不同，
+
+    与《五行生克赋》「不可一途而取轨」同调。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - zhiyi
+  - qianjin
+  source_ref: ce-B7-53
+- id: b-yhr-0287
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 697）
+  quote: '"金赖土生，土多金埋。土赖火生，火多土焦。火赖木生，木多火炽。木赖水生，水多水漂。水赖金生，金多水浊。"'
+  failure_mode: '把「生」当作单向增益：见印多即断身旺得助、见财多即断富；
+
+    原文在本赋开篇即列出生者反为害的五组结果。
+
+    '
+  mechanism: '生克各有太过不及之害，「以上言太过不及，各有其害如此，见五行四柱不可不中和也」——
+
+    同一组生克关系在过量时符号反转。
+
+    〔引文「水多水漂」「水能生水」两处疑为「水多木漂」「水能生木」之误，「士重木折」疑为「土重木折」，见本块文本问题〕
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - wuxing-shengke
+  - taiguo
+  source_ref: ce-B8-01
+- id: b-yhr-0288
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 697）
+  quote: '"强金得水，方挫其锋。强水得木，方泄其势。强木得火，方化其顽。强火得土，方止其焰。强土得金，方制其害。"'
+  failure_mode: '对旺神只作「旺则可用」的判断，不给它找出口（泄或制）；
+
+    原文要求每一强旺之气都须有对应的泄制之物才算成器。
+
+    '
+  mechanism: '强神的出路是「泄其势」或「制其害」，无出口则刚气自伤；
+
+    这是 B7「满局金气无火制必验」「旺者宜制」的同一机制。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - wang
+  - xiezhi
+  source_ref: ce-B8-02
+- id: b-yhr-0289
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 697）
+  quote: '"煞刃轻重相停，位至王侯。刃煞轻重无制，身为胥吏。"'
+  failure_mode: '见煞刃并见即断威权；原文要求轻重相停（有制），
+
+    不相停且无制者反为下位。
+
+    '
+  mechanism: '煞与刃是两种凶器的配平关系：相停则相济成权，失衡则互为伤，
+
+    与《撮要法》「制伏太过反为凶」构成两端限制。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - sharen
+  - zhongqing
+  source_ref: ce-B8-03
+- id: b-yhr-0290
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 698）
+  quote: '"既从煞只以煞论，不可再遇身旺相敌，敌则反生祸矣。"'
+  failure_mode: '判定从煞之后仍按常规「行运扶身则吉」推；
+
+    原文明确：既从煞便只以煞论，再遇身旺即相敌生祸。
+
+    '
+  mechanism: '从格的前提是日主无根，任何扶根之举都使前提失效——与从财、从杀格的破格条件一致。
+
+    '
+  bound_to:
+  - 从格判定（task-05）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - conggé
+  - yun
+  source_ref: ce-B8-04
+- id: b-yhr-0291
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 698）
+  quote: '"岂知大贵者用财而不用官，当权者用煞而不用印，印赖煞生，官因财旺。"'
+  failure_mode: '把官与财、煞与印平列使用（既要财生官又要煞生印），
+
+    或见到官与印并见即断「官印相生」为美。
+
+    '
+  mechanism: '注文「非不用印用官，而专用财煞，则官印在其中矣」——
+
+    取用有主次：用财则官在其中，用煞则印在其中，平列反而分散。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - yongshen
+  - zhucì
+  source_ref: ce-B8-05
+- id: b-yhr-0292
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 698）
+  quote: '"阳金得炼，太过变革奔波。阴未归垣，失令终为身弱。"'
+  failure_mode: '见「金得炼」即断成器、见「归垣」即断得地；
+
+    原文给出两个反向结论：炼过则奔波，归垣而失令仍为身弱。
+
+    '
+  mechanism: '注文「阳金土重则埋，怕炼太过，是无土也。阴木失令则弱，纵是归垣，亦损寿也」——
+
+    成器与得地都须附加条件（有土、得令）。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - wangshuai
+  - tiaojian
+  source_ref: ce-B8-06
+- id: b-yhr-0293
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 698）
+  quote: '"土厚而掩火无光，水盛则漂木无定。五行不可太盛，八字须得中和。……土止水流全福寿，水无土止必伤残。"'
+  failure_mode: '见水旺即断智、见土厚即断信；原文指出土厚掩火、水盛漂木，
+
+    并且无土止水者「必伤残」。
+
+    '
+  mechanism: '五行之性在过盛时转为遮蔽与漂泊之害；
+
+    救助条件是特定的（水须土止），不是任意生扶都可奏效。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 性情判断（task-16）
+  tags:
+  - counter-example
+  - shuitu
+  - zhishen
+  source_ref: ce-B8-07
+- id: b-yhr-0294
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 699）
+  quote: '"前言大贵者用财不用印，财有偏正，印亦有偏正。正印见财有祸，偏财见印无妨。正财不喜见印，偏财不忌见印，同此理也。"'
+  failure_mode: '用一句「贪财坏印」处理所有财印关系；
+
+    原文按偏正四种组合分别给结论，正印见财为祸，偏财见印无妨。
+
+    '
+  mechanism: '财印的相克效果依正偏（阴阳同异）而定；把正偏合并即失掉一半判据。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 财格与印格判断（task-05）
+  tags:
+  - counter-example
+  - caigen
+  - pianzheng
+  source_ref: ce-B8-08
+- id: b-yhr-0295
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 699）
+  quote: '"伤官无财可倚，虽巧必贫。食神制煞逢枭，不贫则夭。"'
+  failure_mode: '见伤官（才巧）即断能成事、见食神制煞即断吉；
+
+    原文指出伤官须有财可倚，食神最怕逢枭（枭夺食则煞无制）。
+
+    '
+  mechanism: '伤官与食神的可用性由「有无承接之神」决定：
+
+    伤官靠财转，食神靠不被枭夺；两者缺一即由吉转贫。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shangguan
+  - shishen
+  - xiao
+  source_ref: ce-B8-09
+- id: b-yhr-0296
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 699）
+  quote: '"贫贱者，皆因官处遭伤。孤寡者，只为财神被劫。……官为禄，有禄安得贫贱，身旺得官微，复行伤官运，谓之背禄，则无官矣，安得不贫贱。"'
+  failure_mode: '断贫贱只看有无官星、断孤寡只看有无财星；
+
+    原文的机制是「官被伤（背禄）」与「财被劫（逐马）」。
+
+    '
+  mechanism: '财官的凶应来自被伤被夺的过程，而不是有无。
+
+    与 B6「背禄逐马，守穷途而恓惶」同源。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - pínjian
+  - gugua
+  source_ref: ce-B8-10
+- id: b-yhr-0297
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 699）
+  quote: '"去煞留官方为福，去官留煞不为卑。……人命最怕官煞混杂，用官只用官，用煞只用煞，故有去留方可言贵。"'
+  failure_mode: '官煞并见时不下「去留」判断即断贵贱；
+
+    原文要求先定去官留煞还是去煞留官，有去留方可言贵。
+
+    '
+  mechanism: '混杂的处理是取舍（去/留）而非叠加；未取舍则无判准。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - guansha
+  - quliu
+  source_ref: ce-B8-11
+- id: b-yhr-0298
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 700）
+  quote: '"天干煞显，无制者贱。地支财伏，暗生者奇。"'
+  failure_mode: '见煞透干即断有力（露者显）；原文判煞显而无制者贱，
+
+    并对照财宜伏藏暗生。
+
+    '
+  mechanism: '显与藏对不同十神意义相反：煞宜制不宜显，财宜藏不宜露；
+
+    与 B7《盖头说》「凡有所害之物，露出头面便是动物」互证。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - xianzang
+  - sha
+  source_ref: ce-B8-12
+- id: b-yhr-0299
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 700）
+  quote: '"三戌冲辰祸不浅。"'
+  failure_mode: '见墓库相冲即按「开库为吉」断；原文对三戌冲辰给出反例：
+
+    以地网冲天罗，忌之（注文：甲辰日主贪财生祸）。
+
+    '
+  mechanism: '冲的吉凶依力量对比：一冲为开钥，三冲为破门——
+
+    与 B5「若遇三冲即破门」同源。
+
+    '
+  bound_to:
+  - 墓库与刑冲判断（task-11）
+  tags:
+  - counter-example
+  - muku
+  - sanchong
+  source_ref: ce-B8-13
+- id: b-yhr-0300
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 700）
+  quote: '"两干难得不杂，故主利名兼有，然不可一概言贵，或是财煞、或是官印、或是煞刃、或五行成象，更入格局，方作贵论。"'
+  failure_mode: '见两干不杂（如干支两两不杂）即断贵；
+
+    原文要求兼看成象与格局，不可一概言贵。
+
+    '
+  mechanism: '形式上的整齐（不杂）只是必要条件之一，须由结构（财煞/官印/煞刃/成象）落地。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - bugui
+  - xingshi
+  source_ref: ce-B8-14
+- id: b-yhr-0301
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 700）
+  quote: '"上言财要伏藏为奇，然财者衆所争，故有丰刃劫则因财致祸，见财不可专也。上言食神制煞为妙，然食者人所贪，故有枭神夺则因食生疾，见食不可贪也。"'
+  failure_mode: '把「财伏为奇」「食神制煞为妙」当作无条件结论；
+
+    原文提示财被刃劫、食被枭夺即反成祸疾。
+
+    '
+  mechanism: '同一吉物的收益与风险同源（财分争、食被夺），故须看争夺者是否在局。
+
+    '
+  bound_to:
+  - 财格与食神格（task-05 / task-09）
+  tags:
+  - counter-example
+  - caishi
+  - duozheng
+  source_ref: ce-B8-15
+- id: b-yhr-0302
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 700）
+  quote: '"得局，三合局也。归垣，干归禄也……若得局失垣，虽天干类象而地支三合，却为日干休囚死绝之地，亦平生不遂。"'
+  failure_mode: '见地支三合局即断得地有力；
+
+    原文指出得局而失垣者恰使日干休囚死绝，反主不遂。
+
+    '
+  mechanism: '局的受益者未必是日干：三合可能助起克泄之神。
+
+    判断须回到日干本位核其得禄与否。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - deju
+  - shiyuan
+  source_ref: ce-B8-16
+- id: b-yhr-0303
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 701）
+  quote: '"财官俱败者死，食神逢枭者凶。"'
+  failure_mode: '把此类「死/凶」断语当作可执行输出；
+
+    这是体系内的结构判定（财官落败绝、食神被枭夺），无外部效度证据。
+
+    '
+  mechanism: '注文以「安得不死」「安得不凶」收束，推断链完全内部自洽，缺可对照的验证机制。
+
+    '
+  bound_to:
+  - 寿元判断（task-16）
+  tags:
+  - counter-example
+  - jiduan
+  - ethics
+  source_ref: ce-B8-17
+- id: b-yhr-0304
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 703）
+  quote: '"此三刃格，要官煞印绶相制化……只怕羁绊，如有官不可见伤，有印不可见财，有煞不可见食，伤压之或制去、合去皆不成正格。"'
+  failure_mode: '见月刃日刃时刃而已有官煞印绶即断贵；
+
+    原文要求逐项核对羁绊条件：官不可见伤、印不可见财、煞不可见食（含被伤压、制去、合去）。
+
+    '
+  mechanism: '正格的成立要求各神各得其位；任一被克、被合即退出正格，
+
+    与《继善篇》「用神不可损伤」为同一原则。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - ren
+  - jiban
+  source_ref: ce-B8-18
+- id: b-yhr-0305
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 704）
+  quote: '"财印混杂，终为受困。偏正错乱，必致伤身。……官煞混杂，有去留亦吉，若错乱则伤身为凶。"'
+  failure_mode: '把「财官印食俱全」当作吉；原文对混杂与错乱给出受困、伤身的结论，
+
+    并区分「有去留的混杂」（可吉）与「错乱」（凶）。
+
+    '
+  mechanism: '混杂可救（去留），错乱不可救；两者是不同强度的问题，
+
+    与「贵气不欲烦杂」同一机制。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - hunza
+  - cuoluan
+  source_ref: ce-B8-19
+- id: b-yhr-0306
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 704）
+  quote: '"此论日干与岁君相犯祸福。若日犯岁君，以岁为用神者无咎……身旺者凶，弱者无咎。日与运俱犯，方主大凶，五行有救，则减分数，最怕天冲地击。"'
+  failure_mode: '见日犯岁君（日干与太岁相冲克）即断大凶；
+
+    原文的条件是：岁为用神则无咎、身旺者凶弱者无咎、日运俱犯方大凶、有救则减分。
+
+    '
+  mechanism: '岁运相犯的吉凶由「用神、身强弱、是否俱犯、有无救」四项共同决定。
+
+    '
+  bound_to:
+  - 大运流年交互（task-13）
+  tags:
+  - counter-example
+  - taisui
+  - yun
+  source_ref: ce-B8-20
+- id: b-yhr-0307
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 291 章 · 元理赋（page 704）
+  quote: '"羊刃格不喜岁运刑冲，小人不可犯，如八字既有羊刃，多煞制伏，行羊刃岁运亦凶，元有财者更重，带伤冲刑战斗，主祸出不测。经云：羊刃冲合岁君，勃然祸至是也。"'
+  failure_mode: '认为羊刃既已有煞制伏便无虞；
+
+    原文指出有制者行羊刃岁运亦凶，且原有财者更重。
+
+    '
+  mechanism: '羊刃的凶应由岁运触发（刑冲战斗），制伏只解决命局层面；
+
+    与 B5「羊刃冲合岁君，勃然祸至」为同一条。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  - 大运流年交互（task-13）
+  tags:
+  - counter-example
+  - yangren
+  - yunsui
+  source_ref: ce-B8-21
+- id: b-yhr-0308
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 710）
+  quote: '"《独步》云：辰戌丑未四库之局，寅申巳亥四生之局，子午卯酉四败之局。……或以子午为天地之基柱，卯酉为日月之门户，是指其地而遗其理也。"'
+  failure_mode: '用地支的名相（四库、四生、四败、天地基柱、日月门户）直接推吉凶；
+
+    原文明确批评此举为「指其地而遗其理」。
+
+    '
+  mechanism: '地支名相只是其位置的比喻，其得失须由所包藏的人元与节气浅深定，
+
+    这正是「支干有不见之形，无中取有」的要求。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - dizhi
+  - mingxiang
+  source_ref: ce-B8-22
+- id: b-yhr-0309
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 711）
+  quote: '"是故得局朝元，非富则贵，犯垣破局，非夭则贫。……犯垣如子贵忌丑未克破，午冲破，卯刑破之类。一子二午破尽一半，得半福。破局如申子辰忌寅午戌冲破之类，大凶，若用星虚成飞天禄马格反贵，余仿此。"'
+  failure_mode: '见三合成局或朝元即断富贵，不核犯垣破局的冲刑克破；
+
+    也不核破的倍数（一子二午破尽一半得半福）。
+
+    '
+  mechanism: '局与元有专属忌神（子忌丑未午卯、申子辰忌寅午戌），
+
+    破的程度按数量计，且有例外（虚成飞天禄马反贵）。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  - 刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - poju
+  - fanyuan
+  source_ref: ce-B8-23
+- id: b-yhr-0310
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 711、712）
+  quote: '"神煞相绊，轻重较量。……须轻重较量，何者当时而重为用，何者失令而轻不用，重者留之，轻者去之"'
+  failure_mode: '把财官印食伤煞刃败并列罗列（相绊）而不定轻重；
+
+    原文要求在神煞相绊时按当时/失令分轻重并做留去判断。
+
+    '
+  mechanism: '相绊的本质是多神互制，唯有用轻重较量才能定取舍；
+
+    下文的「身克煞而尚轻，煞克身而尤重」给出权重口径。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - shensha
+  - qingzhong
+  source_ref: ce-B8-24
+- id: b-yhr-0311
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 712）
+  quote: '"甲寅 丁卯 癸丑 丁巳，是身克煞，身弱财旺，力不能任其财官，故夭。"'
+  failure_mode: '以「身克煞」（我克者为财）即断能任财官；
+
+    本节所举命例恰为身弱财旺，力不能任而夭。
+
+    '
+  mechanism: '「身克煞」只是关系名，能否任财取决于身之强弱；
+
+    与之对照的「身旺财亦旺，可任其财，所以至富」是本条的另一端。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 财格（task-05）
+  tags:
+  - counter-example
+  - shenruo
+  - cairuo
+  source_ref: ce-B8-25
+- id: b-yhr-0312
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 712）
+  quote: '"辛丑 庚寅 乙巳 甲申，官衰煞盛，乙木无力，化官为煞，一生嗜酒落魂，至乙酉运第五年丙申岁八月十九日死。"'
+  failure_mode: '见官星与煞并见即按「化煞为官」的吉断；同一结构在官衰煞盛且日主无力时，
+
+    方向相反成了「化官为煞」。
+
+    '
+  mechanism: '官煞的互化方向由两者力量的盛衰决定，不由命名的先后决定。
+
+    本条内含具体死期，属体系内的追认式命例，不作事实结论。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - hua-guan
+  - guansha
+  source_ref: ce-B8-26
+- id: b-yhr-0313
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 712）
+  quote: '"又忌比肩争宠分恩，阳刃多或合去，或印微遇而不遇，虽有荐举，亦不能拔萃超群。"'
+  failure_mode: '见月印附日即断「黄榜招贤」；原文列出破法：
+
+    比肩争宠分恩、阳刃多或被合去、印微则遇而不遇。
+
+    '
+  mechanism: '印格的成败取决于印是否独得与是否被分夺，与「贵气专用则可」同一机制。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  tags:
+  - counter-example
+  - yinshou
+  - zhengchong
+  source_ref: ce-B8-27
+- id: b-yhr-0314
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 713）
+  quote: '"归禄一格，只喜时上见之，若月支重见，名为建禄，不富。"'
+  failure_mode: '见禄在时即断「青云得路」；原文要求唯一性：
+
+    月支重见则改称建禄，结论转为不富。
+
+    '
+  mechanism: '归禄与建禄是两个不同的格局，重复出现即改变格名与结论；
+
+    与 B5「时上一位贵」的唯一性条件同源。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - guilu
+  - jianlu
+  source_ref: ce-B8-28
+- id: b-yhr-0315
+  domain: D03
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 714）
+  quote: '"古人论中下以日时支言，如日干月令无气，若所坐之支及时得地，亦成实之。命若无气而日时又在衰败之乡，则终身偃蹇可知矣。"'
+  failure_mode: '见天元无气即断无可为，或只取「中下兴隆」的一句吉断；
+
+    原文要求同时核日时之支：得地可成实，俱衰败则终身偃蹇。
+
+    '
+  mechanism: '「中下兴隆」的成立以日时支得地为条件，缺此则反转。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - tianyuan
+  - rizhi
+  source_ref: ce-B8-29
+- id: b-yhr-0316
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 714）
+  quote: '"此岁德格也，如甲日逢庚申太岁，为年上偏官，一名元神，一名孤辰，其煞最重，终身不可除去，故主始终克害，克害非专指祖父、六亲，本身亦在其中矣。"'
+  failure_mode: '见年干为日主之偏官而只论「岁德扶干」的吉；
+
+    原文明确指出其煞最重、终身不可除去，克害含本人在内。
+
+    '
+  mechanism: '年柱为根，年上之煞不可通过岁运移除，属结构性隐患；
+
+    与 290 章「有日之七煞，终身不可除去」互证。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - suide
+  - nianzhu
+  source_ref: ce-B8-30
+- id: b-yhr-0317
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 715）
+  quote: '"此金神格也，大抵金神不畏过制，只忌破制与失制，岁运同。"'
+  failure_mode: '对金神用统一的「制过则凶」判断；原文给出金神的例外：
+
+    不畏过制，只忌破制与失制。
+
+    '
+  mechanism: '各格对制力的容忍度不同（金神可过制，七杀不可过制），
+
+    把一格的制伏规则套到另一格即出错。
+
+    '
+  bound_to:
+  - 特殊日格（task-10）
+  tags:
+  - counter-example
+  - jinshen
+  - zhifu
+  source_ref: ce-B8-31
+- id: b-yhr-0318
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 715）
+  quote: '"此伤官格也，半残言伤不尽。"'
+  failure_mode: '以「伤尽则贵」为唯一口径而不核是否伤尽；
+
+    原文称半残（伤不尽）必遭蹇难。
+
+    '
+  mechanism: '「伤尽」是可核查的硬条件（四柱不见官星），半残即不成格，
+
+    与 B5 伤官诗诀「伤官不尽又逢官」同源。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shangguan
+  - bancan
+  source_ref: ce-B8-32
+- id: b-yhr-0319
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 715）
+  quote: '"要见冲刑破害，以开局钥，怕有星闭塞，如丁用辰为官库，或戊字僭(音同减)之，或戊辰压之，是闭塞也，如此则丁不能官，须柱有甲戌或岁遇之方吉。"'
+  failure_mode: '见官库即断冲开则贵，不核库上是否有星闭塞（压伏）；
+
+    原文给出具体闭塞条件与解救条件（须见甲戌）。
+
+    '
+  mechanism: '库的可用性两端：须开钥，且不得被压伏；
+
+    与 231 章「切忌干支压伏重」互为印证。
+
+    '
+  bound_to:
+  - 墓库、杂气、时墓判断（task-11）
+  tags:
+  - counter-example
+  - muku
+  - bisai
+  source_ref: ce-B8-33
+- id: b-yhr-0320
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 715）
+  quote: '"天地制合煞神，乃天干地支或是食神制煞、或是阳刃合煞，但制合不宜太过，如一煞二食二阳刃则过而失也。"'
+  failure_mode: '见煞有制有合即断名利骤发；
+
+    原文给出量化的过失条件：一煞而遇二食二阳刃即过而失。
+
+    '
+  mechanism: '制合是以数量配平为判准的操作（《喜忌篇》「偏官制伏太过，乃是贫儒」），
+
+    不是有制即吉。
+
+    '
+  bound_to:
+  - 七杀制伏（task-08）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - zhifu
+  - guodu
+  source_ref: ce-B8-34
+- id: b-yhr-0321
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 716）
+  quote: '"建禄则身旺，故用官、用印、用财皆吉，有败财、阳刃、比肩则身太旺，皆足以劫我之财、分我之官、夺我之印。……财印俱见混杂，不富不秀，无成之命也。"'
+  failure_mode: '以建禄身旺为优势而加助；原文指出败财、阳刃、比肩会使身太旺，
+
+    劫财分官夺印，财印混杂则无成。
+
+    '
+  mechanism: '建禄已旺，再加同类即成太过；《撮要法》「禄多则贫」的机制在此展开。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - jianlu
+  - taiguo
+  source_ref: ce-B8-35
+- id: b-yhr-0322
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 716）
+  quote: '"盖食神喜财怕枭，官煞生印则枭愈旺。伤喜见印，食怕见印，故并言之。"'
+  failure_mode: '把「官煞生印」当作救应的通用吉断；
+
+    在食神格中官煞生印会使枭神更旺，从而夺食致祸。
+
+    '
+  mechanism: '同一条生扶链路在不同格局中作用相反：伤官喜印、食神怕印。
+
+    '
+  bound_to:
+  - 食神/伤官格（task-09）
+  tags:
+  - counter-example
+  - shishen
+  - shengyin
+  source_ref: ce-B8-36
+- id: b-yhr-0323
+  domain: D10
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 716）
+  quote: '"此阳刃与印同宫，火多则印旺，故能转弱从强，然刃助身强，又得印助，则文理高致，可以隐恶而扬善，若有己字透出，仍以刃断。印刃俱有，其人不免性毒"'
+  failure_mode: '见戊日午月即断羊刃（按刃格处理）；原文说明时岁火多则转为印绶，
+
+    须按印格推，但有己字透出时仍以刃断——两种口径并存。
+
+    '
+  mechanism: '同一宫位可兼具刃与印两义，取义取决于透出之字与火的数量。
+
+    '
+  bound_to:
+  - 羊刃与特殊日格（task-10）
+  tags:
+  - counter-example
+  - wu-ri
+  - ren-yin
+  source_ref: ce-B8-37
+- id: b-yhr-0324
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 722）
+  quote: '"岁冲运则崩，运克岁则晦。……太岁冲运其祸重，运克太岁则祸轻，考《渊源》《渊海》诸说，俱以运克岁为重，岁克运为轻，即日犯岁君之义也。"'
+  failure_mode: '把「岁冲运/运克岁」的吉凶当作单一固定口径使用；
+
+    原文自陈所见诸说不同（此本以岁冲运为重，而它处亦有相反记载）。
+
+    '
+  mechanism: '这是本书内部的显性冲突（另见第 160 章「岁冲克运者吉」）：
+
+    同一组岁运关系在两处得相反结论，使用时必须标明所据篇章。
+
+    '
+  bound_to:
+  - 大运流年交互（task-13）
+  tags:
+  - counter-example
+  - chongke
+  - neibu-maodun
+  source_ref: ce-B8-38
+- id: b-yhr-0325
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 292 章 · 明通赋（page 717、718）
+  quote: '"耗刃攒聚交至四柱上，主贱之极，作牛羊之类断之。……日子太旺无依，若不为僧固宜为道。天元羸弱无辅，若不为技则当为巫。"'
+  failure_mode: '把此类断语（作牛羊猪狗之类、僧道巫技、寄食长工）当作可执行输出：
+
+    它们依附于明代的身份等级与职业歧视，并含人格物化判断。
+
+    '
+  mechanism: '断语的分类结果是社会身份而非命理事实；记录时须标注时代局限，
+
+    不得作为对当代个案的结论。
+
+    '
+  bound_to:
+  - 性情判断（task-16）
+  tags:
+  - counter-example
+  - epoch-limit
+  - ethics
+  source_ref: ce-B8-39
+- id: b-yhr-0326
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 293 章 · 六神篇（page 725；原文实为《讲命捷径赋》，见文本问题）
+  quote: '"莫言身弱而为造化之衰，勿以杀多而断寿年之夭，要在随时变通，须知入眼分明。"'
+  failure_mode: '以身弱直接断衰、以杀多直接断夭；
+
+    原文在篇首先否定这两种简化，并要求随时变通。
+
+    '
+  mechanism: '身弱与杀多都要回到月令、通根与制化上复核；
+
+    本条与本篇末「弃命无从，决然寿夭」形成条件对照（无从者才断寿夭）。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 七杀制伏（task-08）
+  tags:
+  - counter-example
+  - shenruo
+  - shaduo
+  source_ref: ce-B8-40
+- id: b-yhr-0327
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 293 章 · 六神篇（page 725；原文实为《讲命捷径赋》，见文本问题）
+  quote: '"庚金无火，非夭则贫。身旺无财，纵寿则否。……杀轻印重，为人到底迍邅。杀重制轻，身旺终须发达。"'
+  failure_mode: '把这几句当作无条件断语使用（如见庚金无火即断夭贫、见身旺无财即断无福）；
+
+    它们的成立须与本篇「随时变通」的总纲及月令、制化条件合看。
+
+    '
+  mechanism: '此类对称句给出的是趋势与条件对（杀轻印重 / 杀重制轻），
+
+    脱离条件单取其一半即失去判据。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - duiju
+  - tiaojian
+  source_ref: ce-B8-41
+- id: b-yhr-0328
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 294 章 · 金声王振赋（page 728）
+  quote: '"此言伤官不及印绶，用煞不如用财也。盖伤官七煞虽或大贵，然多有得其祸者，弗若纯用财印为享自然之福也。"'
+  failure_mode: '见伤官七煞成格即断大贵；原文承认其可致大贵，
+
+    但同时指出多有得其祸者，取财印更为稳妥。
+
+    '
+  mechanism: '成格与风险是两件事：高能量结构（杀伤）带来高结果波动，
+
+    这是本书少见的风险—收益比较表述。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - shashang
+  - fengxian
+  source_ref: ce-B8-42
+- id: b-yhr-0329
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 294 章 · 金声玉振赋（page 728）
+  quote: '"奔道途而丧生，盖因秀气繁乱。坐囹圄以亡命，只为比肩争斗。"'
+  failure_mode: '见秀气（才）与比肩（众助）即断吉；
+
+    原文把「秀气繁乱」「比肩争斗」列为丧生、亡命的机制。
+
+    '
+  mechanism: '秀气繁杂则精神散乱，比肩众多则争竞分夺；
+
+    与 B7「贵气重叠，苗不秀，秀不实」「比肩争竞」同一机制。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - xiuluan
+  - bijian
+  source_ref: ce-B8-43
+- id: b-yhr-0330
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 294 章 · 金声玉振赋（page 730）
+  quote: '"假如甲生酉月为正官，岁时下有子辰，则合出申金，斯为官煞混杂矣。"'
+  failure_mode: '只按明见之神判格局，不核三合/暗合所引出的神；
+
+    原文以酉月正官为例：岁时有子辰则合出申金，成为官煞混杂。
+
+    '
+  mechanism: '不见之形（合出之神）同样参与格局判定，
+
+    与 292 章「支干有不见之形，无中取有」同一原则。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - anhe
+  - guansha
+  source_ref: ce-B8-44
+- id: b-yhr-0331
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 294 章 · 金声玉振赋（page 730）
+  quote: '"戊寅虽坐煞，实长生地也，见火勿泥煞印，是火蒸焦土。喜财者，财生偏官，官为有气耳。"'
+  failure_mode: '见「坐煞」即按煞印相生取印为用；
+
+    原文指出戊寅见火即蒸焦之土，此格喜财而非喜印。
+
+    '
+  mechanism: '印的适用性取决于日干的承受力（土燥不能受火生）；
+
+    这是 B5「戊土合水盛则崩」「土多火晦」的同类机制。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  tags:
+  - counter-example
+  - shayin
+  - wutu
+  source_ref: ce-B8-45
+- id: b-yhr-0332
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 294 章 · 金声玉振赋（page 730）
+  quote: '"归禄爱财星，见官则损寿。……官印固妙两全，苟无财星，官失其生意，印亦何用。"'
+  failure_mode: '断归禄格时见官不作检查；断官印格时不核有无财星。
+
+    原文分别给出「见官则损寿」与「无财星则官失生意」的反结论。
+
+    '
+  mechanism: '归禄与官星相克，官印又须财为生意之源；
+
+    缺少财时官印的相生链断裂。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - guilu
+  - guanyin
+  source_ref: ce-B8-46
+- id: b-yhr-0333
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 733）
+  quote: '"且金赖土生，如辛日逢戊乡，命局原无印绶，忽遇印乡，如逢父母，则快如也，主衣食自足。但如四柱多土，则不宜又行土运，所谓土多金埋。"'
+  failure_mode: '见印乡即断得助；原文限定为「命局原无印绶而忽遇印乡」这种补缺情形，
+
+    四柱已多土再行土运即为土多金埋。
+
+    '
+  mechanism: '同一神的作用取决于原本的有无与已否过量：
+
+    补缺为福，叠加为病（与 284 章「损其有余、益其不及」同源）。
+
+    '
+  bound_to:
+  - 病药诊断（task-07）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - tumai
+  - yinxiang
+  source_ref: ce-B8-47
+- id: b-yhr-0334
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 733）
+  quote: '"禄星者，官禄也。用之为官，不可冲。用之为禄，不可破。破而冲之，两相为害，虽有威权，遇之则避身位矣。如甲用辛为官，官丁火克破，则为害其官。"'
+  failure_mode: '见有官有禄即断富贵，不核是否被冲被破；
+
+    原文指出破而冲之则两相为害，虽有威权亦避位。
+
+    '
+  mechanism: '用神之禄官是「不可冲不可破」的对象，
+
+    与《撮要法》「用之为禄不可冲」逐字对应。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - luhu
+  - chong
+  source_ref: ce-B8-48
+- id: b-yhr-0335
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 734）
+  quote: '"丙火，阳火也。取日之象，悬象在天，昭然光显。壬水，阳水，为江海。丙火遇会局(三合、三会)则有伤害。若不会局，则无害也。"'
+  failure_mode: '见壬水克丙即断受害；
+
+    原文的条件是丙火须遇会局方有伤害，不成会局则无害。
+
+    '
+  mechanism: '天干的相克效果取决于地支是否成局为其后盾，
+
+    与 B6《动静说》「天干之动只能攻天干之动」互为补充。
+
+    '
+  bound_to:
+  - 刑冲合害判断（task-11）
+  tags:
+  - counter-example
+  - huiju
+  - tiangan
+  source_ref: ce-B8-49
+- id: b-yhr-0336
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 734）
+  quote: '"阴乾克阴乾，谓之鬼也。如己土日主，临卯位，乃为坐下之鬼。又行寅卯之运，又逢甲乙，相克之乡，身旺则逢官为福；身弱则遇鬼为祸，矢折或贫。"'
+  failure_mode: '把「官」一律当福、「鬼」一律当祸；
+
+    原文明确同一位置（坐下之鬼）在身旺时为官为福、身弱时为鬼为祸。
+
+    '
+  mechanism: '官与鬼是同一关系在不同身强弱下的两个名字，
+
+    与「官旺身衰反为病」「变鬼为官」等表述同源。
+
+    '
+  bound_to:
+  - 官杀混杂制伏（task-08）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - guan-gui
+  - wangshuai
+  source_ref: ce-B8-50
+- id: b-yhr-0337
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 734）
+  quote: '"支神，人元也。即地支藏干之神，宜有吉神相助，可以为福。若支藏相克之神，遇患祸则难免矣。如甲木生於子月，子宫藏癸水为印，则为美矣。但如年日时中有己土，旺克癸水，则谓吉神受损，祸则难免。"'
+  failure_mode: '只列地支所藏吉神（如子藏癸为印）即断有福；
+
+    原文要求核该吉神是否被别位之星克损。
+
+    '
+  mechanism: '吉神的效力是二阶的：先有吉神，再核其是否受损；
+
+    与《气象篇》「相我之神若无根失令或自受伤」同一机制。
+
+    '
+  bound_to:
+  - 旺衰判定（task-04）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - jishen
+  - shoushun
+  source_ref: ce-B8-51
+- id: b-yhr-0338
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 735）
+  quote: '"甲木生丁火，乙木生丙火，为伤官盗气之论。伤官者，我生之子也。为人傲气，不循规矩，能消耗父母之财物，视人不如己。伤喜官财，则荣；无财则贫。"'
+  failure_mode: '见伤官即断才艺；原文判其消耗父母财物、视人不如己，
+
+    并给出成否条件：喜官财（有财则荣，无财则贫）。
+
+    '
+  mechanism: '伤官是需要承接之神的泄气结构，无财则盗气于身。
+
+    同章另举「辛禄遇壬，熔消福禄」「庚中见癸，荡散资财」并注明「遇土止之，则福；无土止，为下格」。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shangguan
+  - wucai
+  source_ref: ce-B8-52
+- id: b-yhr-0339
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 735）
+  quote: '"官为禄本，有官而无禄，则为假官，虽荣而不贵。有禄而无官，则无所施。官禄若行衰绝之地，未免不罹其祸矣。败神者，破败之神。命内逢之，主一生休咎不利。"'
+  failure_mode: '见官星即断贵；原文指出有官无禄为假官（虽荣不贵），
+
+    有禄无官则无所施，二者行衰绝之地皆为祸。
+
+    '
+  mechanism: '官与禄是一组配对条件，缺一即不成立；
+
+    这是「用之为官不可伤」之外的补充口径。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - jiaguan
+  - lu
+  source_ref: ce-B8-53
+- id: b-yhr-0340
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 737）
+  quote: '"此言母受制於人，则不能助子。丙火赖甲木生，以为光明照物。但如甲木受制于庚金克，则不能生火。同理，乙木受制于辛金，则不能助丁之力。"'
+  failure_mode: '见印（母）在局即断能生身；
+
+    原文指出母若自身受制（甲为庚克、乙为辛制），则不能助子。
+
+    '
+  mechanism: '生扶关系是传递性的，前提是母自身未被制；
+
+    与《气象篇》「救神自身受伤」为同一机制的两处表述。
+
+    '
+  bound_to:
+  - 印绶格（task-06）
+  - 病药诊断（task-07）
+  tags:
+  - counter-example
+  - yin-shou-zhi
+  - chuandi
+  source_ref: ce-B8-54
+- id: b-yhr-0341
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 295 章 · 一行禅师天元赋注解（page 737）
+  quote: '"戊逢丙，为偏印。己逢丁，亦为偏印。无制，为倒食。"'
+  failure_mode: '把偏印一律按生我之神处理；原文指出偏印无制即为倒食（夺食之凶神）。
+
+    '
+  mechanism: '印与食的关系随制与不制而变：偏印有制则可用，无制则夺食；
+
+    与 B5 食神诗诀「切忌枭来明灭福」同源。
+
+    '
+  bound_to:
+  - 食神格（task-09）
+  - 印绶格（task-06）
+  tags:
+  - counter-example
+  - pianyin
+  - daoshi
+  source_ref: ce-B8-55
+- id: b-yhr-0342
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 739）
+  quote: '"凡观男命，先观日主之盛衰，次察财官之强弱。日主旺，财官得地，一生福禄优游。日干衰，财官败绝，一世贫穷到老。日主旺而财官衰，遇财官发福。财官旺而日主弱，运行身旺驰名。"'
+  failure_mode: '只看日主旺衰或只看财官强弱即下断；
+
+    原文要求两端各看，并给出四种交叉情形的不同结论。
+
+    '
+  mechanism: '日主与财官是二维判据，单取一维无法定吉凶；
+
+    「日主旺而财官衰」与「财官旺而日主弱」的救济方向相反。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - rizhu-caiguan
+  - erwei
+  source_ref: ce-B8-56
+- id: b-yhr-0343
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 739）
+  quote: '"财星入库逢冲破，富有千仓。官旺正气遇刑冲，贵而不久。官若有冲还有合，头角峥嵘。库逢冲破再逢冲，家资渐退。"'
+  failure_mode: '把有冲即判为凶（或为吉）；
+
+    原文按对象与次数分别给结论：财库逢冲破为富，旺官遇刑冲则贵而不久，
+
+    库已被破再逢冲则家资渐退。
+
+    '
+  mechanism: '冲的作用按所冲之神（财、官）、是否另有合、以及冲的次数分档。
+
+    '
+  bound_to:
+  - 墓库与刑冲判断（task-11）
+  tags:
+  - counter-example
+  - chong
+  - muku
+  source_ref: ce-B8-57
+- id: b-yhr-0344
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 739）
+  quote: '"财官入墓，非损子即损妻。财官若临败绝，寡独贫寒蹇滞。财官俱值於空亡，中途子丧妻伤。"'
+  failure_mode: '把这几句当作对六亲的直接结论；
+
+    它们是体系内的合成判断（财官入墓/败绝/空亡→六亲受损），无外部效度证据，且涉生死。
+
+    '
+  mechanism: '以财官代表妻与子（男命），其状态映射为六亲的结局；
+
+    使用须标注「体系内推演」，不得作为对具体人的判断。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - liuqin
+  - ethics
+  source_ref: ce-B8-58
+- id: b-yhr-0345
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 739）
+  quote: '"伤官入墓，要分阴阳。阳伤官入墓，地老天荒。阴伤官入墓，有病何妨。"'
+  failure_mode: '见伤官入墓即一体断凶；原文要求分阴阳：阳伤官入墓凶重，阴伤官入墓则「有病何妨」。
+
+    '
+  mechanism: '同一结构在阴阳不同的日干上结论不同，
+
+    与 291 章「水泛木浮者活水，土重金埋者阳金」的分阴阳做法一致。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  tags:
+  - counter-example
+  - shangguan
+  - yinyang
+  source_ref: ce-B8-59
+- id: b-yhr-0346
+  domain: D04
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 739）
+  quote: '"群阳妒合一阴，如楚汉争锋之象。诸阴争合一阳，不过蛙鸣蝉噪。"'
+  failure_mode: '见合即断吉；原文对众干争合一干的「妒合」给出争锋/争噪的反结论。
+
+    '
+  mechanism: '合的效力要求一对一（专），众争一即成争妒，
+
+    与 B7「贵气专用则可，两处三处分用便是众人之物」同一机制。
+
+    '
+  bound_to:
+  - 取用神（task-06）
+  tags:
+  - counter-example
+  - duhe
+  - zhuan
+  source_ref: ce-B8-60
+- id: b-yhr-0347
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 296 章 · 崖泉摘锦（page 740）；第 297 章 · 渭泾篇（page 743）；第 298 章 · 女命大义-1（page 750）
+  quote: '"女命以柔为本，以刚为刑，以清为奇，以浊为贱。……女命只取官星一位，无官取七杀一位，贵人取一位，毋得重见，重见即二夫也。"'
+  failure_mode: '把女命诸篇的断语（旺夫、克夫、娼妓、婢妾、师尼、再嫁、孤寡）当作可移植规则使用。
+
+    这些结论以「以官为夫」「身弱为吉」「清浊即贞淫」为前提，是明代婚姻与性别制度的投影。
+
+    '
+  mechanism: '术语映射本身携带制度假设（官＝夫、食＝子、柔＝吉）；
+
+    制度消失后映射不再成立，故只能作历史断言记录。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - epoch-limit
+  source_ref: ce-B8-61
+- id: b-yhr-0348
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 298 章 · 女命大义-1（page 750、751）
+  quote: '"浊者，混也。乃五行失位，水土互伤，其身太旺，正夫不显，偏夫外杂，柱多分别，无财官印食，为下贱低浊或娼妓婢妾、淫巧之人。……娼者，妓也。乃身旺夫绝，官衰食盛，食柱中不见官煞，或有而伤官伤尽，或官煞混杂而食神盛旺，此必娼妓之命"'
+  failure_mode: '把八格中的浊、滥、娼、淫四格用作人格与身份判断；
+
+    这四格的定义本身以「夫星不显/偏夫外杂/食盛夫绝」为技术条件，但结论是道德与身份标签。
+
+    '
+  mechanism: '技术上可核的是结构条件（夫星显隐、官煞多寡、食神盛衰），
+
+    不可核的是由此推出的「娼妓婢妾」身份——属时代伦理评价。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - epoch-limit
+  - ethics
+  source_ref: ce-B8-62
+- id: b-yhr-0349
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 298 章 · 女命大义-1（page 752）
+  quote: '"夫女人有旺夫伤子者何，此法皆时上推之。时为归宿之地，夫子二星引归於时，夫星生旺，子呈衰败是也。"'
+  failure_mode: '判女命只用「官为夫、食为子」的名称，不把两星引归到时上核其旺衰；
+
+    原文的三种结论（旺夫伤子、旺子伤夫、伤夫克子）都按时上定。
+
+    '
+  mechanism: '结构上是「夫星与子星在时上的旺衰组合」，
+
+    这一层机制与性别制度无关，可单独提取；其结论的适用范围仍受时代前提限制。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - nüming
+  - yingui
+  source_ref: ce-B8-63
+- id: b-yhr-0350
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 298 章 · 女命大义-1（page 752）
+  quote: '"夫横夭少年者，造化之穷绝，格局之变异也。有悬梁溺水，血産少亡，被人杀死。若此者何，乃身弱而遇煞重，煞多克身，又带刑冲破败之类"'
+  failure_mode: '把「悬梁溺水、血产少亡、被人杀死」类结论作为可执行输出；
+
+    原文自身以「造化之穷绝，格局之变异」表述，属体系内的极端判定。
+
+    '
+  mechanism: '死因描述建立在明代的死因分布与神煞叠加之上，与当代不具可比性，
+
+    且结论不可逆——应作为历史断言记录，不作实际判断。
+
+    '
+  bound_to:
+  - 寿元判断（task-16）
+  tags:
+  - counter-example
+  - siwang
+  - ethics
+  - epoch-limit
+  source_ref: ce-B8-64
+- id: b-yhr-0351
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 298 章 · 女命大义-1（page 753）
+  quote: '"盖我身旺有气，则夫从我为正，我身衰而别位旺，则夫从别位，我反为偏，谓之彼旺，争去我夫，我只得为偏。"'
+  failure_mode: '见争合（两位妻星合一位夫星）即断争妒；
+
+    原文给出的是可比较的条件：身旺者得正，身衰而别位旺者反为偏。
+
+    '
+  mechanism: '争合的裁决按双方旺衰比较（与 B7「两庚夺一丁」所差的是此处给出胜负规则），
+
+    这是本书中少见的「争合定胜负」表述。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - zhenghe
+  - shengfu
+  source_ref: ce-B8-65
+- id: b-yhr-0352
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 755）
+  quote: '"女人之命，一贵为良，食重孤孀，贵多淫贱。"'
+  failure_mode: '把「贵人」「食神」这类通行的吉神按数量累加；
+
+    本书对女命给出相反口径：贵多（官煞叠见）则贱，食重（伤食过盛）则孤孀。
+
+    '
+  mechanism: '注文「贵指官煞言……官煞叠见，淫乱之象也」——
+
+    吉神的多寡在此按专一性判断，而非按数量累加，
+
+    与「贵气不欲烦杂」「贵人不宜重见」属同一机制。
+
+    〔本条整体属历史断言，使用须标注时代局限〕
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - shuan-yi
+  - epoch-limit
+  source_ref: ce-B9-01
+- id: b-yhr-0353
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 755）
+  quote: '"官临死绝知夫丧，枭遇驱除断子来。……官得令而逢伤，反作奴婢。煞当权而有制，当为正室。日刃逢煞，不偏则尼。月伤叠刃，非奴则婢。"'
+  failure_mode: '只按「官星为夫」的名目下结论；
+
+    原文按官星的状态分档（得令而逢伤、临死绝、煞当权而有制、日刃逢煞、月伤叠刃），
+
+    每档对应不同结论。
+
+    '
+  mechanism: '技术上可核的是官星与煞的得令/被伤/有制状态；
+
+    由此推出的「奴婢/正室/尼/婢」身份结论属明代制度投影，须标注时代局限。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 官杀混杂制伏（task-08）
+  tags:
+  - counter-example
+  - nüming
+  - guanxing
+  - epoch-limit
+  source_ref: ce-B9-02
+- id: b-yhr-0354
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 755）；第 301 章 · 女命大义-4（page 766）
+  quote: '"柱中绝无官煞，值此日为忌。如有官煞等项倚靠，虽犯孤鸾、阴阳差错等日，反吉。"'
+  failure_mode: '见孤鸾日（或阴阳差错日）即断无子、克夫；
+
+    原文的条件是「柱中绝无官煞」方为忌，有官煞倚靠则反吉。
+
+    '
+  mechanism: '神煞日的凶应由柱中有无夫星（官煞）决定，
+
+    与 B5「神煞须与格局喜忌合看」一致；301 章亦重申「不可混以无儿断之」。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 神煞查法（task-12）
+  tags:
+  - counter-example
+  - guluán
+  - shensha
+  source_ref: ce-B9-03
+- id: b-yhr-0355
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 755）
+  quote: '"一片比肩，官地争夫。拟定浑身泄气，印星望嗣堪求。……印重官轻夺夫权，凤舞鸾飞坑婢命。"'
+  failure_mode: '见官星在局即断婚姻得所；不核比肩是否同居官地（争夫），
+
+    也不核印重是否反夺夫权（印重官轻）。
+
+    '
+  mechanism: '夫星（官）的可用性取决于是否被同类分夺与是否被印压制；
+
+    这两条与男命的「比肩争竞」「印重埋身」为同一机制。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - bijian
+  - yinzhong
+  source_ref: ce-B9-04
+- id: b-yhr-0356
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 757）
+  quote: '"切嫌者，阴刃妨害尊亲。最忌者，纯阴不宜子息。"'
+  failure_mode: '把「纯阴」「阴刃」当作一般性吉凶符号；
+
+    原文把它们分别限定为妨害尊亲与不宜子息，并给出判据
+
+    （注文：禄后一辰曰阴刃；年月日时干支俱属阴或生于五月之后十一月之前为纯阴）。
+
+    '
+  mechanism: '阴阳之纯与刃的位置构成两条独立的结构条件，
+
+    与 292 章「阴气终而阳气断」等阴阳偏枯类判断同族。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 六亲推断（task-14）
+  tags:
+  - counter-example
+  - chunyin
+  - yinren
+  source_ref: ce-B9-05
+- id: b-yhr-0357
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299 章 · 女命大义-2（page 757）
+  quote: '"命前一辰为花钗煞，後一辰为桃花煞，本生上见之，全而不偏，是为同犯，主为娼优，得三奇不在此论。天乙住处曰贵人，旺气住处曰喜神，本生上带之而又同宫，是为争窠，主为淫奔之妾，落空亡不在此论。"'
+  failure_mode: '见花钗或桃花单独出现即断；原文的条件是两者「全而不偏」才是同犯，
+
+    贵人与喜神须同宫方为争窠，且各带例外（得三奇不在此论、落空亡不在此论）。
+
+    '
+  mechanism: '神煞的成立有「同犯/同宫」的组合条件与例外条款；
+
+    只看单一神煞即失去判据。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - shensha
+  - zuhe
+  source_ref: ce-B9-06
+- id: b-yhr-0358
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 759）
+  quote: '"又诀云：凡论女命，只用月支中财官印三件为奇。第一论印，无财损印……休咎忌财喜官。第二论官，亦看何支中所藏，一位为奇。一忌官多，二忌伤重，三忌带合，四忌杀混，五忌日主柔弱。……第三论财，取月支中为要，财不要多，只宜一位"'
+  failure_mode: '对女命不作「取月支财官印三件」的逐项核验，也不列官星的五忌；
+
+    原文给出明确的检查表：印忌财损、官忌多/伤重/带合/杀混/日主柔弱、财宜一位。
+
+    '
+  mechanism: '这是本块最可操作的一段（检查表式判据），其技术层（一位为奇、五忌）可提取；
+
+    但结论层仍以「官为夫、食为子」为前提，属时代局限范围。
+
+    〔引文「又诀」疑为「口诀」之误，见 source/text-issues.md〕
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - nüming
+  - wuji
+  - checklist
+  source_ref: ce-B9-07
+- id: b-yhr-0359
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 760）
+  quote: '"又云：凡看女命，须五行清淡，不要生旺，不居暴败，不犯临官，得四柱和气为佳，休囚死绝为上，不带贵人、驿马、旺禄、合神为良。若犯生旺、临官，兼有贵人、驿马、旺禄、合神皆为不美"'
+  failure_mode: '对男女命沿用同一套喜忌（男喜旺、喜驿马贵人）；
+
+    原文对女命给出反向口径：生旺、临官、贵人、驿马、旺禄、合神皆不美。
+
+    '
+  mechanism: '这是「女命另立体系」的明文表述；其技术层（同一符号在男女命中符号相反）
+
+    是重要提醒：任何跨性别套用都会出错。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - fanxiang
+  - epoch-limit
+  source_ref: ce-B9-08
+- id: b-yhr-0360
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 760）
+  quote: '"凡女命，生年生日同一位者克夫，嫁同音同年者庶几。生年生日带六甲者，名曰带甲，主克夫，月共日俱带者亦然。如甲午年生，再遇甲午日，十有九克夫，谓之金神带甲，此例尤紧。"'
+  failure_mode: '只按十神（官星）判婚姻，不核年柱与日柱是否同一位、是否带甲（六甲）；
+
+    原文把「重位/带甲」列为独立的克夫条件。
+
+    '
+  mechanism: '重位（同年同支）与带甲是结构性的重复条件，
+
+    与「重官重印则重夫」一类「重见即变义」的机制同族。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - chongwei
+  - daijia
+  source_ref: ce-B9-09
+- id: b-yhr-0361
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 762）
+  quote: '"苟得五行恬和，又紧要福气聚集於日时上，乃佳。盖日为夫，时为子，一切福神加於日时上，须因夫子而贵。……若日时二位福力不紧，乃常命也。如福聚月胎之上，只是生於富贵之家，终不为夫之福。"'
+  failure_mode: '见命中福神（贵人、禄马、二德等）多即判佳，不问其所落之柱；
+
+    原文要求福力须聚在日时（夫与子之宫），聚在月胎只作出身之论。
+
+    '
+  mechanism: '神煞的效力按宫位分工（日主身、时为子、年为祖、月为妯娌/父母），
+
+    与《消息赋》「月管初主，日管中主，时管本主」的分段断法同源。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - gongwei
+  - fuli
+  source_ref: ce-B9-10
+- id: b-yhr-0362
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 763）
+  quote: '"羊刃劫亡休合动，合动高堂云雨梦，合贵合马合咸池，必定其人假尊重。……生月那堪合上宫，更兼时合衆凶同，外容尊重非真实，内乱尤防不善终。"'
+  failure_mode: '按表面的「尊重」（贵气合身）判吉；
+
+    原文指出合动羊刃劫亡、或合贵合马合咸池者属假尊重，外表端整而内里不宁。
+
+    '
+  mechanism: '合的对象决定合的性质：合吉神为真，合凶煞为伪；
+
+    与 B6「吉神参天月扶持，凶煞入空亡品藻」的分别处理同理。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - jia-zunzhong
+  - he
+  source_ref: ce-B9-11
+- id: b-yhr-0363
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 763）
+  quote: '"咸池尽道主邪淫，须看其中有浅深，有制克他方作福，惺惺不得衆人情。"'
+  failure_mode: '见咸池（桃花）即断邪淫；
+
+    原文要求看浅深与制克——有制克反可作福，且不必然招致众叛。
+
+    '
+  mechanism: '神煞的效力可被制克转化（与「凶煞宜制」同源），
+
+    这是本块对女命神煞断语少见的自我限制条款。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - xianchi
+  - zhike
+  source_ref: ce-B9-12
+- id: b-yhr-0364
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 300 章 · 女命大义-3（page 763）
+  quote: '"女人天乙两三重，多贵番成吉作凶，弦管丛中为活计，死绝休囚又不同。一座贵人为好命，两座贵人心不定，三座贵人定作祸，晚年或作豪家正。"'
+  failure_mode: '把天乙贵人按「越多越好」处理；
+
+    原文在女命中给出反向计数：一座为好，两座心不定，三座则作祸。
+
+    '
+  mechanism: '「多贵」在此按专一性判断（与「贵人不宜重见」「贵众合多定是师尼娼婢」同族），
+
+    属本书对女命专设的口径，须标注时代局限。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - tianyi
+  - chongjian
+  source_ref: ce-B9-13
+- id: b-yhr-0365
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 301 章 · 女命大义-4（page 765）
+  quote: '"印绶多主无子，运行财官子息反多。阴乾枭印重亦莫言无子，行泄克之运，亦主子多而秀。"'
+  failure_mode: '见印多即断无子（或断有靠）；原文给出反向的运行结论：
+
+    行财官（破印）之运则子息反多，枭印重者行泄克之运亦主多子。
+
+    '
+  mechanism: '印多克制子星（食伤），故印多无子；财能破印、官能制枭，
+
+    故破印之运行反而恢复子息。这是「药在忌神」的典型例子，
+
+    与「印绶重叠克子断」互为两端。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 大运推演（task-13）
+  tags:
+  - counter-example
+  - yinduo
+  - xingyun
+  source_ref: ce-B9-14
+- id: b-yhr-0366
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 301 章 · 女命大义-4（page 766）
+  quote: '"妇人以夫为主，夫星得时必多子息。若见比肩分夺，反孤无子，故又喜财生之。再见伤官，又作初论。"'
+  failure_mode: '见夫星得时即断多子息；原文加比肩分夺的条件后结论反转为孤而无子，
+
+    并给出两条通路：喜财生（救）、再见伤官则重新起算。
+
+    '
+  mechanism: '同一结构（夫星得时）的结论取决于是否被分夺与是否有救神（财）。
+
+    与 B7「贵气专用则可，分用便起分争」同族。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - fuxing
+  - bijian
+  source_ref: ce-B9-15
+- id: b-yhr-0367
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 301 章 · 女命大义-4（page 766）
+  quote: '"格用伤官亦两猜，若逢食旺益夫财，财星旺处生官旺，无食无财印喜来。"'
+  failure_mode: '对女命伤官格一律按「伤官克夫」断凶；
+
+    原文给的是两可：逢食旺（食生财、财生官）则益夫，无食无财时则喜印来制伤。
+
+    '
+  mechanism: '伤官的凶吉由承接与制化路径决定（食→财→官 的相生链，或印的制伤）；
+
+    与 B5「伤官有救方可用」同源。
+
+    '
+  bound_to:
+  - 伤官格处理（task-09）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - shangguan
+  - liangke
+  source_ref: ce-B9-16
+- id: b-yhr-0368
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 301 章 · 女命大义-4（page 766）
+  quote: '"桃花与煞怕同途，官见桃花却旺夫，金水相逢虽貌美，无官贵室亦多污。……桃花之煞虽一，而逢官遇煞迥异"'
+  failure_mode: '见桃花（咸池）即断不吉；原文按所遇之神分别结论：
+
+    逢官则旺夫，逢煞则多为娼妇，无官煞则志不定。
+
+    '
+  mechanism: '同一神煞与官、煞、无官煞三种情形组合，得到三种相反结论；
+
+    这是「神煞须与格局喜忌合看」的本块实例。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - taohua
+  - guansha
+  source_ref: ce-B9-17
+- id: b-yhr-0369
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 301 章 · 女命大义-4（page 766）
+  quote: '"乙以庚为夫，夏月金失时，行西扶起为吉，见丙伤庚，见乙争合，故皆不喜。"'
+  failure_mode: '见「乙庚合」即断夫妇和美；
+
+    原文按三件事分别判断：夏月金失时（须行西扶起）、见丙伤庚（克）、见乙争合（夺）。
+
+    '
+  mechanism: '合只是关系的名，其吉凶取决于旺衰（夏月失时）、被克（丙）与被夺（乙）；
+
+    与 B7「妒合争战」的机制一致。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 化气判定（task-18）
+  tags:
+  - counter-example
+  - he
+  - zhengduo
+  source_ref: ce-B9-18
+- id: b-yhr-0370
+  domain: D11
+  source_id: src-yuanhai-ziping
+  location: 第 302 章 · 总歌（page 770）
+  quote: '"煞官混杂兼无制，此等女人不堪娶……孤鸾红艳阴阳差，此等神煞俱不佳。若是贵命合官印，小小神煞不为病。"'
+  failure_mode: '把神煞清单（孤鸾、红艳、阴阳差错等）平铺计分；
+
+    原文在末句给出权重关系：命中官印成格者，小神煞不构成病。
+
+    '
+  mechanism: '神煞与格局不是同权相加：格局成立时神煞降为加成项，
+
+    与 B7「大器镃基……虽有大耗、元辰、刃煞等件为恶，反能助威」为同一判据。
+
+    '
+  bound_to:
+  - 神煞查法（task-12）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - shensha-quanzhong
+  - geju
+  source_ref: ce-B9-19
+- id: b-yhr-0371
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 303 章 · 讲命捷径赋（page 772；同文另见第 293 章）
+  quote: '"四柱中有辰龙，方为得化。三元内无比劫，可作得从，从杀者必然富贵，从财者定主富豪。弃命无从，决然寿夭。"'
+  failure_mode: '见化气或从格的名目即断富贵；
+
+    原文给出成立条件：得化须四柱有辰（龙），得从须三元无比劫，
+
+    无从者则反断寿夭。
+
+    '
+  mechanism: '从与化都是「无根无依」的例外许可，条件（无辰/无比劫）是硬门槛；
+
+    与 B5「从格最忌日主得根比肩」一致。
+
+    '
+  bound_to:
+  - 从格与化气判定（task-05 / task-18）
+  tags:
+  - counter-example
+  - conggé
+  - huaqi
+  source_ref: ce-B9-20
+- id: b-yhr-0372
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 303 章 · 讲命捷径赋（page 772；同文另见第 293 章）
+  quote: '"杀轻印重，为人到底迍邅。杀重制轻，身旺终须发达。……月逢羊刃，运神喜杀以嫌财。时透天干，岁月怕官而喜制。"'
+  failure_mode: '只取对称句的一半（如只引「杀轻印重」或只引「月逢羊刃」）下结论；
+
+    这类句子以条件对出现，单取即失判据。
+
+    '
+  mechanism: '轻与重是相对量，须成对比较才有结论；
+
+    这与《撮要法》的并列规则（十神各有一条）同一结构。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - duiju
+  - banju
+  source_ref: ce-B9-21
+- id: b-yhr-0373
+  domain: D12
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 774）
+  quote: '"破命者，少失双亲。破月者，长克昆季。破日者，一身独立。破时者，老无结果。破胎者，母氏独当。"'
+  failure_mode: '见「破」（冲刑克破）即笼统判凶；
+
+    原文按所破之柱分段给结论（年主双亲、月主昆季、日主自身、时主晚景、胎主母），
+
+    与《消息赋》「月管初主，日管中主，时管本主」的分段口径一致。
+
+    '
+  mechanism: '破的作用按宫位映射到不同人生阶段与六亲；
+
+    不知分段即无法落点，也容易把破的后果放大到全盘。
+
+    '
+  bound_to:
+  - 六亲推断（task-14）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - po
+  - fenduan
+  source_ref: ce-B9-22
+- id: b-yhr-0374
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 774、775）
+  quote: '"身旺有气，逢财化作官星。身衰失时，财多反为贫汉。……若夫干头财露，支内不藏，伤劫实地，禄马虚浮，身旺印助，一生破败不聚财。"'
+  failure_mode: '见财多即断富、见身旺印助即断有靠；
+
+    原文给出两处反向结论：身衰失时则财多反贫；
+
+    财露而伤劫实、禄马虚浮且身旺印助者一生破败不聚财。
+
+    '
+  mechanism: '财的兑现须身能任（身衰则财为累），且须不被伤劫实地；
+
+    「财宜藏不宜露」在此再次出现（与 291 章「地支财伏，暗生者奇」一致）。
+
+    '
+  bound_to:
+  - 财格判定（task-05）
+  - 旺衰判定（task-04）
+  tags:
+  - counter-example
+  - caiduo
+  - shenwang
+  source_ref: ce-B9-23
+- id: b-yhr-0375
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 775）
+  quote: '"或四柱原无财官，遇岁运忽然发迹。似此之命，有名无实。"'
+  failure_mode: '见岁运引发之富贵即按命局富贵论；
+
+    原文判此类为有名无实——原局无根，岁运所发不能成立为格局。
+
+    '
+  mechanism: '与《消息赋》「根在苗先，实从花後」及「根元有贵则运临贵而必贵」同源：
+
+    岁运只能兑现根元中已有的东西。
+
+    '
+  bound_to:
+  - 大运推演（task-13）
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - youmingwushi
+  - genyuan
+  source_ref: ce-B9-24
+- id: b-yhr-0376
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 774）
+  quote: '"此谓暗中得贵，更看官印弱强。"'
+  failure_mode: '见干支配出暗贵（如甲戌庚引至丑未、乙丙丁出于酉亥）即断富贵；
+
+    原文要求在暗贵之后再核官印的强弱与有无刑冲克破。
+
+    '
+  mechanism: '暗贵是取贵的路径之一，其效力仍取决于官印（正神）的实际强度：
+
+    「若无刑冲克破，定作鼎鼐神仙」是附加条件，而非默认成立。
+
+    '
+  bound_to:
+  - 取格（task-05）
+  tags:
+  - counter-example
+  - angui
+  - guanyin
+  source_ref: ce-B9-25
+- id: b-yhr-0377
+  domain: D14
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 775、776）
+  quote: '"人有公吏、军戎、商贾、艺术，四者不同，各有所居。……公吏之命，多带克刑，东西战斗，南北冲击。……再看艺术，又非商贾。命遇德秀犯刑冲，小道可观。"'
+  failure_mode: '把「公吏之命多带克刑」「艺术之命秀而不实」等职业判定当作可移植结论；
+
+    这些分类依附于明代的职业结构（公门、行伍、商贾、九流艺业、僧道）与身份等级。
+
+    '
+  mechanism: '断语输出的是社会身份而非可核验的事实，且多为贬抑性归类；
+
+    记录时须标注时代局限，不作可执行规则。
+
+    '
+  bound_to:
+  - 性情判断（task-16）
+  tags:
+  - counter-example
+  - zhiye
+  - epoch-limit
+  source_ref: ce-B9-26
+- id: b-yhr-0378
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 304 章 · 金鼎神秘赋（page 774）
+  quote: '"一片纯阳独克命，不死也伤。满盘印绶俱生身，不贵即富。"'
+  failure_mode: '把这两句当作无条件断语（纯阳即伤、印满即富贵）；
+
+    本书他处对同一结构给出相反口径（纯阳为偏党需阴伏其中、印重反埋身克子）。
+
+    '
+  mechanism: '极端结构的两端结论在赋文中常以绝对句出现，
+
+    使用时须与相应条件（有无阴物包藏、有无食伤承受）合看，
+
+    否则与 B6/B7「印多则孤」「土多金埋」相互矛盾。
+
+    '
+  bound_to:
+  - 综合断层次（task-17）
+  tags:
+  - counter-example
+  - jiduan-ju
+  - neibu-maodun
+  source_ref: ce-B9-27
+- id: b-yhr-0379
+  domain: D13
+  source_id: src-yuanhai-ziping
+  location: 第 299–301 章 · 女命大义-2/3/4（page 755–767）；第 302 章 · 总歌（page 770）
+  quote: '"凡女命，欲得恬和中有贵格，更带禄马贵人，自生自旺。……女人之福在夫与子，当重封贵号早适贤夫。"'
+  failure_mode: '把女命诸篇的输出（封赠、贵子、克夫、再嫁、娼婢、尼姑、産厄）作为可执行结论；
+
+    这些结论的技术前提（以官为夫、以食为子、日时为夫子之宫）有效，
+
+    但结论的价值判断与身份分类是明代制度的投影。
+
+    '
+  mechanism: '本项目对女命内容的处理原则：保留为历史断言并按原书结构索引，
+
+    标注时代局限，不作为可移植规则使用（见 PIPELINE_STATE「关键决策与理由」第 4 条）。
+
+    '
+  bound_to:
+  - 女命断法（task-15）
+  tags:
+  - counter-example
+  - nüming
+  - epoch-limit
+  - ethics
+  source_ref: ce-B9-28
+- id: b-yhr-0380
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 70 章 · 论官杀混杂要制伏（眉批）
+  quote: '"眉批：假如金旺无制，则不能为吉"'
+  failure_mode: 官杀混杂后指望以食伤制伏，但制伏之神无力（金旺而火弱），混杂之杀反而伤身，命局终难转吉。
+  mechanism: 制伏依赖的力量本身不敌被制者，形成「以弱制强」，反被所伤（与第 71 章「以弱克强反被所伤」同源）。
+  bound_to:
+  - 官星要纯不要杂（第 70 章）
+  - 混杂须火制伏则发福
+  tags:
+  - 官杀
+  - 反例
+  - 制伏
+  source_ref: S0-ce01
+- id: b-yhr-0381
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 71 章 · 论五行生克制化各有所喜所害例（眉批）
+  quote: '"眉批：身弱逢印绶重重，即为所害"'
+  failure_mode: 误以为「身弱喜印」就一味加印，结果印重埋身（土多金埋），生扶变成压迫。
+  mechanism: 生我者过盛则我反受其害，属第 71 章「生者太盛反害所生」的通则。
+  bound_to:
+  - 生者太盛反害所生（第 71 章）
+  tags:
+  - 印绶
+  - 反例
+  - 身弱
+  source_ref: S0-ce02
+- id: b-yhr-0382
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 71 章 · 论五行生克制化各有所喜所害例（眉批）
+  quote: '"眉批：身弱遇官煞旺，多为残伤贫而贱命"'
+  failure_mode: 日主衰弱又逢官杀旺而无救，判为残伤贫贱之命。
+  mechanism: 克我者众而我无力承受，即「鬼」而非「官」。
+  bound_to:
+  - 官与鬼一也，身旺逢之为官（第 71 章眉批）
+  tags:
+  - 官杀
+  - 反例
+  - 身弱
+  source_ref: S0-ce03
+- id: b-yhr-0383
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 71 章 · 论五行生克制化各有所喜所害例（眉批）
+  quote: '"眉批：此身弱逢财，反能害身。
+
+    身强遇财，人临富贵"'
+  failure_mode: 身弱见财星并不等于得财，反而因财克身而受害；只有身强遇财才主富贵。
+  mechanism: 财为我所克之物，克之须有力；力不足则反受其耗。
+  bound_to:
+  - 堪嗟身弱怕财多（第 73 章）
+  tags:
+  - 财
+  - 反例
+  - 身弱
+  source_ref: S0-ce04
+- id: b-yhr-0384
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 73 章 · 子平举要歌
+  quote: '"财多身弱食神来，食神会杀必为灾"'
+  failure_mode: 财多身弱之局再逢食神（泄身），灾祸加重；若食神又与七杀相会，为灾尤甚。
+  mechanism: 身已弱，再被食伤泄气，又引动七杀，形成「泄—克」双重消耗。
+  bound_to:
+  - 身弱怕财多（第 73 章）
+  tags:
+  - 反例
+  - 食神
+  - 七杀
+  source_ref: S0-ce05
+- id: b-yhr-0385
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 73 章 · 子平举要歌
+  quote: '"贪合忘官荣不足，贪合忘杀为己福"'
+  failure_mode: 正官被他干合去，看似无损，实则官不为我用，荣显有限——「合」在这里是隐性损失。
+  mechanism: 合使官星失去作用对象（不能克我、不能为我所用），等于去官。
+  bound_to:
+  - 官星要纯不要杂（第 70 章）
+  tags:
+  - 合
+  - 反例
+  - 正官
+  source_ref: S0-ce06
+- id: b-yhr-0386
+  domain: D05
+  source_id: src-yuanhai-ziping
+  location: 第 77 章 · 论正官论
+  quote: '"正官或多，反不为福……盖人之命宜得中和之气，太过与不及同。
+
+    中和之气为福厚，偏党之克为灾殃"'
+  failure_mode: 以为官越多越贵，实则官多转杀、偏党失中，反成灾殃。
+  mechanism: 中和原则被破坏；且多个同类克神会累加克身效果。
+  bound_to:
+  - 正官格成立条件与喜忌（第 98 章）
+  tags:
+  - 正官
+  - 反例
+  - 中和
+  source_ref: S0-ce07
+- id: b-yhr-0387
+  domain: D09
+  source_id: src-yuanhai-ziping
+  location: 第 86 章 · 论伤官
+  quote: '"伤官务要伤尽，伤之不尽，官来乘旺，其祸不可胜言。
+
+    伤官见官，为祸百端……轻者远窜之灾，重则刑夭之难。
+
+    伤官有战，其命难存"'
+  failure_mode: 伤官未尽而岁运见官，官星反扑；轻则流离，重则刑伤夭折。这是全书语气最重的禁忌之一。
+  mechanism: 格局内部留下一处可被激活的克制关系，岁运引动即放大为灾。
+  bound_to:
+  - 伤官务要伤尽（第 86 章）
+  - 伤官须见财方可用
+  tags:
+  - 伤官
+  - 反例
+  - 禁忌
+  source_ref: S0-ce08
+- id: b-yhr-0388
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 130 章 · 外十八格-弃命从财格（眉批）
+  quote: '"日主有根则不可弃，主贫。
+
+    ……无根弃之则富。"'
+  failure_mode: 见到财杀极旺就草率判为从格；日主实际有根，强行弃命反主贫贱。
+  mechanism: 从格的前提是日主无根无援；有根即不从，误判会同时错掉扶身的方向与行运取舍。
+  bound_to:
+  - 弃命从财格（第 130 章）
+  - 弃命从杀格（第 132 章）
+  tags:
+  - 从格
+  - 反例
+  - 误判
+  source_ref: S0-ce09
+- id: b-yhr-0389
+  domain: D15
+  source_id: src-yuanhai-ziping
+  location: 第 132 章 · 外十八格-弃命从杀格
+  quote: '"要行杀旺及财乡，忌日主有根及比肩之地"'
+  failure_mode: 已成从杀之局，若行运走日主得根或比肩之乡，日主「反力」，从格即破，反成凶局。
+  mechanism: 从格的成立依赖日主彻底无权；一旦日主重新获得支撑，格局性质逆转。
+  bound_to:
+  - 弃命从杀格（第 132 章）
+  tags:
+  - 从格
+  - 反例
+  - 大运
+  source_ref: S0-ce10
+- id: b-yhr-0390
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 160 章 · 论大运
+  quote: '"出癸入甲，如返汗之人，多主不吉。
+
+    古语云：伤寒换阳，行运换甲，换过是人，换不过是鬼……此乃转角接木。
+
+    东南西北，四方转角谓之接木，格局凶者死，格局善者灾，老人大忌"'
+  failure_mode: 交运过渡的年份（换甲、四维转角）被当作最危险的关口：格局凶者主死，格局善者亦有灾，老年尤忌。
+  mechanism: 比喻为「接木」——新旧两段之气衔接不畅，根基受撼。
+  bound_to:
+  - 大运重地支、交运同接木（第 160 章）
+  tags:
+  - 大运
+  - 反例
+  - 风险
+  source_ref: S0-ce11
+- id: b-yhr-0391
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 160 章 · 论大运
+  quote: '"大运不宜与太岁相克相冲，相冲者凶……岁冲克运者吉，运克岁者凶，格局不吉者死"'
+  failure_mode: 大运与太岁相冲相克为凶，尤以「运克岁」为凶、格局不佳者主死。
+  mechanism: 岁为君主、运为臣属，臣克君为逆，故凶；反向则吉。
+  bound_to:
+  - 岁运生克的吉凶方向（第 160 章）
+  tags:
+  - 岁运
+  - 反例
+  source_ref: S0-ce12
+- id: b-yhr-0392
+  domain: D07
+  source_id: src-yuanhai-ziping
+  location: 第 181 章 · 论命细法
+  quote: '"印轻怕行财运，主恶死或血疾……凡坐杀者，不可行杀旺运"'
+  failure_mode: 印星轻弱再行财运（财破印），主凶死或血疾；日主坐七杀者再行杀旺运亦凶。
+  mechanism: 用神被岁运直接破坏，且被破坏者恰是护身之神。
+  bound_to:
+  - 用之印不可破（第 280 章）
+  tags:
+  - 印绶
+  - 反例
+  - 大运
+  source_ref: S0-ce13
+- id: b-yhr-0393
+  domain: D08
+  source_id: src-yuanhai-ziping
+  location: 第 280 章 · 论八字撮要法
+  quote: '"若有七杀须要制，制伏太过反为凶"'
+  failure_mode: 见到七杀就一味制伏，制之过度则把可用的力量制死，格局反成凶。
+  mechanism: 七杀在身旺时是权，制尽则失去可依托的结构；与病药说「药多药少」同源。
+  bound_to:
+  - 病重得药与病轻药重的层次判法（第 282 章）
+  tags:
+  - 七杀
+  - 反例
+  - 制伏
+  source_ref: S0-ce14
+- id: b-yhr-0394
+  domain: D06
+  source_id: src-yuanhai-ziping
+  location: 第 282 章 · 病药说
+  quote: '"盖人之造化，虽贵中和，若一味中和，则安得探其消息，而论其休咎也……愚尝……屡以中和而究人之造化，十无一二有验"'
+  failure_mode: 只用「中和」一把尺子断命，遇无病无药的平常命局便无从下手，作者自陈十次难准一二。
+  mechanism: 中和只能解释「不偏」，无法解释为何有人贵有人平；缺少「病—药」这一层结构信息。
+  bound_to:
+  - 病药说（第 282 章）
+  - 中和（第 77 章）
+  tags:
+  - 方法论
+  - 反例
+  - 自我修正
+  source_ref: S0-ce15

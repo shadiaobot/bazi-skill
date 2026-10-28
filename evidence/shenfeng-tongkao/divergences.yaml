@@ -1,0 +1,83 @@
+# 《神峰通考》与前两书的分歧
+
+- id: d-D11-06
+  domain: D11
+  question: 神煞能否决定格局成败
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 神煞参与断语，大量使用
+      quote: "更兼孤寡、空亡、勾绞、丧门、吊客、宅墓、病死、官符、白虎诸杀推之，其验如神。"
+    - book: src-ziping-zhenquan
+      claim: 星辰无关格局
+      quote: "格局既成，即使满盘孤辰入煞，何损其贵？"
+    - book: src-shenfeng-tongkao
+      claim: 斥神煞「不根理出」，但仍编吉神凶神表
+      quote: "且原立诸多贵人之说，只是飘空而立，不根理出。岂可信乎？"
+  adopted: src-ziping-zhenquan
+  why: 两书明确反对以神煞定成败；神峰通考自身的「斥而仍编」正说明神煞只能作断语参考
+  fallback_when: 断语强度微调时可用渊海神煞表；不得用神煞推翻格局结论
+
+- id: d-D10-07
+  domain: D10
+  question: 阴干有没有羊刃
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 十干各有羊刃
+      quote: "乙生人，羊刃在辰，戌飞刃；丙生人，羊刃在午，子飞刃"
+    - book: src-ziping-zhenquan
+      claim: 五阳有刃、五阴无刃
+      quote: "禄前一位，惟五阳有之，故为阳刃。"
+    - book: src-shenfeng-tongkao
+      claim: 六阳日干谓之阳刃，六阴日干不谓之刃
+      quote: "阳刃格，六阳日干谓之阳刃理也，六阴日干不谓之刃。"
+  adopted: src-ziping-zhenquan
+  why: 两书一致，且都给出五行层面的解释
+  fallback_when: 采用渊海体系时按十干查刃，须标注阴刃存疑
+
+- id: d-D08-08
+  domain: D08
+  question: 月令正官到底能不能为用
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 正官为贵气，喜印绶喜财
+      quote: "正官乃贵气之物，大忌刑冲破害"
+    - book: src-ziping-zhenquan
+      claim: 官不可伤，宜财生印护
+      quote: "官不可伤而煞宜制"
+    - book: src-shenfeng-tongkao
+      claim: 月上官只制身不肯为我用，贵命多用七杀
+      quote: "月上逢官无可用之理，但能管束我之身，安肯为我用也？"
+  adopted: src-ziping-zhenquan
+  why: 官可为用是两书共识；神峰之说属极端立场，与大量正官格命例矛盾
+  fallback_when: 用户明确采用神峰体系、或命局官星极衰而杀旺时，可参考其说
+
+- id: d-D09-09
+  domain: D09
+  question: 伤官见官是否绝对为祸
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 伤官见官为祸百端，须伤尽
+      quote: "伤官见官，为祸百端。"
+    - book: src-ziping-zhenquan
+      claim: 金水伤官见官反为秀气（调候例外）
+      quote: "而金水见之，反为秀气。"
+    - book: src-shenfeng-tongkao
+      claim: 分真伤官与假伤官：假伤官反喜官，真伤官畏官
+      quote: "见火为假伤官，其火乃虚火，其焰未炽，且木气朴坚"
+  adopted: src-shenfeng-tongkao
+  why: 真假伤官按季节给出可操作条件，比绝对禁忌更细
+  fallback_when: 无法判定真/假（如生于交界月）时，按渊海保守口径判忌
+
+- id: d-D08-09
+  domain: D08
+  question: 制杀还是化杀
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 七杀须制，食神制杀为上
+      quote: "若有七杀须要制，制伏太过反为凶。"
+    - book: src-shenfeng-tongkao
+      claim: 制杀不如化杀高，制化不可并立
+      quote: "与其制之以力，不若化之以德"
+  adopted: src-shenfeng-tongkao
+  why: 化杀留有可用之杀，避免「尽法无民」；与两书共同的「制不可太过」相容
+  fallback_when: 命局无印或印被财破时，回到食神制杀

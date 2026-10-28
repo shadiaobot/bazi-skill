@@ -1,0 +1,55 @@
+# 《子平真诠》术语用法
+
+- id: t-zp-0001
+  term: 用神
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神（徐注）
+  author_definition: |
+    "用神者，八字中所用之神也……八字中察其旺弱喜忌，或扶或抑，即以扶抑之神为用"
+  usage_note: 本书的用神是「为全局所用之神」，可由扶抑、病药、调候、专旺、通关五法取；渊海的用神偏「月令所藏之字」
+  differs_from: [yuanhai-ziping]
+
+- id: t-zp-0002
+  term: 相神
+  source_id: src-ziping-zhenquan
+  location: 第 17 章 · 论相神紧要
+  author_definition: |
+    "月令既得用神，则别位亦必有相，若君之有相，辅者是也。"
+  usage_note: 本书独有。指辅佐用神、使全局成格的那一个字；渊海无此概念，最接近的是「药」，但药是去病，相是成格
+  differs_from: [yuanhai-ziping]
+
+- id: t-zp-0003
+  term: 顺用 / 逆用
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  author_definition: |
+    "财官印食，此用神之善而顺用之者也；煞伤劫刃，用神之不善而逆用之者也。"
+  usage_note: 顺用＝生之护之；逆用＝制之化之。这是本书的用神操作总纲
+  differs_from: []
+
+- id: t-zp-0004
+  term: 救应
+  source_id: src-ziping-zhenquan
+  location: 第 11 章 · 论用神成败救应
+  author_definition: |
+    "如官逢伤而透印以解之，杂煞而合煞以清之，刑冲而会合以解之。"
+  usage_note: 格局被破坏时的解救手段；救应之神多即相神。与渊海「药」同功，但覆盖范围更广（含合、会解冲）
+  differs_from: [yuanhai-ziping]
+
+- id: t-zp-0005
+  term: 纯 / 杂
+  source_id: src-ziping-zhenquan
+  location: 第 13 章 · 论用神纯杂
+  author_definition: |
+    "纯者吉，杂者凶。"
+  usage_note: 两个用神候选「互用而两相得」为纯，「两不相谋」为杂；渊海无此对概念
+  differs_from: [yuanhai-ziping]
+
+- id: t-zp-0006
+  term: 有情 / 无力
+  source_id: src-ziping-zhenquan
+  location: 第 14 章 · 论用神格局高低
+  author_definition: |
+    "其理之大纲，亦在有情无情、有力无力之间而已。"
+  usage_note: 判同一格局高低的两个维度：相神与用神的关系是否相生相护（情），相神是否有根（力）
+  differs_from: [yuanhai-ziping]

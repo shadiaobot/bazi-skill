@@ -1,0 +1,46 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "DISCLAIMER.md": "0dbc0e83be9119d0d120472c5fdac7d50e9534e9ccdba1d851c6a701a17defa6",
+    "references\\capabilities\\bingyao-cengci.md": "35b415d72f895609dad8dd8ce849667b25a84dcb292c9f3e4f85cbd326ca4a5b",
+    "references\\capabilities\\conghua-baxiang.md": "d931fc128ae148210ab5afc0c531a12ba3dfa54cb2bd507ed3b7f43312179753",
+    "references\\capabilities\\dayun-liunian.md": "f82af185e7d78f100aebbf849f82f792c7e90b71193d0a397a9938c31199789d",
+    "references\\capabilities\\geju-panding.md": "2dd64f9894027cd27bf9e2bbe68347220ddb93344861af3fd031883e8b469e05",
+    "references\\capabilities\\guansha-hunza.md": "2c84585b86825d13497175af8d94ebaebd66e3b3f8664a3186c52806ac69bff9",
+    "references\\capabilities\\liuqin-tuanduan.md": "274b029d7b3aa3d6115ab7456ce9bb69f7b85183d42744c5848e9ff8a92bd82d",
+    "references\\capabilities\\nvming-duanfa.md": "5c4b3762a4a7df858eba5f6833d90d6a83703919b6ed4d43ebdabec307fe9c0c",
+    "references\\capabilities\\shangguan-ge.md": "2480d27c05018e3a99dc3c5ab502ef0d9d41ecbc61ae9c5659179784416240a8",
+    "references\\capabilities\\shensha-chabiao.md": "4b2611839f9fc4eb567bac27644f7e47fd870c8727665acbafb12a0a50a72ea8",
+    "references\\capabilities\\shishen-dingwei.md": "572b053a7c20d02c4445a5e078d59340beefe8d87980445d491fd734182078f7",
+    "references\\capabilities\\sizhu-qiyun.md": "ae0c32ada191183ff10e63061ac725612b9d2331a2d8f72a1272d1ca193fbd7c",
+    "references\\capabilities\\wangshuai-yueling.md": "5f552306a24fa53c6c28e2666a663e08e9e5ef476fd3d6f819b4d12834745c76",
+    "references\\capabilities\\xingqing-jibing.md": "e1df9b5acdd5da901f80fc2d9358032f3f6367ea7f1adf46750064dd32c9692a",
+    "references\\capabilities\\yangren-rige.md": "cfd9d1f691a039f229fe3ad8beaf12e73db1ca38d331b0da240eb6e556ab174e",
+    "references\\capabilities\\yongshen-jifa.md": "e0532a1368822e5cd25c1398f71096a7f60d18fe467b62c2b1893174716643e7",
+    "references\\capability-index.md": "3b193f831f5f7430e013ba0b9b7de7e69f475f460ee7f45260c25896149bd14e",
+    "references\\cheatsheet.md": "68bcc127ef90b22482db9e6a746096d780a6f6a62e9c18458d9a59e37ae6d067",
+    "references\\glossary.md": "bc4b11c7325329caaa0281027d0cab7ed9383ddcd674dc05abbec819650ebf51",
+    "references\\overview.md": "345ed3a3c24840b945306c719c80fa33dc221bf0b7d00ebd9a9ad9a9d23afa6b",
+    "SKILL.md": "6f8cf946d2b6058dc37f0f2c84c51c927b2d8a7b44055ddb60d07d7715292800"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.bazi-merged",
+  "bundle_sha256": "fa657bfbd3fef55e89d6f2e458c9baa39a0139c1bdd710eaad5c90b26066067a",
+  "variant": "single",
+  "run_id": "run-20261028-135809-468158",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

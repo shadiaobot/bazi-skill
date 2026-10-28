@@ -1,0 +1,81 @@
+# 与《渊海子平》已有主张的对照记录（短格式）
+
+- id: r-zp-0001
+  domain: D04
+  corroborates: cap.D04.yongshen
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "八字用神，专求月令"
+  stance: same
+  note: 与渊海「月令所藏取用」同源，但本书把月令提为唯一入口，并把病药降为五法之一
+
+- id: r-zp-0002
+  domain: D08
+  corroborates: cap.D08.guansha
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "七煞喜食神以制伏，忌财印以资扶"
+  stance: same
+  note: 与渊海「七杀须制、忌财生杀」一致
+
+- id: r-zp-0003
+  domain: D10
+  corroborates: cap.D10.yangren
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "阳刃喜官煞以制伏，忌官煞之俱无"
+  stance: same
+  note: 与渊海「羊刃喜杀、忌无杀」一致
+
+- id: r-zp-0004
+  domain: D06
+  corroborates: cap.D06.bingyao
+  source_id: src-ziping-zhenquan
+  location: 第 11 章 · 论用神成败救应
+  quote: |
+    "成中有败，必然带忌；败中有成，全赖救应"
+  stance: extends
+  note: 渊海讲「病—药」配对；本书把病药扩展为「成—败—救应」的完整账本
+
+- id: r-zp-0005
+  domain: D09
+  corroborates: cap.D09.shangguan
+  source_id: src-ziping-zhenquan
+  location: 第 16 章 · 论用神配气候得失
+  quote: |
+    "伤官见官，为祸百端"
+  stance: extends
+  note: 承认此禁，但补出「金水伤官见官反为秀气」的调候例外
+
+- id: r-zp-0006
+  domain: D06
+  corroborates: cap.D06.bingyao
+  source_id: src-ziping-zhenquan
+  location: 第 10 章 · 论用神
+  quote: |
+    "以扶为喜，则以伤其扶者为病；以抑为喜，则以去其抑者为病。除其病神，即谓之药。"
+  stance: same
+  note: 与渊海病药定义一致，但本书把它列为五取用法之一而非唯一总纲
+
+- id: r-zp-0007
+  domain: D05
+  corroborates: cap.D05.geju
+  source_id: src-ziping-zhenquan
+  location: 第 14 章 · 论用神格局高低
+  quote: |
+    "财官印食煞伤劫刃，何格无贵？何格无贱？"
+  stance: contradicts
+  note: 渊海以格名分贵贱（如正官格为贵格）；本书明确否认格名本身能定贵贱
+
+- id: r-zp-0008
+  domain: D11
+  corroborates: cap.D11.shensha
+  source_id: src-ziping-zhenquan
+  location: 第 23 章 · 论星辰无关格局
+  quote: |
+    "至于星辰好歹，既不能为生克之用，又何以操成败之权？"
+  stance: contradicts
+  note: 与渊海大量使用神煞的体系正面冲突，是四书合并时 D11 的核心分歧

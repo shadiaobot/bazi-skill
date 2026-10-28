@@ -1,0 +1,71 @@
+# 与《渊海子平》的分歧登记（合并前预登记）
+
+- id: d-D11-01
+  domain: D11
+  question: 神煞能不能决定格局成败
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 神煞参与断语，贵人/驿马/空亡等大量使用
+      quote: "更兼孤寡、空亡、勾绞、丧门、吊客、宅墓、病死、官符、白虎诸杀推之，其验如神。"
+    - book: src-ziping-zhenquan
+      claim: 星辰无关格局，神煞不能操成败之权
+      quote: "格局既成，即使满盘孤辰入煞，何损其贵？格局既破，即使満盘天德贵人，何以为功？"
+  adopted: src-ziping-zhenquan
+  why: 本书把神煞与格局分层，逻辑更自洽；且渊海自身亦承认神煞须与格局合看
+  fallback_when: 用于断语强度微调时，可回到渊海的神煞加成；不得用神煞推翻格局结论
+
+- id: d-D05-02
+  domain: D05
+  question: 杂气财官是否必须刑冲开库
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 库中物闭藏，须刑冲破害为钥方发
+      quote: "但库中物皆闭藏，须待有以开其扃钥，方言发福。"
+    - book: src-ziping-zhenquan
+      claim: 「财官入库不冲不发」非子平本法，透干会支即清
+      quote: "此说虽俗书盛称之，然子平先生造命，无是说也。"
+  adopted: src-ziping-zhenquan
+  why: 本书把「透干会支」放在前、刑冲放在后，且指出冲可能拔根，可执行性更强
+  fallback_when: 原局完全不透不会、仅剩库藏时，可按渊海试以刑冲取用，但须标注为备选口径
+
+- id: d-D05-03
+  domain: D05
+  question: 格名（内外十八格、奇格）能否直接定贵贱
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 内外十八格各有成格与喜忌，按格断贵贱
+      quote: "月内有官星者是也。时上兼有财星者，真贵人也。"
+    - book: src-ziping-zhenquan
+      claim: 拘泥格名即舍本逐末，奇格多支离
+      quote: "月令，本也；外格，末也。今人不知轻重，拘泥格局，执假失真。"
+  adopted: src-ziping-zhenquan
+  why: 本书要求先按月令取用、再谈格名，可避免「见名断命」
+  fallback_when: 用户明确只要查阅渊海的格名与诗诀时，按渊海原样呈现，并附本书的批评
+
+- id: d-D10-04
+  domain: D10
+  question: 阴干有没有羊刃
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 十干各有羊刃（乙辰、丁未、己未、辛戌、癸丑）
+      quote: "乙生人，羊刃在辰，戌飞刃；丙生人，羊刃在午，子飞刃"
+    - book: src-ziping-zhenquan
+      claim: 五阳有刃，五阴无刃
+      quote: "禄前一位，惟五阳有之，故为阳刃。"
+  adopted: src-ziping-zhenquan
+  why: 本书给出五行层面的解释（生旺墓绝属五行、不属十干），且与第 88 章「五阴无刃」互证
+  fallback_when: 若用户采用渊海体系，可按十干查刃，但须标注阴刃存疑
+
+- id: d-D04-05
+  domain: D04
+  question: 用神如何取
+  positions:
+    - book: src-yuanhai-ziping
+      claim: 用神自月令所藏取，另以病药定
+      quote: "用神者，月中所藏之字，如子宫取癸水之类。"
+    - book: src-ziping-zhenquan
+      claim: 用神专求月令，但分扶抑/病药/调候/专旺/通关五法，并以相神佐之
+      quote: "八字用神，专求月令，以日干配月令地支，而生克不同，格局分焉。"
+  adopted: src-ziping-zhenquan
+  why: 五种取用法覆盖面更广，且「相神」提供了成格的可操作判据
+  fallback_when: 当命局明显以病处定药（渊海的病药说）时，可切回病药口径，并在卡内注明
